@@ -13,14 +13,14 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/content"
-	"cogentcore.org/core/core"
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/htmlcore"
-	"cogentcore.org/core/text/textcore"
-	"cogentcore.org/core/yaegicore/basesymbols"
-	"cogentcore.org/core/yaegicore/coresymbols"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/content"
+	"github.com/MobinYengejehi/core/core"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/htmlcore"
+	"github.com/MobinYengejehi/core/text/textcore"
+	"github.com/MobinYengejehi/core/yaegicore/basesymbols"
+	"github.com/MobinYengejehi/core/yaegicore/coresymbols"
 	"github.com/cogentcore/yaegi/interp"
 )
 
@@ -115,7 +115,7 @@ func BindTextEditor(ed *textcore.Editor, parent *core.Frame, language string) {
 		*interpreterParent = parent
 		coresymbols.Symbols["."]["b"] = reflect.ValueOf(interpreterParent).Elem()
 		// the normal AutoPlanName cannot be used because the stack trace in yaegi is not helpful
-		coresymbols.Symbols["cogentcore.org/core/tree/tree"]["AutoPlanName"] = reflect.ValueOf(func(int) string {
+		coresymbols.Symbols["github.com/MobinYengejehi/core/tree/tree"]["AutoPlanName"] = reflect.ValueOf(func(int) string {
 			return fmt.Sprintf("yaegi-%v", atomic.AddUint64(&autoPlanNameCounter, 1))
 		})
 		if new {

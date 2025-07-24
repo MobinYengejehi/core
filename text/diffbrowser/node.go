@@ -9,15 +9,15 @@ import (
 	"os"
 	"path/filepath"
 
-	"cogentcore.org/core/base/fileinfo"
-	"cogentcore.org/core/base/fsx"
-	"cogentcore.org/core/core"
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/icons"
-	"cogentcore.org/core/styles"
-	"cogentcore.org/core/styles/states"
-	"cogentcore.org/core/styles/units"
-	"cogentcore.org/core/tree"
+	"github.com/MobinYengejehi/core/base/fileinfo"
+	"github.com/MobinYengejehi/core/base/fsx"
+	"github.com/MobinYengejehi/core/core"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/icons"
+	"github.com/MobinYengejehi/core/styles"
+	"github.com/MobinYengejehi/core/styles/states"
+	"github.com/MobinYengejehi/core/styles/units"
+	"github.com/MobinYengejehi/core/tree"
 )
 
 // Node is an element in the diff tree

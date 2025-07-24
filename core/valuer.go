@@ -10,13 +10,13 @@ import (
 	"reflect"
 	"time"
 
-	"cogentcore.org/core/base/reflectx"
-	"cogentcore.org/core/enums"
-	"cogentcore.org/core/events/key"
-	"cogentcore.org/core/icons"
-	"cogentcore.org/core/keymap"
-	"cogentcore.org/core/tree"
-	"cogentcore.org/core/types"
+	"github.com/MobinYengejehi/core/base/reflectx"
+	"github.com/MobinYengejehi/core/enums"
+	"github.com/MobinYengejehi/core/events/key"
+	"github.com/MobinYengejehi/core/icons"
+	"github.com/MobinYengejehi/core/keymap"
+	"github.com/MobinYengejehi/core/tree"
+	"github.com/MobinYengejehi/core/types"
 )
 
 // Valuer is an interface that types can implement to specify the

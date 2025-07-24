@@ -13,13 +13,13 @@ import (
 	"strings"
 	"testing"
 
-	"cogentcore.org/core/base/fsx"
-	"cogentcore.org/core/base/iox/imagex"
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/colors/cam/hct"
-	"cogentcore.org/core/math32"
-	_ "cogentcore.org/core/paint/renderers" // installs default renderer
-	. "cogentcore.org/core/svg"
+	"github.com/MobinYengejehi/core/base/fsx"
+	"github.com/MobinYengejehi/core/base/iox/imagex"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/colors/cam/hct"
+	"github.com/MobinYengejehi/core/math32"
+	_ "github.com/MobinYengejehi/core/paint/renderers" // installs default renderer
+	. "github.com/MobinYengejehi/core/svg"
 	"github.com/go-text/typesetting/font"
 	"github.com/stretchr/testify/assert"
 )

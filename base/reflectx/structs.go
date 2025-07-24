@@ -11,8 +11,8 @@ import (
 	"strconv"
 	"strings"
 
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/base/iox/jsonx"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/base/iox/jsonx"
 )
 
 // WalkFields calls the given walk function on all the exported primary fields of the

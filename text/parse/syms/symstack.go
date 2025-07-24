@@ -5,8 +5,8 @@
 package syms
 
 import (
-	"cogentcore.org/core/text/textpos"
-	"cogentcore.org/core/text/token"
+	"github.com/MobinYengejehi/core/text/textpos"
+	"github.com/MobinYengejehi/core/text/token"
 )
 
 // SymStack is a simple stack (slice) of symbols

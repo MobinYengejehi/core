@@ -9,11 +9,11 @@ import (
 	"image"
 	"log/slog"
 
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/styles"
-	"cogentcore.org/core/styles/states"
-	"cogentcore.org/core/styles/units"
-	"cogentcore.org/core/tree"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/styles"
+	"github.com/MobinYengejehi/core/styles/states"
+	"github.com/MobinYengejehi/core/styles/units"
+	"github.com/MobinYengejehi/core/tree"
 )
 
 // LayoutPasses is used for the SizeFromChildren method,

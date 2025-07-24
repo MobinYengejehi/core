@@ -10,7 +10,7 @@ package ppath
 import (
 	"fmt"
 
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/math32"
 )
 
 // Transform transforms the path by the given transformation matrix

@@ -5,7 +5,7 @@
 package paint
 
 import (
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/math32"
 )
 
 // EdgeBlurFactors returns multiplicative factors that replicate the effect

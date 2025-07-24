@@ -8,17 +8,17 @@ import (
 	"image"
 	"log/slog"
 
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/cursors"
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/events/key"
-	"cogentcore.org/core/icons"
-	"cogentcore.org/core/keymap"
-	"cogentcore.org/core/styles"
-	"cogentcore.org/core/styles/abilities"
-	"cogentcore.org/core/styles/states"
-	"cogentcore.org/core/styles/units"
-	"cogentcore.org/core/tree"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/cursors"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/events/key"
+	"github.com/MobinYengejehi/core/icons"
+	"github.com/MobinYengejehi/core/keymap"
+	"github.com/MobinYengejehi/core/styles"
+	"github.com/MobinYengejehi/core/styles/abilities"
+	"github.com/MobinYengejehi/core/styles/states"
+	"github.com/MobinYengejehi/core/styles/units"
+	"github.com/MobinYengejehi/core/tree"
 )
 
 // Button is an interactive button with text, an icon, an indicator, a shortcut,

@@ -4,7 +4,7 @@
 
 package core
 
-import "cogentcore.org/core/math32"
+import "github.com/MobinYengejehi/core/math32"
 
 // SizeClasses are the different size classes that a window can have.
 type SizeClasses int32 //enums:enum -trim-prefix Size

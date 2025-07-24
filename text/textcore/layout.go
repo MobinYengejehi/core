@@ -7,11 +7,11 @@ package textcore
 import (
 	"fmt"
 
-	"cogentcore.org/core/core"
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/styles"
-	"cogentcore.org/core/text/rich"
-	"cogentcore.org/core/text/textpos"
+	"github.com/MobinYengejehi/core/core"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/styles"
+	"github.com/MobinYengejehi/core/text/rich"
+	"github.com/MobinYengejehi/core/text/textpos"
 )
 
 // maxGrowLines is the maximum number of lines to grow to

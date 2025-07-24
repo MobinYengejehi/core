@@ -9,10 +9,10 @@ import (
 	"testing"
 	"time"
 
-	"cogentcore.org/core/base/tolassert"
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/events/key"
-	"cogentcore.org/core/icons"
+	"github.com/MobinYengejehi/core/base/tolassert"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/events/key"
+	"github.com/MobinYengejehi/core/icons"
 	"github.com/stretchr/testify/assert"
 )
 

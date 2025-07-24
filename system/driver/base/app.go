@@ -16,10 +16,10 @@ import (
 	"path/filepath"
 	"sync"
 
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/events/key"
-	"cogentcore.org/core/styles"
-	"cogentcore.org/core/system"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/events/key"
+	"github.com/MobinYengejehi/core/styles"
+	"github.com/MobinYengejehi/core/system"
 )
 
 // App contains the data and logic common to all implementations of [system.App].

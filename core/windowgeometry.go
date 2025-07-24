@@ -17,8 +17,8 @@ import (
 	"sync"
 	"time"
 
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/system"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/system"
 )
 
 var (

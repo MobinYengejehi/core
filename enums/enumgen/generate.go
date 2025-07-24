@@ -11,8 +11,8 @@ package enumgen
 import (
 	"fmt"
 
-	"cogentcore.org/core/base/generate"
-	"cogentcore.org/core/base/logx"
+	"github.com/MobinYengejehi/core/base/generate"
+	"github.com/MobinYengejehi/core/base/logx"
 	"golang.org/x/tools/go/packages"
 )
 

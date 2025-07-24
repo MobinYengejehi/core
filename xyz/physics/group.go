@@ -7,8 +7,8 @@ package physics
 import (
 	"sort"
 
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/tree"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/tree"
 )
 
 // Group is a container of bodies, joints, or other groups

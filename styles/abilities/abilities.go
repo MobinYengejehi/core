@@ -6,7 +6,7 @@ package abilities
 
 //go:generate core generate
 
-import "cogentcore.org/core/enums"
+import "github.com/MobinYengejehi/core/enums"
 
 // Abilities represent abilities of GUI elements to take on different States,
 // and are aligned with the States flags.  All elements can be disabled.

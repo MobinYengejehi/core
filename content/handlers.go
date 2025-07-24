@@ -8,17 +8,17 @@ import (
 	"fmt"
 	"strings"
 
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/base/labels"
-	"cogentcore.org/core/base/strcase"
-	"cogentcore.org/core/content/bcontent"
-	"cogentcore.org/core/core"
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/styles/abilities"
-	"cogentcore.org/core/styles/states"
-	"cogentcore.org/core/text/csl"
-	"cogentcore.org/core/tree"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/base/labels"
+	"github.com/MobinYengejehi/core/base/strcase"
+	"github.com/MobinYengejehi/core/content/bcontent"
+	"github.com/MobinYengejehi/core/core"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/styles/abilities"
+	"github.com/MobinYengejehi/core/styles/states"
+	"github.com/MobinYengejehi/core/text/csl"
+	"github.com/MobinYengejehi/core/tree"
 )
 
 // citeWikilink processes citation links, which start with @

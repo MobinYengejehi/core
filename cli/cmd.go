@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"strings"
 
-	"cogentcore.org/core/base/strcase"
-	"cogentcore.org/core/types"
+	"github.com/MobinYengejehi/core/base/strcase"
+	"github.com/MobinYengejehi/core/types"
 )
 
 // Cmd represents a runnable command with configuration options.

@@ -14,11 +14,11 @@ import (
 	"time"
 	"unsafe"
 
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/base/iox/imagex"
-	"cogentcore.org/core/gpu"
-	"cogentcore.org/core/gpu/gpudraw"
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/base/iox/imagex"
+	"github.com/MobinYengejehi/core/gpu"
+	"github.com/MobinYengejehi/core/gpu/gpudraw"
+	"github.com/MobinYengejehi/core/math32"
 	"github.com/cogentcore/webgpu/wgpu"
 )
 

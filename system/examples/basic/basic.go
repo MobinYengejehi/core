@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"image"
 
-	"cogentcore.org/core/system"
-	_ "cogentcore.org/core/system/driver"
+	"github.com/MobinYengejehi/core/system"
+	_ "github.com/MobinYengejehi/core/system/driver"
 )
 
 func main() {

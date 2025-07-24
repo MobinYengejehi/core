@@ -12,9 +12,9 @@ import (
 	"os/user"
 	"path/filepath"
 
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/base/fileinfo/mimedata"
-	"cogentcore.org/core/system"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/base/fileinfo/mimedata"
+	"github.com/MobinYengejehi/core/system"
 	"github.com/go-gl/glfw/v3.3/glfw"
 )
 

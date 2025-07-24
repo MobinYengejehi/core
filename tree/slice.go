@@ -5,7 +5,7 @@
 package tree
 
 import (
-	"cogentcore.org/core/base/slicesx"
+	"github.com/MobinYengejehi/core/base/slicesx"
 )
 
 // IndexOf returns the index of the given node in the given slice,

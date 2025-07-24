@@ -8,7 +8,7 @@ import (
 	"image"
 	"image/draw"
 
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/math32"
 )
 
 // this file contains the official image/draw like interface

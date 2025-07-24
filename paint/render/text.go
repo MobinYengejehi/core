@@ -5,9 +5,9 @@
 package render
 
 import (
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/styles"
-	"cogentcore.org/core/text/shaped"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/styles"
+	"github.com/MobinYengejehi/core/text/shaped"
 )
 
 // Text is a text rendering render item.

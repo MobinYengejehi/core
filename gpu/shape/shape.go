@@ -6,7 +6,7 @@ package shape
 
 //go:generate core generate
 
-import "cogentcore.org/core/math32"
+import "github.com/MobinYengejehi/core/math32"
 
 // ShapeBase is the base shape element
 type ShapeBase struct { //types:add -setters

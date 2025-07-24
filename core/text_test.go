@@ -7,10 +7,10 @@ package core
 import (
 	"testing"
 
-	"cogentcore.org/core/base/strcase"
-	"cogentcore.org/core/styles"
-	"cogentcore.org/core/styles/units"
-	"cogentcore.org/core/text/rich"
+	"github.com/MobinYengejehi/core/base/strcase"
+	"github.com/MobinYengejehi/core/styles"
+	"github.com/MobinYengejehi/core/styles/units"
+	"github.com/MobinYengejehi/core/text/rich"
 )
 
 func TestTextTypes(t *testing.T) {

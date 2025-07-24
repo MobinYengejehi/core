@@ -11,7 +11,7 @@ import (
 	"log/slog"
 	"os"
 
-	"cogentcore.org/core/tree"
+	"github.com/MobinYengejehi/core/tree"
 )
 
 // This file is activated by the core tool to pre-render Cogent Core apps

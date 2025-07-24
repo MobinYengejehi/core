@@ -8,8 +8,8 @@ package main
 import (
 	"fmt"
 
-	"cogentcore.org/core/base/reflectx"
-	"cogentcore.org/core/gpu"
+	"github.com/MobinYengejehi/core/base/reflectx"
+	"github.com/MobinYengejehi/core/gpu"
 	"github.com/cogentcore/webgpu/wgpu"
 )
 

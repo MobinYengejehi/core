@@ -16,7 +16,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"cogentcore.org/core/base/slicesx"
+	"github.com/MobinYengejehi/core/base/slicesx"
 )
 
 // SetFromBytes sets slice of runes from given slice of bytes,

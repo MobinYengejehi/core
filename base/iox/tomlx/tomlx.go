@@ -9,8 +9,8 @@ import (
 	"io"
 	"io/fs"
 
-	"cogentcore.org/core/base/fsx"
-	"cogentcore.org/core/base/iox"
+	"github.com/MobinYengejehi/core/base/fsx"
+	"github.com/MobinYengejehi/core/base/iox"
 	"github.com/pelletier/go-toml/v2"
 )
 

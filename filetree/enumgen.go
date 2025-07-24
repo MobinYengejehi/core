@@ -3,7 +3,7 @@
 package filetree
 
 import (
-	"cogentcore.org/core/enums"
+	"github.com/MobinYengejehi/core/enums"
 )
 
 var _dirFlagsValues = []dirFlags{0, 1, 2}

@@ -11,8 +11,8 @@ import (
 	"strconv"
 	"strings"
 
-	"cogentcore.org/core/base/plan"
-	"cogentcore.org/core/base/profile"
+	"github.com/MobinYengejehi/core/base/plan"
+	"github.com/MobinYengejehi/core/base/profile"
 )
 
 // Plan represents a plan for how the children of a [Node] should be configured.
@@ -107,7 +107,7 @@ func (nb *NodeBase) UpdateFromMake() {
 }
 
 // RunUpdaters runs the [NodeBase.Updaters] in sequential descending (reverse) order.
-// It is called in [cogentcore.org/core/core.WidgetBase.UpdateWidget] and other places
+// It is called in [github.com/MobinYengejehi/core/core.WidgetBase.UpdateWidget] and other places
 // such as in xyz to update the node.
 func (nb *NodeBase) RunUpdaters() {
 	nb.Updaters.Do(func(updaters *[]func()) {
@@ -155,7 +155,7 @@ func AddAt[T NodeValue](p *Plan, name string, init func(w *T)) { //yaegi:add
 // for initializing the node. The node is guaranteed to be added
 // to its parent before the init function is called.
 // It should only be called instead of [Add] and [AddAt] when the node
-// must be made new, like when using [cogentcore.org/core/core.NewValue].
+// must be made new, like when using [github.com/MobinYengejehi/core/core.NewValue].
 func AddNew[T Node](p *Plan, name string, new func() T, init func(w T)) { //yaegi:add
 	p.Add(name, func() Node {
 		return new()

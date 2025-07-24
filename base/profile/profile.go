@@ -32,7 +32,7 @@ import (
 	"sync"
 	"time"
 
-	"cogentcore.org/core/base/errors"
+	"github.com/MobinYengejehi/core/base/errors"
 )
 
 // Main User API:

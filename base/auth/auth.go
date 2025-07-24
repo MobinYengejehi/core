@@ -18,8 +18,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"cogentcore.org/core/base/iox/jsonx"
-	"cogentcore.org/core/core"
+	"github.com/MobinYengejehi/core/base/iox/jsonx"
+	"github.com/MobinYengejehi/core/core"
 	"github.com/coreos/go-oidc/v3/oidc"
 	"golang.org/x/oauth2"
 )

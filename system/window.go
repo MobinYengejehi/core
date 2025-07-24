@@ -13,10 +13,10 @@ import (
 	"image"
 	"unicode/utf8"
 
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/styles/sides"
-	"cogentcore.org/core/system/composer"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/styles/sides"
+	"github.com/MobinYengejehi/core/system/composer"
 )
 
 // Window is a double-buffered OS-specific hardware window.

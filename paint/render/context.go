@@ -7,10 +7,10 @@ package render
 import (
 	"image"
 
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/paint/ppath"
-	"cogentcore.org/core/styles"
-	"cogentcore.org/core/styles/sides"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/paint/ppath"
+	"github.com/MobinYengejehi/core/styles"
+	"github.com/MobinYengejehi/core/styles/sides"
 )
 
 // Bounds represents an optimized rounded rectangle form of clipping,

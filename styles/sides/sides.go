@@ -16,10 +16,10 @@ import (
 
 	"log/slog"
 
-	"cogentcore.org/core/base/reflectx"
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/styles/units"
+	"github.com/MobinYengejehi/core/base/reflectx"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/styles/units"
 )
 
 // Indexes provides names for the Sides in order defined

@@ -9,10 +9,10 @@ import (
 	"image"
 	"image/color"
 
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/text/rich"
-	"cogentcore.org/core/text/text"
-	"cogentcore.org/core/text/textpos"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/text/rich"
+	"github.com/MobinYengejehi/core/text/text"
+	"github.com/MobinYengejehi/core/text/textpos"
 	"golang.org/x/image/math/fixed"
 )
 

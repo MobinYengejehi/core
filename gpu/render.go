@@ -10,7 +10,7 @@ import (
 	"image/color"
 	"log"
 
-	"cogentcore.org/core/colors"
+	"github.com/MobinYengejehi/core/colors"
 	"github.com/cogentcore/webgpu/wgpu"
 )
 

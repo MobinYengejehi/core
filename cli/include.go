@@ -11,9 +11,9 @@ import (
 	"errors"
 	"reflect"
 
-	"cogentcore.org/core/base/fsx"
-	"cogentcore.org/core/base/iox/tomlx"
-	"cogentcore.org/core/base/reflectx"
+	"github.com/MobinYengejehi/core/base/fsx"
+	"github.com/MobinYengejehi/core/base/iox/tomlx"
+	"github.com/MobinYengejehi/core/base/reflectx"
 )
 
 // TODO(kai): this seems bad

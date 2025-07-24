@@ -3,10 +3,10 @@
 package main
 
 import (
-	"cogentcore.org/core/base/keylist"
-	"cogentcore.org/core/core"
-	"cogentcore.org/core/tree"
-	"cogentcore.org/core/types"
+	"github.com/MobinYengejehi/core/base/keylist"
+	"github.com/MobinYengejehi/core/core"
+	"github.com/MobinYengejehi/core/tree"
+	"github.com/MobinYengejehi/core/types"
 	"github.com/go-text/typesetting/font"
 )
 

@@ -10,7 +10,7 @@ package tree
 //go:generate core generate ./testdata
 
 import (
-	"cogentcore.org/core/base/plan"
+	"github.com/MobinYengejehi/core/base/plan"
 )
 
 // Node is an interface that all tree nodes satisfy. The core functionality
@@ -64,7 +64,7 @@ type Node interface {
 	// logic that can not be automatically handled. All custom CopyFieldsFrom
 	// methods should call [NodeBase.CopyFieldsFrom] first and then only do manual
 	// handling of specific fields that can not be automatically copied. See
-	// [cogentcore.org/core/core.WidgetBase.CopyFieldsFrom] for an example of a
+	// [github.com/MobinYengejehi/core/core.WidgetBase.CopyFieldsFrom] for an example of a
 	// custom CopyFieldsFrom method.
 	CopyFieldsFrom(from Node)
 

@@ -7,7 +7,7 @@ package htmltext
 import (
 	"strings"
 
-	"cogentcore.org/core/text/rich"
+	"github.com/MobinYengejehi/core/text/rich"
 )
 
 // RichToHTML returns an HTML encoded representation of the rich.Text.

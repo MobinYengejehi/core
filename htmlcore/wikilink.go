@@ -32,8 +32,8 @@ func (c *Context) AddWikilinkHandler(h WikilinkHandler) {
 
 // GoDocWikilink returns a [WikilinkHandler] that converts wikilinks of the form
 // [[prefix:identifier]] to a pkg.go.dev URL starting at pkg. For example, with
-// prefix="doc" and pkg="cogentcore.org/core", the wikilink [[doc:core.Button]] will
-// result in the URL "https://pkg.go.dev/cogentcore.org/core/core#Button".
+// prefix="doc" and pkg="github.com/MobinYengejehi/core", the wikilink [[doc:core.Button]] will
+// result in the URL "https://pkg.go.dev/github.com/MobinYengejehi/core/core#Button".
 func GoDocWikilink(prefix string, pkg string) WikilinkHandler {
 	return func(text string) (url string, label string) {
 		if !strings.HasPrefix(text, prefix+":") {

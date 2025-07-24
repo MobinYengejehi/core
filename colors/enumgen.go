@@ -3,7 +3,7 @@
 package colors
 
 import (
-	"cogentcore.org/core/enums"
+	"github.com/MobinYengejehi/core/enums"
 )
 
 var _BlendTypesValues = []BlendTypes{0, 1, 2}

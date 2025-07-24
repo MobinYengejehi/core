@@ -11,9 +11,9 @@ import (
 	"regexp"
 	"sort"
 
-	"cogentcore.org/core/base/fileinfo"
-	"cogentcore.org/core/core"
-	"cogentcore.org/core/text/textpos"
+	"github.com/MobinYengejehi/core/base/fileinfo"
+	"github.com/MobinYengejehi/core/core"
+	"github.com/MobinYengejehi/core/text/textpos"
 )
 
 // All returns list of all files under given root path, in all subdirs,

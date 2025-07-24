@@ -7,7 +7,7 @@ package lines
 import (
 	"testing"
 
-	"cogentcore.org/core/text/textpos"
+	"github.com/MobinYengejehi/core/text/textpos"
 	"github.com/stretchr/testify/assert"
 )
 

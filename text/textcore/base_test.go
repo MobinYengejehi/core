@@ -9,14 +9,14 @@ import (
 	"testing"
 	"time"
 
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/base/fileinfo"
-	"cogentcore.org/core/core"
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/events/key"
-	"cogentcore.org/core/styles"
-	"cogentcore.org/core/text/lines"
-	"cogentcore.org/core/text/textpos"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/base/fileinfo"
+	"github.com/MobinYengejehi/core/core"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/events/key"
+	"github.com/MobinYengejehi/core/styles"
+	"github.com/MobinYengejehi/core/text/lines"
+	"github.com/MobinYengejehi/core/text/textpos"
 	"github.com/stretchr/testify/assert"
 )
 

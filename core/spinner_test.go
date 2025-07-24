@@ -8,9 +8,9 @@ import (
 	"image"
 	"testing"
 
-	"cogentcore.org/core/base/tolassert"
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/events/key"
+	"github.com/MobinYengejehi/core/base/tolassert"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/events/key"
 	"github.com/stretchr/testify/assert"
 )
 

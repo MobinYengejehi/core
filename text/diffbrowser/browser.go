@@ -7,13 +7,13 @@ package diffbrowser
 //go:generate core generate
 
 import (
-	"cogentcore.org/core/base/fsx"
-	"cogentcore.org/core/base/stringsx"
-	"cogentcore.org/core/core"
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/styles"
-	"cogentcore.org/core/text/textcore"
-	"cogentcore.org/core/tree"
+	"github.com/MobinYengejehi/core/base/fsx"
+	"github.com/MobinYengejehi/core/base/stringsx"
+	"github.com/MobinYengejehi/core/core"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/styles"
+	"github.com/MobinYengejehi/core/text/textcore"
+	"github.com/MobinYengejehi/core/tree"
 )
 
 // Browser is a diff browser, for browsing a set of paired files

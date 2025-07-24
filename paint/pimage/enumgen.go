@@ -3,7 +3,7 @@
 package pimage
 
 import (
-	"cogentcore.org/core/enums"
+	"github.com/MobinYengejehi/core/enums"
 )
 
 var _CmdsValues = []Cmds{0, 1, 2, 3}

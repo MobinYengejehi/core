@@ -14,9 +14,9 @@ import (
 	"strings"
 	"sync"
 
-	"cogentcore.org/core/core"
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/text/spell"
+	"github.com/MobinYengejehi/core/core"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/text/spell"
 )
 
 // initSpell ensures that the [spell.Spell] spell checker is set up.

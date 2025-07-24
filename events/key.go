@@ -7,7 +7,7 @@ package events
 import (
 	"fmt"
 
-	"cogentcore.org/core/events/key"
+	"github.com/MobinYengejehi/core/events/key"
 )
 
 // events.Key is a low-level immediately generated key event, tracking press

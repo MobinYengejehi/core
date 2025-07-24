@@ -10,7 +10,7 @@ import (
 	"sync"
 	"syscall/js"
 
-	"cogentcore.org/core/text/text"
+	"github.com/MobinYengejehi/core/text/text"
 	"github.com/go-text/typesetting/font"
 )
 

@@ -11,7 +11,7 @@ import (
 	"slices"
 	"time"
 
-	"cogentcore.org/core/text/runes"
+	"github.com/MobinYengejehi/core/text/runes"
 )
 
 // Edit describes an edit action to line-based text, operating on

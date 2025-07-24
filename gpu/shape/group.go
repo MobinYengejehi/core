@@ -4,7 +4,7 @@
 
 package shape
 
-import "cogentcore.org/core/math32"
+import "github.com/MobinYengejehi/core/math32"
 
 // ShapeGroup is a group of shapes.
 // Returns summary data for shape elements.

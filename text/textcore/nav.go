@@ -7,10 +7,10 @@ package textcore
 import (
 	"image"
 
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/styles/states"
-	"cogentcore.org/core/text/textpos"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/styles/states"
+	"github.com/MobinYengejehi/core/text/textpos"
 )
 
 // validateCursor sets current cursor to a valid cursor position

@@ -9,7 +9,7 @@ import (
 	"slices"
 	"unicode"
 
-	"cogentcore.org/core/text/textpos"
+	"github.com/MobinYengejehi/core/text/textpos"
 )
 
 // Text is the basic rich text representation, with spans of []rune unicode characters

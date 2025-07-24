@@ -12,9 +12,9 @@ import (
 	"strings"
 	"testing"
 
-	"cogentcore.org/core/base/tolassert"
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/paint/ppath"
+	"github.com/MobinYengejehi/core/base/tolassert"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/paint/ppath"
 	"github.com/stretchr/testify/assert"
 )
 

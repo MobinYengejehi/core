@@ -3,7 +3,7 @@
 package main
 
 import (
-	"cogentcore.org/core/types"
+	"github.com/MobinYengejehi/core/types"
 )
 
 var _ = types.AddType(&types.Type{Name: "main.Config", IDName: "config", Doc: "Config is the configuration information for the dict cli.", Directives: []types.Directive{{Tool: "go", Directive: "generate", Args: []string{"core", "generate", "-add-types", "-add-funcs"}}}, Fields: []types.Field{{Name: "InputA", Doc: "InputA is the first input dictionary file"}, {Name: "InputB", Doc: "InputB is the second input dictionary file"}, {Name: "Output", Doc: "Output is the output file for merge command"}}})

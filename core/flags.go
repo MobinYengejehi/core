@@ -5,10 +5,10 @@
 package core
 
 import (
-	"cogentcore.org/core/enums"
-	"cogentcore.org/core/styles/abilities"
-	"cogentcore.org/core/styles/states"
-	"cogentcore.org/core/tree"
+	"github.com/MobinYengejehi/core/enums"
+	"github.com/MobinYengejehi/core/styles/abilities"
+	"github.com/MobinYengejehi/core/styles/states"
+	"github.com/MobinYengejehi/core/tree"
 )
 
 // StateIs returns whether the widget has the given [states.States] flag set.

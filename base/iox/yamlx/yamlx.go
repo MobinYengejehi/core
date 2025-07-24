@@ -8,7 +8,7 @@ import (
 	"io"
 	"io/fs"
 
-	"cogentcore.org/core/base/iox"
+	"github.com/MobinYengejehi/core/base/iox"
 	"gopkg.in/yaml.v3"
 )
 

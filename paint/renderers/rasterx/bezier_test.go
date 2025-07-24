@@ -13,7 +13,7 @@ import (
 	"testing"
 	"time"
 
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/math32"
 )
 
 // Copied from golang.org/x/image/vector

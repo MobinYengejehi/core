@@ -9,7 +9,7 @@ import (
 	"log"
 	"math"
 
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/math32"
 )
 
 // Lines are lines rendered as long thin boxes defined by points

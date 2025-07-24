@@ -11,8 +11,8 @@ import (
 	"image/draw"
 	"sync"
 
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/gpu"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/gpu"
 )
 
 // These draw.Op constants are provided so that users of this package don't

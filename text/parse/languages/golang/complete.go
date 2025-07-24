@@ -11,15 +11,15 @@ import (
 	"strings"
 	"unicode"
 
-	"cogentcore.org/core/icons"
-	"cogentcore.org/core/text/parse"
-	"cogentcore.org/core/text/parse/complete"
-	"cogentcore.org/core/text/parse/lexer"
-	"cogentcore.org/core/text/parse/parser"
-	"cogentcore.org/core/text/parse/syms"
-	"cogentcore.org/core/text/textpos"
-	"cogentcore.org/core/text/token"
-	"cogentcore.org/core/tree"
+	"github.com/MobinYengejehi/core/icons"
+	"github.com/MobinYengejehi/core/text/parse"
+	"github.com/MobinYengejehi/core/text/parse/complete"
+	"github.com/MobinYengejehi/core/text/parse/lexer"
+	"github.com/MobinYengejehi/core/text/parse/parser"
+	"github.com/MobinYengejehi/core/text/parse/syms"
+	"github.com/MobinYengejehi/core/text/textpos"
+	"github.com/MobinYengejehi/core/text/token"
+	"github.com/MobinYengejehi/core/tree"
 )
 
 var CompleteTrace = false

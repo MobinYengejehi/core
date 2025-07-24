@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"strings"
 
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/styles"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/styles"
 )
 
 ////////////////////////////////////////////////////////////////////////////////////////

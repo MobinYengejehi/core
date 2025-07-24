@@ -10,7 +10,7 @@ import (
 	"text/template"
 	"unicode"
 
-	"cogentcore.org/core/types"
+	"github.com/MobinYengejehi/core/types"
 )
 
 // TypeTmpl is the template for [types.Type] declarations.

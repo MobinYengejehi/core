@@ -8,12 +8,12 @@ import (
 	"image"
 	"strings"
 
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/icons"
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/svg"
-	"cogentcore.org/core/system"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/icons"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/svg"
+	"github.com/MobinYengejehi/core/system"
 )
 
 var (

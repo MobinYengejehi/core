@@ -7,9 +7,9 @@ package main
 import (
 	_ "embed"
 
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/core"
-	"cogentcore.org/core/htmlcore"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/core"
+	"github.com/MobinYengejehi/core/htmlcore"
 )
 
 //go:embed example.html

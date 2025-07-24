@@ -5,7 +5,7 @@
 package svg
 
 import (
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/math32"
 )
 
 // Group groups together SVG elements.

@@ -14,12 +14,12 @@ import (
 	"slices"
 	"text/template"
 
-	"cogentcore.org/core/base/generate"
-	"cogentcore.org/core/base/ordmap"
-	"cogentcore.org/core/cmd/config"
-	"cogentcore.org/core/enums/enumgen"
-	"cogentcore.org/core/types"
-	"cogentcore.org/core/types/typegen"
+	"github.com/MobinYengejehi/core/base/generate"
+	"github.com/MobinYengejehi/core/base/ordmap"
+	"github.com/MobinYengejehi/core/cmd/config"
+	"github.com/MobinYengejehi/core/enums/enumgen"
+	"github.com/MobinYengejehi/core/types"
+	"github.com/MobinYengejehi/core/types/typegen"
 	"golang.org/x/tools/go/packages"
 )
 
@@ -93,7 +93,7 @@ func hasNoNewDirective(typ *typegen.Type) bool {
 func Generate(c *config.Config) error { //types:add
 	c.Generate.Typegen.InterfaceConfigs = &ordmap.Map[string, *typegen.Config]{}
 
-	c.Generate.Typegen.InterfaceConfigs.Add("cogentcore.org/core/tree.Node", &typegen.Config{
+	c.Generate.Typegen.InterfaceConfigs.Add("github.com/MobinYengejehi/core/tree.Node", &typegen.Config{
 		AddTypes:  true,
 		Setters:   true,
 		Templates: []*template.Template{treeMethodsTmpl},

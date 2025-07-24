@@ -9,17 +9,17 @@ import (
 	"strings"
 	"unicode"
 
-	"cogentcore.org/core/base/fileinfo"
-	"cogentcore.org/core/base/indent"
-	"cogentcore.org/core/text/csl"
-	"cogentcore.org/core/text/parse"
-	"cogentcore.org/core/text/parse/complete"
-	"cogentcore.org/core/text/parse/languages"
-	"cogentcore.org/core/text/parse/languages/bibtex"
-	"cogentcore.org/core/text/parse/lexer"
-	"cogentcore.org/core/text/parse/syms"
-	"cogentcore.org/core/text/textpos"
-	"cogentcore.org/core/text/token"
+	"github.com/MobinYengejehi/core/base/fileinfo"
+	"github.com/MobinYengejehi/core/base/indent"
+	"github.com/MobinYengejehi/core/text/csl"
+	"github.com/MobinYengejehi/core/text/parse"
+	"github.com/MobinYengejehi/core/text/parse/complete"
+	"github.com/MobinYengejehi/core/text/parse/languages"
+	"github.com/MobinYengejehi/core/text/parse/languages/bibtex"
+	"github.com/MobinYengejehi/core/text/parse/lexer"
+	"github.com/MobinYengejehi/core/text/parse/syms"
+	"github.com/MobinYengejehi/core/text/textpos"
+	"github.com/MobinYengejehi/core/text/token"
 )
 
 //go:embed markdown.parse

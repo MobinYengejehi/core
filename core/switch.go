@@ -7,18 +7,18 @@ package core
 import (
 	"reflect"
 
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/base/reflectx"
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/cursors"
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/icons"
-	"cogentcore.org/core/styles"
-	"cogentcore.org/core/styles/abilities"
-	"cogentcore.org/core/styles/states"
-	"cogentcore.org/core/styles/units"
-	"cogentcore.org/core/text/text"
-	"cogentcore.org/core/tree"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/base/reflectx"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/cursors"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/icons"
+	"github.com/MobinYengejehi/core/styles"
+	"github.com/MobinYengejehi/core/styles/abilities"
+	"github.com/MobinYengejehi/core/styles/states"
+	"github.com/MobinYengejehi/core/styles/units"
+	"github.com/MobinYengejehi/core/text/text"
+	"github.com/MobinYengejehi/core/tree"
 )
 
 // Switch is a widget that can toggle between an on and off state.

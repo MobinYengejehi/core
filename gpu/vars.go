@@ -9,8 +9,8 @@ import (
 	"log"
 	"strings"
 
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/base/indent"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/base/indent"
 
 	"github.com/cogentcore/webgpu/wgpu"
 )

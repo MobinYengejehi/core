@@ -5,11 +5,11 @@
 package textcore
 
 import (
-	"cogentcore.org/core/core"
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/styles"
-	"cogentcore.org/core/text/lines"
-	"cogentcore.org/core/tree"
+	"github.com/MobinYengejehi/core/core"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/styles"
+	"github.com/MobinYengejehi/core/text/lines"
+	"github.com/MobinYengejehi/core/tree"
 )
 
 // TwinEditors presents two side-by-side [Editor]s in [core.Splits]

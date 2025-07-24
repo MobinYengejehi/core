@@ -11,7 +11,7 @@ package gradient
 import (
 	"image/color"
 
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/math32"
 )
 
 // Linear represents a linear gradient. It implements the [image.Image] interface.

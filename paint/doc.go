@@ -14,7 +14,7 @@ generate the resulting output. Renderers are independent of the Painter
 and the [render.Render] state is entirely self-contained, so rendering
 can be done in a separate goroutine etc.
 
-You must import _ "cogentcore.org/core/paint/renderers" to get the default
+You must import _ "github.com/MobinYengejehi/core/paint/renderers" to get the default
 renderers if using this outside of core which already does this for you.
 This sets the New*Renderer functions to point to default implementations.
 */

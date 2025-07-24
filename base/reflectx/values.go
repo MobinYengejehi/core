@@ -15,11 +15,11 @@ import (
 	"strconv"
 	"time"
 
-	"cogentcore.org/core/base/bools"
-	"cogentcore.org/core/base/elide"
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/enums"
+	"github.com/MobinYengejehi/core/base/bools"
+	"github.com/MobinYengejehi/core/base/elide"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/enums"
 )
 
 // IsNil returns whether the given value is nil or invalid.

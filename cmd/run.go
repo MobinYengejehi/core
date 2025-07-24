@@ -9,11 +9,11 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"cogentcore.org/core/base/exec"
-	"cogentcore.org/core/base/logx"
-	"cogentcore.org/core/cmd/config"
-	"cogentcore.org/core/cmd/mobile"
-	"cogentcore.org/core/cmd/web"
+	"github.com/MobinYengejehi/core/base/exec"
+	"github.com/MobinYengejehi/core/base/logx"
+	"github.com/MobinYengejehi/core/cmd/config"
+	"github.com/MobinYengejehi/core/cmd/mobile"
+	"github.com/MobinYengejehi/core/cmd/web"
 )
 
 // Run builds and runs the config package. It also displays the logs generated

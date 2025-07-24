@@ -8,10 +8,10 @@ import (
 	"strconv"
 	"testing"
 
-	"cogentcore.org/core/icons"
-	"cogentcore.org/core/styles"
-	"cogentcore.org/core/styles/units"
-	"cogentcore.org/core/tree"
+	"github.com/MobinYengejehi/core/icons"
+	"github.com/MobinYengejehi/core/styles"
+	"github.com/MobinYengejehi/core/styles/units"
+	"github.com/MobinYengejehi/core/tree"
 )
 
 const (

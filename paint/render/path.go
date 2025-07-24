@@ -5,8 +5,8 @@
 package render
 
 import (
-	"cogentcore.org/core/paint/ppath"
-	"cogentcore.org/core/styles"
+	"github.com/MobinYengejehi/core/paint/ppath"
+	"github.com/MobinYengejehi/core/styles"
 )
 
 // Path is a path drawing render [Item]: responsible for all vector graphics

@@ -4,7 +4,7 @@
 
 package fileinfo
 
-import "cogentcore.org/core/icons"
+import "github.com/MobinYengejehi/core/icons"
 
 var Icons = map[Known]icons.Icon{
 	Unknown:   icons.QuestionMark,

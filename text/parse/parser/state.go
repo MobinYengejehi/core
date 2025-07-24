@@ -7,10 +7,10 @@ package parser
 import (
 	"fmt"
 
-	"cogentcore.org/core/text/parse/lexer"
-	"cogentcore.org/core/text/parse/syms"
-	"cogentcore.org/core/text/textpos"
-	"cogentcore.org/core/text/token"
+	"github.com/MobinYengejehi/core/text/parse/lexer"
+	"github.com/MobinYengejehi/core/text/parse/syms"
+	"github.com/MobinYengejehi/core/text/textpos"
+	"github.com/MobinYengejehi/core/text/token"
 )
 
 // parser.State is the state maintained for parsing

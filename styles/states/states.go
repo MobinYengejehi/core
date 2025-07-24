@@ -6,7 +6,7 @@ package states
 
 //go:generate core generate
 
-import "cogentcore.org/core/enums"
+import "github.com/MobinYengejehi/core/enums"
 
 // States are GUI states of elements that are relevant for styling based on
 // CSS pseudo-classes (https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes).
@@ -19,7 +19,7 @@ const (
 	// tabs that are not open. Elements can be made visible by toggling
 	// this flag and thus in general should be constructed and styled,
 	// but a new layout step must generally be taken after visibility
-	// status has changed. See also [cogentcore.org/core/core.WidgetBase.IsDisplayable].
+	// status has changed. See also [github.com/MobinYengejehi/core/core.WidgetBase.IsDisplayable].
 	Invisible States = iota
 
 	// Disabled elements cannot be interacted with or selected,
@@ -99,7 +99,7 @@ func (st States) Is(flag enums.BitFlag) bool {
 }
 
 // StateLayer returns the state layer opacity for the state, appropriate for use
-// as the value of [cogentcore.org/core/styles.Style.StateLayer]
+// as the value of [github.com/MobinYengejehi/core/styles.Style.StateLayer]
 func (st States) StateLayer() float32 {
 	switch {
 	case st.Is(Disabled):

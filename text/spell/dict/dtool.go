@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"log/slog"
 
-	"cogentcore.org/core/cli"
-	"cogentcore.org/core/text/spell"
+	"github.com/MobinYengejehi/core/cli"
+	"github.com/MobinYengejehi/core/text/spell"
 )
 
 //go:generate core generate -add-types -add-funcs

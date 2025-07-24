@@ -11,9 +11,9 @@ import (
 	"os"
 	"text/template"
 
-	"cogentcore.org/core/base/elide"
-	"cogentcore.org/core/cmd/config"
-	"cogentcore.org/core/content/bcontent"
+	"github.com/MobinYengejehi/core/base/elide"
+	"github.com/MobinYengejehi/core/cmd/config"
+	"github.com/MobinYengejehi/core/content/bcontent"
 	strip "github.com/grokify/html-strip-tags-go"
 )
 

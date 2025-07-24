@@ -40,9 +40,9 @@ import (
 	"strings"
 	"unsafe"
 
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/styles"
-	"cogentcore.org/core/system"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/styles"
+	"github.com/MobinYengejehi/core/system"
 )
 
 // MainLoop is the main app loop.

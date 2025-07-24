@@ -5,9 +5,10 @@
 package parse
 
 import (
-	"cogentcore.org/core/text/parse/lexer"
-	"cogentcore.org/core/text/parse/parser"
-	"cogentcore.org/core/text/parse/syms"
+	"github.com/MobinYengejehi/core/text/parse/lexer"
+	"github.com/MobinYengejehi/core/text/parse/parser"
+	"github.com/MobinYengejehi/core/text/parse/syms"
+	"github.com/MobinYengejehi/core/text/textpos"
 )
 
 // Lang provides a general interface for language-specific management

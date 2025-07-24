@@ -7,7 +7,7 @@ package xyz
 import (
 	"fmt"
 
-	"cogentcore.org/core/tree"
+	"github.com/MobinYengejehi/core/tree"
 )
 
 // AddToLibrary adds given Group to library, using group's name as unique key

@@ -8,16 +8,16 @@ import (
 	"log/slog"
 	"sync"
 
-	"cogentcore.org/core/base/elide"
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/cursors"
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/icons"
-	"cogentcore.org/core/styles"
-	"cogentcore.org/core/styles/abilities"
-	"cogentcore.org/core/styles/states"
-	"cogentcore.org/core/styles/units"
-	"cogentcore.org/core/tree"
+	"github.com/MobinYengejehi/core/base/elide"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/cursors"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/icons"
+	"github.com/MobinYengejehi/core/styles"
+	"github.com/MobinYengejehi/core/styles/abilities"
+	"github.com/MobinYengejehi/core/styles/states"
+	"github.com/MobinYengejehi/core/styles/units"
+	"github.com/MobinYengejehi/core/tree"
 )
 
 // Tabber is an interface for getting the parent Tabs of tab buttons.

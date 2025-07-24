@@ -20,9 +20,9 @@
 package hct
 
 import (
-	"cogentcore.org/core/colors/cam/cam16"
-	"cogentcore.org/core/colors/cam/cie"
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/colors/cam/cam16"
+	"github.com/MobinYengejehi/core/colors/cam/cie"
+	"github.com/MobinYengejehi/core/math32"
 )
 
 // SolveToRGBLin Finds an sRGB linear color (represented by math32.Vector3, 0-100 range)

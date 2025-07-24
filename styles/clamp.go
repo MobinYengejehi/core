@@ -4,7 +4,7 @@
 
 package styles
 
-import "cogentcore.org/core/math32"
+import "github.com/MobinYengejehi/core/math32"
 
 // ClampMax returns given value, not greater than given max _only if_ max > 0
 func ClampMax(v, mx float32) float32 {

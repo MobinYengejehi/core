@@ -7,7 +7,7 @@ package highlighting
 import (
 	"sync"
 
-	"cogentcore.org/core/text/token"
+	"github.com/MobinYengejehi/core/text/token"
 	"github.com/alecthomas/chroma/v2"
 )
 

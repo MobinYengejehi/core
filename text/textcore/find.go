@@ -7,12 +7,12 @@ package textcore
 import (
 	"unicode"
 
-	"cogentcore.org/core/base/stringsx"
-	"cogentcore.org/core/core"
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/styles"
-	"cogentcore.org/core/text/parse/lexer"
-	"cogentcore.org/core/text/textpos"
+	"github.com/MobinYengejehi/core/base/stringsx"
+	"github.com/MobinYengejehi/core/core"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/styles"
+	"github.com/MobinYengejehi/core/text/parse/lexer"
+	"github.com/MobinYengejehi/core/text/textpos"
 )
 
 // findMatches finds the matches with given search string (literal, not regex)

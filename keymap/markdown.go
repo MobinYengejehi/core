@@ -7,7 +7,7 @@ package keymap
 import (
 	"strings"
 
-	"cogentcore.org/core/events/key"
+	"github.com/MobinYengejehi/core/events/key"
 )
 
 // MarkdownDoc generates a markdown table of all the key mappings

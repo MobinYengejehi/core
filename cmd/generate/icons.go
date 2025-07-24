@@ -13,9 +13,9 @@ import (
 	"text/template"
 	"unicode"
 
-	"cogentcore.org/core/base/generate"
-	"cogentcore.org/core/base/strcase"
-	"cogentcore.org/core/cmd/config"
+	"github.com/MobinYengejehi/core/base/generate"
+	"github.com/MobinYengejehi/core/base/strcase"
+	"github.com/MobinYengejehi/core/cmd/config"
 )
 
 // iconData contains the data for an icon

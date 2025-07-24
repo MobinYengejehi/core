@@ -13,9 +13,9 @@ import (
 	"strings"
 	"unicode"
 
-	"cogentcore.org/core/base/reflectx"
-	"cogentcore.org/core/base/slicesx"
-	"cogentcore.org/core/tree"
+	"github.com/MobinYengejehi/core/base/reflectx"
+	"github.com/MobinYengejehi/core/base/slicesx"
+	"github.com/MobinYengejehi/core/tree"
 )
 
 ////////  Naming elements with unique id's

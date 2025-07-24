@@ -5,12 +5,12 @@
 package svg
 
 import (
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/text/htmltext"
-	"cogentcore.org/core/text/rich"
-	"cogentcore.org/core/text/shaped"
-	"cogentcore.org/core/text/text"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/text/htmltext"
+	"github.com/MobinYengejehi/core/text/rich"
+	"github.com/MobinYengejehi/core/text/shaped"
+	"github.com/MobinYengejehi/core/text/text"
 )
 
 // todo: needs some work to get up to spec:

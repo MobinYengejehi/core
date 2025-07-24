@@ -8,11 +8,11 @@ import (
 	"strings"
 	"unicode"
 
-	"cogentcore.org/core/icons"
-	"cogentcore.org/core/text/parse"
-	"cogentcore.org/core/text/parse/complete"
-	"cogentcore.org/core/text/parse/lexer"
-	"cogentcore.org/core/text/textpos"
+	"github.com/MobinYengejehi/core/icons"
+	"github.com/MobinYengejehi/core/text/parse"
+	"github.com/MobinYengejehi/core/text/parse/complete"
+	"github.com/MobinYengejehi/core/text/parse/lexer"
+	"github.com/MobinYengejehi/core/text/textpos"
 )
 
 func (tl *TexLang) CompleteLine(fss *parse.FileStates, str string, pos textpos.Pos) (md complete.Matches) {

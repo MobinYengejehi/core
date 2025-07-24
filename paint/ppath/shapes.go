@@ -8,8 +8,8 @@
 package ppath
 
 import (
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/styles/sides"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/styles/sides"
 )
 
 // Line adds a line segment of from (x1,y1) to (x2,y2).

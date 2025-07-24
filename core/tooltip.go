@@ -7,9 +7,9 @@ package core
 import (
 	"image"
 
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/styles"
-	"cogentcore.org/core/styles/units"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/styles"
+	"github.com/MobinYengejehi/core/styles/units"
 )
 
 // DefaultTooltipPos returns the default position for the tooltip

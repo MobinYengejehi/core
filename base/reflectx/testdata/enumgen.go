@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"cogentcore.org/core/enums"
+	"github.com/MobinYengejehi/core/enums"
 )
 
 var _FruitsValues = []Fruits{0, 1, 2, 3, 4, 5, 6}

@@ -7,8 +7,8 @@ package parser
 import (
 	"fmt"
 
-	"cogentcore.org/core/text/parse/lexer"
-	"cogentcore.org/core/text/token"
+	"github.com/MobinYengejehi/core/text/parse/lexer"
+	"github.com/MobinYengejehi/core/text/token"
 )
 
 // Actions are parsing actions to perform

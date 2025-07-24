@@ -1,7 +1,7 @@
 package gotypes
 
 import (
-	"cogentcore.org/core/tree"
+	"github.com/MobinYengejehi/core/tree"
 )
 
 type Ityp int

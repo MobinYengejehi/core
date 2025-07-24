@@ -11,9 +11,9 @@ import (
 	"text/tabwriter"
 	"unicode"
 
-	"cogentcore.org/core/base/indent"
-	"cogentcore.org/core/text/token"
-	"cogentcore.org/core/tree"
+	"github.com/MobinYengejehi/core/base/indent"
+	"github.com/MobinYengejehi/core/text/token"
+	"github.com/MobinYengejehi/core/tree"
 )
 
 // Trace is whether to print debug trace info.

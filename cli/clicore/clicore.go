@@ -9,12 +9,12 @@ import (
 	"fmt"
 	"os"
 
-	"cogentcore.org/core/base/logx"
-	"cogentcore.org/core/base/strcase"
-	"cogentcore.org/core/cli"
-	"cogentcore.org/core/core"
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/tree"
+	"github.com/MobinYengejehi/core/base/logx"
+	"github.com/MobinYengejehi/core/base/strcase"
+	"github.com/MobinYengejehi/core/cli"
+	"github.com/MobinYengejehi/core/core"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/tree"
 )
 
 // Run runs the given app with the given default

@@ -18,8 +18,8 @@ import (
 	"strings"
 	"time"
 
-	"cogentcore.org/core/base/iox/tomlx"
-	"cogentcore.org/core/base/strcase"
+	"github.com/MobinYengejehi/core/base/iox/tomlx"
+	"github.com/MobinYengejehi/core/base/strcase"
 )
 
 // Page represents the metadata for a single page of content.

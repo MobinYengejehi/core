@@ -7,8 +7,8 @@ package lines
 import (
 	"testing"
 
-	_ "cogentcore.org/core/system/driver"
-	"cogentcore.org/core/text/textpos"
+	_ "github.com/MobinYengejehi/core/system/driver"
+	"github.com/MobinYengejehi/core/text/textpos"
 	"github.com/stretchr/testify/assert"
 )
 

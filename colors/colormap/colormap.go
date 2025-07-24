@@ -9,8 +9,8 @@ import (
 	"maps"
 	"sort"
 
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/math32"
 )
 
 // Map maps a value onto a color by interpolating between a list of colors

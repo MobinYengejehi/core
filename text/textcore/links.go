@@ -5,9 +5,9 @@
 package textcore
 
 import (
-	"cogentcore.org/core/system"
-	"cogentcore.org/core/text/rich"
-	"cogentcore.org/core/text/textpos"
+	"github.com/MobinYengejehi/core/system"
+	"github.com/MobinYengejehi/core/text/rich"
+	"github.com/MobinYengejehi/core/text/textpos"
 )
 
 // openLink opens given link, using the LinkHandler if non-nil,

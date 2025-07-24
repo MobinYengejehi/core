@@ -7,8 +7,8 @@ package physics
 //go:generate core generate -add-types
 
 import (
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/tree"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/tree"
 )
 
 // Node is the common interface for all nodes.

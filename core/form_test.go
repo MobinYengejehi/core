@@ -7,11 +7,11 @@ package core
 import (
 	"testing"
 
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/styles"
-	"cogentcore.org/core/styles/abilities"
-	"cogentcore.org/core/styles/states"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/styles"
+	"github.com/MobinYengejehi/core/styles/abilities"
+	"github.com/MobinYengejehi/core/styles/states"
 	"github.com/stretchr/testify/assert"
 )
 

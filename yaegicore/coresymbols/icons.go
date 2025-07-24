@@ -7,7 +7,7 @@ package coresymbols
 import (
 	"reflect"
 
-	. "cogentcore.org/core/icons"
+	. "github.com/MobinYengejehi/core/icons"
 )
 
 // iconsList is a subset of icons to include in the yaegi symbols.
@@ -19,5 +19,5 @@ func init() {
 	for name, icon := range iconsList {
 		m[name] = reflect.ValueOf(icon)
 	}
-	Symbols["cogentcore.org/core/icons/icons"] = m
+	Symbols["github.com/MobinYengejehi/core/icons/icons"] = m
 }

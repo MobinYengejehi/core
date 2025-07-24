@@ -5,8 +5,8 @@
 package lexer
 
 import (
-	"cogentcore.org/core/text/textpos"
-	"cogentcore.org/core/text/token"
+	"github.com/MobinYengejehi/core/text/textpos"
+	"github.com/MobinYengejehi/core/text/token"
 )
 
 // PassTwo performs second pass(s) through the lexicalized version of the source,

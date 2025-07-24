@@ -24,11 +24,11 @@ import (
 	"strconv"
 	"strings"
 
-	"cogentcore.org/core/base/fsx"
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/gpu/phong"
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/xyz"
+	"github.com/MobinYengejehi/core/base/fsx"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/gpu/phong"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/xyz"
 )
 
 func init() {

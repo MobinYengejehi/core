@@ -11,8 +11,8 @@ import (
 	"strings"
 	"unicode"
 
-	"cogentcore.org/core/base/strcase"
-	"cogentcore.org/core/icons"
+	"github.com/MobinYengejehi/core/base/strcase"
+	"github.com/MobinYengejehi/core/icons"
 )
 
 // Completion holds one potential completion

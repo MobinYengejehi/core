@@ -3,7 +3,7 @@
 package ppath
 
 import (
-	"cogentcore.org/core/enums"
+	"github.com/MobinYengejehi/core/enums"
 )
 
 var _FillRulesValues = []FillRules{0, 1, 2, 3}

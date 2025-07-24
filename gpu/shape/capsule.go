@@ -4,7 +4,7 @@
 
 package shape
 
-import "cogentcore.org/core/math32"
+import "github.com/MobinYengejehi/core/math32"
 
 // Capsule is a generalized capsule shape: a cylinder with hemisphere end caps.
 // Supports different radii on each end.

@@ -7,7 +7,7 @@ package content
 import (
 	"testing"
 
-	"cogentcore.org/core/content/bcontent"
+	"github.com/MobinYengejehi/core/content/bcontent"
 	"github.com/stretchr/testify/assert"
 )
 

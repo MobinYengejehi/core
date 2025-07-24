@@ -10,8 +10,8 @@ import (
 	"sync"
 	"time"
 
-	"cogentcore.org/core/text/lines"
-	"cogentcore.org/core/text/rich"
+	"github.com/MobinYengejehi/core/text/lines"
+	"github.com/MobinYengejehi/core/text/rich"
 )
 
 // OutputBufferMarkupFunc is a function that returns a marked-up version

@@ -7,7 +7,7 @@ package languages
 import (
 	"fmt"
 
-	"cogentcore.org/core/base/fileinfo"
+	"github.com/MobinYengejehi/core/base/fileinfo"
 )
 
 var ParserBytes map[fileinfo.Known][]byte = make(map[fileinfo.Known][]byte)

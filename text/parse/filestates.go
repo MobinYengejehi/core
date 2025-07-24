@@ -7,7 +7,7 @@ package parse
 import (
 	"sync"
 
-	"cogentcore.org/core/base/fileinfo"
+	"github.com/MobinYengejehi/core/base/fileinfo"
 )
 
 // FileStates contains two FileState's: one is being processed while the

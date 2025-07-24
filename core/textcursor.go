@@ -8,10 +8,10 @@ import (
 	"image"
 	"time"
 
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/paint"
-	"cogentcore.org/core/system"
-	"cogentcore.org/core/tree"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/paint"
+	"github.com/MobinYengejehi/core/system"
+	"github.com/MobinYengejehi/core/tree"
 )
 
 // TextCursor implements a blinking text cursor using a [Sprite].

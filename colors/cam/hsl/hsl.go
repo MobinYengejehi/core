@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"image/color"
 
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/math32"
 )
 
 // HSL represents the Hue [0..360], Saturation [0..1], and Luminance

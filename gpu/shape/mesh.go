@@ -5,8 +5,8 @@
 package shape
 
 import (
-	"cogentcore.org/core/base/slicesx"
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/base/slicesx"
+	"github.com/MobinYengejehi/core/math32"
 )
 
 // Mesh is an interface for specifying the triangle Mesh data for 3D shapes.

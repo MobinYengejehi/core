@@ -7,7 +7,7 @@
 package android
 
 import (
-	"cogentcore.org/core/system/driver/base"
+	"github.com/MobinYengejehi/core/system/driver/base"
 )
 
 // Window is the implementation of [system.Window] for the Android platform.

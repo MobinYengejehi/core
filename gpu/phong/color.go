@@ -7,7 +7,7 @@ package phong
 import (
 	"image/color"
 
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/math32"
 )
 
 // Tiling are the texture tiling parameters

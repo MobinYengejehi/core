@@ -621,14 +621,14 @@ var PiViewProperties = tree.Properties{
 	},
 }
 
-import "cogentcore.org/core/core"
+import "github.com/MobinYengejehi/core/core"
 
 import (
-	core "cogentcore.org/core/core"
-	"cogentcore.org/core/system"
+	core "github.com/MobinYengejehi/core/core"
+	"github.com/MobinYengejehi/core/system"
 	gocode "cogentcore.org/cogent/code/code"
-	"cogentcore.org/core/text/parse"
-	"cogentcore.org/core/text/parse/piv"
+	"github.com/MobinYengejehi/core/text/parse"
+	"github.com/MobinYengejehi/core/text/parse/piv"
 )
 
 var av1, av2 int

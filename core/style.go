@@ -8,13 +8,13 @@ import (
 	"image"
 	"reflect"
 
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/base/reflectx"
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/styles"
-	"cogentcore.org/core/styles/states"
-	"cogentcore.org/core/text/rich"
-	"cogentcore.org/core/tree"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/base/reflectx"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/styles"
+	"github.com/MobinYengejehi/core/styles/states"
+	"github.com/MobinYengejehi/core/text/rich"
+	"github.com/MobinYengejehi/core/tree"
 )
 
 // Styler adds the given function for setting the style properties of the widget

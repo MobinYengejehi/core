@@ -9,9 +9,9 @@ package xyz
 import (
 	"io/fs"
 
-	"cogentcore.org/core/text/fonts/noto"
-	"cogentcore.org/core/text/fonts/robotomono"
-	"cogentcore.org/core/text/shaped/shapers/shapedgt"
+	"github.com/MobinYengejehi/core/text/fonts/noto"
+	"github.com/MobinYengejehi/core/text/fonts/robotomono"
+	"github.com/MobinYengejehi/core/text/shaped/shapers/shapedgt"
 )
 
 func initTextShaper(sc *Scene) {

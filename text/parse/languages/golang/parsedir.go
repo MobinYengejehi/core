@@ -14,11 +14,11 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"cogentcore.org/core/base/fileinfo"
-	"cogentcore.org/core/base/fsx"
-	"cogentcore.org/core/text/parse"
-	"cogentcore.org/core/text/parse/syms"
-	"cogentcore.org/core/text/token"
+	"github.com/MobinYengejehi/core/base/fileinfo"
+	"github.com/MobinYengejehi/core/base/fsx"
+	"github.com/MobinYengejehi/core/text/parse"
+	"github.com/MobinYengejehi/core/text/parse/syms"
+	"github.com/MobinYengejehi/core/text/token"
 	"golang.org/x/tools/go/packages"
 )
 

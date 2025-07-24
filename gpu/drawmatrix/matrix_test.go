@@ -8,7 +8,7 @@ import (
 	"image"
 	"testing"
 
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/math32"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -5,11 +5,11 @@
 package parse
 
 import (
-	"cogentcore.org/core/base/indent"
-	"cogentcore.org/core/text/parse/complete"
-	"cogentcore.org/core/text/parse/lexer"
-	"cogentcore.org/core/text/parse/syms"
-	"cogentcore.org/core/text/textpos"
+	"github.com/MobinYengejehi/core/base/indent"
+	"github.com/MobinYengejehi/core/text/parse/complete"
+	"github.com/MobinYengejehi/core/text/parse/lexer"
+	"github.com/MobinYengejehi/core/text/parse/syms"
+	"github.com/MobinYengejehi/core/text/textpos"
 )
 
 // Language provides a general interface for language-specific management

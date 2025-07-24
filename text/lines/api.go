@@ -9,14 +9,14 @@ import (
 	"regexp"
 	"slices"
 
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/base/fileinfo"
-	"cogentcore.org/core/text/highlighting"
-	"cogentcore.org/core/text/parse/lexer"
-	"cogentcore.org/core/text/rich"
-	"cogentcore.org/core/text/search"
-	"cogentcore.org/core/text/textpos"
-	"cogentcore.org/core/text/token"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/base/fileinfo"
+	"github.com/MobinYengejehi/core/text/highlighting"
+	"github.com/MobinYengejehi/core/text/parse/lexer"
+	"github.com/MobinYengejehi/core/text/rich"
+	"github.com/MobinYengejehi/core/text/search"
+	"github.com/MobinYengejehi/core/text/textpos"
+	"github.com/MobinYengejehi/core/text/token"
 )
 
 // this file contains the exported API for Lines

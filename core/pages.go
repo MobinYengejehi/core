@@ -7,7 +7,7 @@ package core
 import (
 	"fmt"
 
-	"cogentcore.org/core/styles"
+	"github.com/MobinYengejehi/core/styles"
 )
 
 // Pages is a frame that can easily swap its content between that of

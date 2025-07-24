@@ -10,8 +10,8 @@ import (
 	"strconv"
 	"sync/atomic"
 
-	"cogentcore.org/core/base/slicesx"
-	"cogentcore.org/core/types"
+	"github.com/MobinYengejehi/core/base/slicesx"
+	"github.com/MobinYengejehi/core/types"
 )
 
 // admin.go has infrastructure code outside of the [Node] interface.

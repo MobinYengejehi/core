@@ -8,7 +8,7 @@ import (
 	"image/color"
 	"testing"
 
-	"cogentcore.org/core/colors/matcolor"
+	"github.com/MobinYengejehi/core/colors/matcolor"
 	"github.com/stretchr/testify/assert"
 )
 

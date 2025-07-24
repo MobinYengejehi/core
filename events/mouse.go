@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"image"
 
-	"cogentcore.org/core/events/key"
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/events/key"
+	"github.com/MobinYengejehi/core/math32"
 )
 
 var (

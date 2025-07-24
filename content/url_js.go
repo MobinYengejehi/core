@@ -11,7 +11,7 @@ import (
 	"strings"
 	"syscall/js"
 
-	"cogentcore.org/core/base/errors"
+	"github.com/MobinYengejehi/core/base/errors"
 )
 
 // firstContent is the first [Content] used for [Content.getWebURL] or [Content.saveWebURL],

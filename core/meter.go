@@ -8,13 +8,13 @@ import (
 	"fmt"
 	"image"
 
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/styles"
-	"cogentcore.org/core/styles/units"
-	"cogentcore.org/core/text/htmltext"
-	"cogentcore.org/core/text/shaped"
-	"cogentcore.org/core/text/text"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/styles"
+	"github.com/MobinYengejehi/core/styles/units"
+	"github.com/MobinYengejehi/core/text/htmltext"
+	"github.com/MobinYengejehi/core/text/shaped"
+	"github.com/MobinYengejehi/core/text/text"
 )
 
 // Meter is a widget that renders a current value on as a filled

@@ -7,11 +7,11 @@ package paint_test
 import (
 	"testing"
 
-	"cogentcore.org/core/base/iox/imagex"
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/math32"
-	. "cogentcore.org/core/paint"
-	"cogentcore.org/core/styles"
+	"github.com/MobinYengejehi/core/base/iox/imagex"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/math32"
+	. "github.com/MobinYengejehi/core/paint"
+	"github.com/MobinYengejehi/core/styles"
 	"github.com/stretchr/testify/assert"
 )
 

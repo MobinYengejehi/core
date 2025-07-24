@@ -12,8 +12,8 @@ import (
 	"regexp"
 	"strings"
 
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/base/fsx"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/base/fsx"
 )
 
 // GenerateMarkdown extracts markdown citations in the format [@Ref; @Ref]

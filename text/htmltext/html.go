@@ -13,11 +13,11 @@ import (
 	"strings"
 	"unicode"
 
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/base/stack"
-	"cogentcore.org/core/styles/styleprops"
-	"cogentcore.org/core/text/rich"
-	"cogentcore.org/core/text/runes"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/base/stack"
+	"github.com/MobinYengejehi/core/styles/styleprops"
+	"github.com/MobinYengejehi/core/text/rich"
+	"github.com/MobinYengejehi/core/text/runes"
 	"golang.org/x/net/html/charset"
 )
 

@@ -7,10 +7,10 @@ package main
 import (
 	"embed"
 
-	"cogentcore.org/core/content"
-	"cogentcore.org/core/core"
-	"cogentcore.org/core/htmlcore"
-	_ "cogentcore.org/core/yaegicore"
+	"github.com/MobinYengejehi/core/content"
+	"github.com/MobinYengejehi/core/core"
+	"github.com/MobinYengejehi/core/htmlcore"
+	_ "github.com/MobinYengejehi/core/yaegicore"
 )
 
 //go:embed content
@@ -19,7 +19,7 @@ var econtent embed.FS
 func main() {
 	b := core.NewBody("Cogent Content Example")
 	ct := content.NewContent(b).SetContent(econtent)
-	ct.Context.AddWikilinkHandler(htmlcore.GoDocWikilink("doc", "cogentcore.org/core"))
+	ct.Context.AddWikilinkHandler(htmlcore.GoDocWikilink("doc", "github.com/MobinYengejehi/core"))
 	b.AddTopBar(func(bar *core.Frame) {
 		core.NewToolbar(bar).Maker(ct.MakeToolbar)
 	})

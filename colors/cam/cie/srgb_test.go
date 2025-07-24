@@ -7,7 +7,7 @@ package cie
 import (
 	"testing"
 
-	"cogentcore.org/core/base/tolassert"
+	"github.com/MobinYengejehi/core/base/tolassert"
 	"github.com/stretchr/testify/assert"
 )
 

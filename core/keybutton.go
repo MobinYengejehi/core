@@ -5,11 +5,11 @@
 package core
 
 import (
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/events/key"
-	"cogentcore.org/core/icons"
-	"cogentcore.org/core/keymap"
-	"cogentcore.org/core/styles/states"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/events/key"
+	"github.com/MobinYengejehi/core/icons"
+	"github.com/MobinYengejehi/core/keymap"
+	"github.com/MobinYengejehi/core/styles/states"
 )
 
 // KeyMapButton represents a [keymap.MapName] value with a button.

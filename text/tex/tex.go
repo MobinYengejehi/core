@@ -10,8 +10,8 @@ import (
 	"strings"
 	"sync"
 
-	"cogentcore.org/core/paint/ppath"
-	"cogentcore.org/core/text/shaped"
+	"github.com/MobinYengejehi/core/paint/ppath"
+	"github.com/MobinYengejehi/core/text/shaped"
 	"star-tex.org/x/tex"
 )
 

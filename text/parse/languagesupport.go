@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"time"
 
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/base/fileinfo"
-	"cogentcore.org/core/text/parse/languages"
-	"cogentcore.org/core/text/parse/lexer"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/base/fileinfo"
+	"github.com/MobinYengejehi/core/text/parse/languages"
+	"github.com/MobinYengejehi/core/text/parse/lexer"
 )
 
 // LanguageFlags are special properties of a given language

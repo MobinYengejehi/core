@@ -5,7 +5,7 @@
 package lines
 
 import (
-	"cogentcore.org/core/text/textpos"
+	"github.com/MobinYengejehi/core/text/textpos"
 )
 
 // moveForward moves given source position forward given number of rune steps.

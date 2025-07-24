@@ -7,12 +7,12 @@ package main
 import (
 	"image/color"
 
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/base/iox/imagex"
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/xyz"
-	"cogentcore.org/core/xyz/examples/assets"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/base/iox/imagex"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/xyz"
+	"github.com/MobinYengejehi/core/xyz/examples/assets"
 )
 
 func main() {

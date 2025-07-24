@@ -7,7 +7,7 @@ package styles
 import (
 	"fmt"
 
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/math32"
 )
 
 // XY represents X,Y values

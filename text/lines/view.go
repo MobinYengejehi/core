@@ -5,9 +5,9 @@
 package lines
 
 import (
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/text/rich"
-	"cogentcore.org/core/text/textpos"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/text/rich"
+	"github.com/MobinYengejehi/core/text/textpos"
 )
 
 // view provides a view onto a shared [Lines] text buffer,

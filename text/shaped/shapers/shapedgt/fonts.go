@@ -7,9 +7,9 @@ package shapedgt
 import (
 	"os"
 
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/text/fonts"
-	"cogentcore.org/core/text/rich"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/text/fonts"
+	"github.com/MobinYengejehi/core/text/rich"
 	"github.com/go-text/typesetting/fontscan"
 )
 
@@ -29,5 +29,3 @@ func (sh *Shaper) FontList() []fonts.Info {
 	}
 	return fi
 }
-
-

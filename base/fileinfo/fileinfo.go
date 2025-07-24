@@ -34,11 +34,11 @@ import (
 	"testing"
 	"time"
 
-	"cogentcore.org/core/base/datasize"
-	"cogentcore.org/core/base/fsx"
-	"cogentcore.org/core/base/vcs"
-	"cogentcore.org/core/icons"
 	"github.com/Bios-Marcel/wastebasket/v2"
+	"github.com/MobinYengejehi/core/base/datasize"
+	"github.com/MobinYengejehi/core/base/fsx"
+	"github.com/MobinYengejehi/core/base/vcs"
+	"github.com/MobinYengejehi/core/icons"
 )
 
 // FileInfo represents the information about a given file / directory,

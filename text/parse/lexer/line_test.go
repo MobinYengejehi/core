@@ -7,8 +7,8 @@ package lexer
 import (
 	"testing"
 
-	"cogentcore.org/core/base/nptime"
-	"cogentcore.org/core/text/token"
+	"github.com/MobinYengejehi/core/base/nptime"
+	"github.com/MobinYengejehi/core/text/token"
 	"github.com/stretchr/testify/assert"
 )
 

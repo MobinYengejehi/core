@@ -12,17 +12,17 @@ import (
 	"strings"
 	"unicode"
 
-	"cogentcore.org/core/base/labels"
-	"cogentcore.org/core/base/reflectx"
-	"cogentcore.org/core/base/strcase"
-	"cogentcore.org/core/enums"
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/icons"
-	"cogentcore.org/core/styles"
-	"cogentcore.org/core/styles/states"
-	"cogentcore.org/core/styles/units"
-	"cogentcore.org/core/tree"
-	"cogentcore.org/core/types"
+	"github.com/MobinYengejehi/core/base/labels"
+	"github.com/MobinYengejehi/core/base/reflectx"
+	"github.com/MobinYengejehi/core/base/strcase"
+	"github.com/MobinYengejehi/core/enums"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/icons"
+	"github.com/MobinYengejehi/core/styles"
+	"github.com/MobinYengejehi/core/styles/states"
+	"github.com/MobinYengejehi/core/styles/units"
+	"github.com/MobinYengejehi/core/tree"
+	"github.com/MobinYengejehi/core/types"
 )
 
 // Switches is a widget for containing a set of [Switch]es.

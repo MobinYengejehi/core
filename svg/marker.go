@@ -7,7 +7,7 @@ package svg
 import (
 	"log"
 
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/math32"
 )
 
 // Marker represents marker elements that can be drawn along paths (arrow heads, etc)

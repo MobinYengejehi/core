@@ -4,7 +4,7 @@
 
 package cie
 
-import "cogentcore.org/core/math32"
+import "github.com/MobinYengejehi/core/math32"
 
 // SRGBToLinearComp converts an sRGB rgb component to linear space (removes gamma).
 // Used in converting from sRGB to XYZ colors.

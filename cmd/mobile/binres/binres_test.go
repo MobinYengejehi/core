@@ -17,7 +17,7 @@ import (
 	"strings"
 	"testing"
 
-	"cogentcore.org/core/cmd/mobile/sdkpath"
+	"github.com/MobinYengejehi/core/cmd/mobile/sdkpath"
 )
 
 func init() {

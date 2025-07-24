@@ -11,11 +11,11 @@ import (
 	"strings"
 	"text/template"
 
-	"cogentcore.org/core/base/exec"
-	"cogentcore.org/core/base/iox/imagex"
-	"cogentcore.org/core/base/strcase"
-	"cogentcore.org/core/cmd/config"
-	"cogentcore.org/core/cmd/rendericon"
+	"github.com/MobinYengejehi/core/base/exec"
+	"github.com/MobinYengejehi/core/base/iox/imagex"
+	"github.com/MobinYengejehi/core/base/strcase"
+	"github.com/MobinYengejehi/core/cmd/config"
+	"github.com/MobinYengejehi/core/cmd/rendericon"
 	"github.com/jackmordaunt/icns/v2"
 )
 

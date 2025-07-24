@@ -7,8 +7,8 @@ package main
 import (
 	"fmt"
 
-	"cogentcore.org/core/cli"
-	"cogentcore.org/core/cli/clicore"
+	"github.com/MobinYengejehi/core/cli"
+	"github.com/MobinYengejehi/core/cli/clicore"
 )
 
 //go:generate core generate -add-types -add-methods

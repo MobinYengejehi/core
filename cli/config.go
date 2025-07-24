@@ -12,7 +12,7 @@ import (
 	"slices"
 	"strings"
 
-	"cogentcore.org/core/base/logx"
+	"github.com/MobinYengejehi/core/base/logx"
 )
 
 // IMPORTANT: all changes to [metaConfig] must be updated in [metaConfigFields]

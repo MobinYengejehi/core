@@ -7,7 +7,7 @@
 package driver
 
 import (
-	"cogentcore.org/core/system/driver/android"
+	"github.com/MobinYengejehi/core/system/driver/android"
 )
 
 func init() {

@@ -11,7 +11,7 @@ import (
 	"slices"
 	"strings"
 
-	"cogentcore.org/core/base/stringsx"
+	"github.com/MobinYengejehi/core/base/stringsx"
 )
 
 // IncludeFS processes #include "file" statements in

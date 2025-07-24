@@ -5,7 +5,7 @@
 package physics
 
 import (
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/math32"
 )
 
 // Box is a box body shape

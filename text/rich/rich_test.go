@@ -8,9 +8,9 @@ import (
 	"image/color"
 	"testing"
 
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/text/runes"
-	"cogentcore.org/core/text/textpos"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/text/runes"
+	"github.com/MobinYengejehi/core/text/textpos"
 	"github.com/stretchr/testify/assert"
 )
 

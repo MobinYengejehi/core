@@ -7,7 +7,7 @@ package math32
 import (
 	"testing"
 
-	"cogentcore.org/core/base/tolassert"
+	"github.com/MobinYengejehi/core/base/tolassert"
 )
 
 func TestVector3AngleTo(t *testing.T) {

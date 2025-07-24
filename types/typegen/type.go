@@ -7,7 +7,7 @@ package typegen
 import (
 	"go/ast"
 
-	"cogentcore.org/core/types"
+	"github.com/MobinYengejehi/core/types"
 )
 
 // Type represents a parsed type.

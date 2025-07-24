@@ -3,7 +3,7 @@
 package math32
 
 import (
-	"cogentcore.org/core/enums"
+	"github.com/MobinYengejehi/core/enums"
 )
 
 var _DimsValues = []Dims{0, 1, 2, 3}

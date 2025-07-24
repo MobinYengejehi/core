@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"strings"
 
-	"cogentcore.org/core/base/logx"
+	"github.com/MobinYengejehi/core/base/logx"
 	"golang.org/x/sys/windows/registry"
 )
 

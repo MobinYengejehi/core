@@ -3,7 +3,7 @@
 package parse
 
 import (
-	"cogentcore.org/core/enums"
+	"github.com/MobinYengejehi/core/enums"
 )
 
 var _LanguageFlagsValues = []LanguageFlags{0, 1, 2, 3}

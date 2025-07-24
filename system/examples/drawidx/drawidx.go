@@ -12,13 +12,13 @@ import (
 	"time"
 	"unsafe"
 
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/gpu"
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/styles"
-	"cogentcore.org/core/system"
-	"cogentcore.org/core/system/composer"
-	_ "cogentcore.org/core/system/driver"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/gpu"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/styles"
+	"github.com/MobinYengejehi/core/system"
+	"github.com/MobinYengejehi/core/system/composer"
+	_ "github.com/MobinYengejehi/core/system/driver"
 	"github.com/cogentcore/webgpu/wgpu"
 )
 

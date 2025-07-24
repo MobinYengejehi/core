@@ -3,7 +3,7 @@
 package main
 
 import (
-	"cogentcore.org/core/types"
+	"github.com/MobinYengejehi/core/types"
 )
 
 var _ = types.AddType(&types.Type{Name: "main.Config", IDName: "config", Directives: []types.Directive{{Tool: "go", Directive: "generate", Args: []string{"core", "generate", "-add-types", "-add-funcs"}}}, Fields: []types.Field{{Name: "Name", Doc: "the name of the user"}, {Name: "Age", Doc: "the age of the user"}, {Name: "LikesGo", Doc: "whether the user likes Go"}, {Name: "Build"}, {Name: "Server"}, {Name: "Client"}, {Name: "Dir", Doc: "the directory to build in"}}})

@@ -5,9 +5,9 @@
 package xyzcore
 
 import (
-	"cogentcore.org/core/core"
-	"cogentcore.org/core/icons"
-	"cogentcore.org/core/xyz"
+	"github.com/MobinYengejehi/core/core"
+	"github.com/MobinYengejehi/core/icons"
+	"github.com/MobinYengejehi/core/xyz"
 )
 
 func init() {

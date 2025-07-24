@@ -8,7 +8,7 @@ import (
 	"bytes"
 	"testing"
 
-	"cogentcore.org/core/base/iox/jsonx"
+	"github.com/MobinYengejehi/core/base/iox/jsonx"
 	"github.com/stretchr/testify/assert"
 )
 

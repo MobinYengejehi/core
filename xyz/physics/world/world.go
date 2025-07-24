@@ -9,12 +9,12 @@ package world
 import (
 	"image"
 
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/tree"
-	"cogentcore.org/core/types"
-	"cogentcore.org/core/xyz"
-	"cogentcore.org/core/xyz/physics"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/tree"
+	"github.com/MobinYengejehi/core/types"
+	"github.com/MobinYengejehi/core/xyz"
+	"github.com/MobinYengejehi/core/xyz/physics"
 )
 
 // View connects a Virtual World with a Xyz Scene to visualize the world,

@@ -9,9 +9,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"cogentcore.org/core/base/fsx"
-	"cogentcore.org/core/base/stringsx"
-	"cogentcore.org/core/base/vcs"
+	"github.com/MobinYengejehi/core/base/fsx"
+	"github.com/MobinYengejehi/core/base/stringsx"
+	"github.com/MobinYengejehi/core/base/vcs"
 )
 
 // NewDiffBrowserVCS returns a new diff browser for files that differ

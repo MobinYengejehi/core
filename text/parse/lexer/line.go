@@ -9,7 +9,7 @@ import (
 	"sort"
 	"unicode"
 
-	"cogentcore.org/core/text/token"
+	"github.com/MobinYengejehi/core/text/token"
 )
 
 // Line is one line of Lex'd text

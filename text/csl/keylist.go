@@ -9,7 +9,7 @@ import (
 	"slices"
 	"strings"
 
-	"cogentcore.org/core/base/keylist"
+	"github.com/MobinYengejehi/core/base/keylist"
 )
 
 // KeyList is an ordered list of citation [Item]s,

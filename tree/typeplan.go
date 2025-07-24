@@ -5,8 +5,8 @@
 package tree
 
 import (
-	"cogentcore.org/core/base/plan"
-	"cogentcore.org/core/types"
+	"github.com/MobinYengejehi/core/base/plan"
+	"github.com/MobinYengejehi/core/types"
 )
 
 // TypePlan is a plan for the organization of a list of tree nodes,

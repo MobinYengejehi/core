@@ -12,11 +12,11 @@ package base
 import (
 	"image"
 
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/styles/sides"
-	"cogentcore.org/core/system"
-	"cogentcore.org/core/system/composer"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/styles/sides"
+	"github.com/MobinYengejehi/core/system"
+	"github.com/MobinYengejehi/core/system/composer"
 )
 
 // WindowSingle contains the data and logic common to all implementations of [system.Window]

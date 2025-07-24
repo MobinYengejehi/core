@@ -5,8 +5,8 @@
 package xyz
 
 import (
-	"cogentcore.org/core/gpu/shape"
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/gpu/shape"
+	"github.com/MobinYengejehi/core/math32"
 )
 
 const (

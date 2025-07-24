@@ -7,14 +7,14 @@ package xyzcore
 import (
 	"fmt"
 
-	"cogentcore.org/core/core"
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/events/key"
-	"cogentcore.org/core/icons"
-	"cogentcore.org/core/styles"
-	"cogentcore.org/core/styles/abilities"
-	"cogentcore.org/core/tree"
-	"cogentcore.org/core/xyz"
+	"github.com/MobinYengejehi/core/core"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/events/key"
+	"github.com/MobinYengejehi/core/icons"
+	"github.com/MobinYengejehi/core/styles"
+	"github.com/MobinYengejehi/core/styles/abilities"
+	"github.com/MobinYengejehi/core/tree"
+	"github.com/MobinYengejehi/core/xyz"
 )
 
 // SceneEditor provides a toolbar controller and manipulation abilities

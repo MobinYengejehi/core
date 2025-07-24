@@ -3,7 +3,7 @@
 package highlighting
 
 import (
-	"cogentcore.org/core/enums"
+	"github.com/MobinYengejehi/core/enums"
 )
 
 var _TrileanValues = []Trilean{0, 1, 2}

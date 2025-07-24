@@ -5,13 +5,13 @@
 package core
 
 import (
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/icons"
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/styles"
-	"cogentcore.org/core/styles/states"
-	"cogentcore.org/core/styles/units"
-	"cogentcore.org/core/tree"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/icons"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/styles"
+	"github.com/MobinYengejehi/core/styles/states"
+	"github.com/MobinYengejehi/core/styles/units"
+	"github.com/MobinYengejehi/core/tree"
 )
 
 // Toolbar is a [Frame] that is useful for holding [Button]s that do things.
@@ -19,7 +19,7 @@ import (
 // manages additional items that are always placed onto this overflow menu.
 // Toolbars are frequently added in [Body.AddTopBar]. All toolbars use the
 // [WidgetBase.Maker] system, so you cannot directly add widgets; see
-// https://cogentcore.org/core/toolbar.
+// https://github.com/MobinYengejehi/core/toolbar.
 type Toolbar struct {
 	Frame
 

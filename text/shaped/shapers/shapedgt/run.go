@@ -7,10 +7,10 @@ package shapedgt
 import (
 	"fmt"
 
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/text/rich"
-	"cogentcore.org/core/text/shaped"
-	"cogentcore.org/core/text/textpos"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/text/rich"
+	"github.com/MobinYengejehi/core/text/shaped"
+	"github.com/MobinYengejehi/core/text/textpos"
 	"github.com/go-text/typesetting/shaping"
 	"golang.org/x/image/math/fixed"
 )

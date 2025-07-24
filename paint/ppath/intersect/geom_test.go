@@ -11,8 +11,8 @@ import (
 	"fmt"
 	"testing"
 
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/paint/ppath"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/paint/ppath"
 	"github.com/stretchr/testify/assert"
 )
 

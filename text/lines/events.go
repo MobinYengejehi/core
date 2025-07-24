@@ -4,7 +4,7 @@
 
 package lines
 
-import "cogentcore.org/core/events"
+import "github.com/MobinYengejehi/core/events"
 
 // OnChange adds an event listener function to the view with given
 // unique id, for the [events.Change] event.

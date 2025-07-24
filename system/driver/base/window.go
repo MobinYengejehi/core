@@ -15,9 +15,9 @@ import (
 	"sync"
 	"time"
 
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/system"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/system"
 )
 
 // Window contains the data and logic common to all implementations of [system.Window].

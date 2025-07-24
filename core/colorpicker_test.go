@@ -7,7 +7,7 @@ package core
 import (
 	"testing"
 
-	"cogentcore.org/core/colors"
+	"github.com/MobinYengejehi/core/colors"
 )
 
 func TestColorPicker(t *testing.T) {

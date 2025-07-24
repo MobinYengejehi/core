@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"io/fs"
 
-	"cogentcore.org/core/base/errors"
+	"github.com/MobinYengejehi/core/base/errors"
 	"github.com/go-text/typesetting/font/opentype"
 	"github.com/go-text/typesetting/fontscan"
 )
@@ -19,7 +19,7 @@ import (
 // to this. This must be called before the text shaper is created to have an effect.
 //
 // On web, Embedded is only used for font metrics, as the actual font
-// rendering happens through web fonts. See https://cogentcore.org/core/font for
+// rendering happens through web fonts. See https://github.com/MobinYengejehi/core/font for
 // more information.
 var Embedded = []fs.FS{Default}
 

@@ -8,14 +8,14 @@ import (
 	"fmt"
 	"reflect"
 
-	"cogentcore.org/core/base/iox/jsonx"
-	"cogentcore.org/core/base/labels"
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/icons"
-	"cogentcore.org/core/keymap"
-	"cogentcore.org/core/styles"
-	"cogentcore.org/core/tree"
+	"github.com/MobinYengejehi/core/base/iox/jsonx"
+	"github.com/MobinYengejehi/core/base/labels"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/icons"
+	"github.com/MobinYengejehi/core/keymap"
+	"github.com/MobinYengejehi/core/styles"
+	"github.com/MobinYengejehi/core/tree"
 )
 
 // Inspector represents a [tree.Node] with a [Tree] and a [Form].

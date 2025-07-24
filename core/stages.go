@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"sync"
 
-	"cogentcore.org/core/base/ordmap"
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/system"
+	"github.com/MobinYengejehi/core/base/ordmap"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/system"
 )
 
 // stages manages a stack of [Stage]s.

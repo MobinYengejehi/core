@@ -7,9 +7,9 @@ package phong
 import (
 	"fmt"
 
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/gpu"
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/gpu"
+	"github.com/MobinYengejehi/core/math32"
 )
 
 // Object is the object-specific data: Colors and transform Matrix.

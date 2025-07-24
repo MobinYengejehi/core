@@ -10,10 +10,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"cogentcore.org/core/cli"
-	"cogentcore.org/core/colors/gradient"
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/svg"
+	"github.com/MobinYengejehi/core/cli"
+	"github.com/MobinYengejehi/core/colors/gradient"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/svg"
 )
 
 func main() { //types:skip

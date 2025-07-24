@@ -7,7 +7,7 @@
 
 package ppath
 
-import "cogentcore.org/core/math32"
+import "github.com/MobinYengejehi/core/math32"
 
 func QuadraticToCubicBezier(p0, p1, p2 math32.Vector2) (math32.Vector2, math32.Vector2) {
 	c1 := p0.Lerp(p1, 2.0/3.0)

@@ -7,7 +7,7 @@ package shape
 import (
 	"math"
 
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/math32"
 )
 
 // Torus is a torus mesh, defined by the radius of the solid tube and the

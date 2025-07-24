@@ -3,7 +3,7 @@
 package core
 
 import (
-	"cogentcore.org/core/enums"
+	"github.com/MobinYengejehi/core/enums"
 )
 
 var _ButtonTypesValues = []ButtonTypes{0, 1, 2, 3, 4, 5, 6}

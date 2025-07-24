@@ -19,7 +19,7 @@
 
 package cam16
 
-import "cogentcore.org/core/math32"
+import "github.com/MobinYengejehi/core/math32"
 
 // SanitizeDegrees ensures that degrees is in [0-360) range
 func SanitizeDegrees(deg float32) float32 {

@@ -10,10 +10,10 @@ import (
 	"strings"
 	"sync"
 
-	"cogentcore.org/core/base/fileinfo"
-	"cogentcore.org/core/text/parse/lexer"
-	"cogentcore.org/core/text/parse/parser"
-	"cogentcore.org/core/text/parse/syms"
+	"github.com/MobinYengejehi/core/base/fileinfo"
+	"github.com/MobinYengejehi/core/text/parse/lexer"
+	"github.com/MobinYengejehi/core/text/parse/parser"
+	"github.com/MobinYengejehi/core/text/parse/syms"
 )
 
 // FileState contains the full lexing and parsing state information for a given file.

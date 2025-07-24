@@ -5,9 +5,9 @@
 package main
 
 import (
-	"cogentcore.org/core/base/auth"
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/core"
+	"github.com/MobinYengejehi/core/base/auth"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/core"
 	"github.com/coreos/go-oidc/v3/oidc"
 	"golang.org/x/oauth2"
 )

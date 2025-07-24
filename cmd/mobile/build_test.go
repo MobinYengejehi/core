@@ -15,10 +15,10 @@ import (
 	"testing"
 	"text/template"
 
-	"cogentcore.org/core/base/exec"
-	"cogentcore.org/core/base/reflectx"
-	"cogentcore.org/core/cmd/config"
-	"cogentcore.org/core/cmd/mobile/sdkpath"
+	"github.com/MobinYengejehi/core/base/exec"
+	"github.com/MobinYengejehi/core/base/reflectx"
+	"github.com/MobinYengejehi/core/cmd/config"
+	"github.com/MobinYengejehi/core/cmd/mobile/sdkpath"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
@@ -238,7 +238,7 @@ func TestBuildWithGoModules(t *testing.T) {
 	}
 	defer os.RemoveAll(dir)
 
-	if err := exec.Run("go", "build", "-o="+dir, "cogentcore.org/core/system/examples/drawtri"); err != nil {
+	if err := exec.Run("go", "build", "-o="+dir, "github.com/MobinYengejehi/core/system/examples/drawtri"); err != nil {
 		t.Fatal(err)
 	}
 	path := dir

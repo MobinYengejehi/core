@@ -7,10 +7,10 @@ package main
 import (
 	_ "embed"
 
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/core"
-	"cogentcore.org/core/htmlcore"
-	_ "cogentcore.org/core/text/tex" // include this to get math
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/core"
+	"github.com/MobinYengejehi/core/htmlcore"
+	_ "github.com/MobinYengejehi/core/text/tex" // include this to get math
 )
 
 //go:embed example.md

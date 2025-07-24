@@ -5,12 +5,12 @@
 package rich
 
 import (
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/base/reflectx"
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/colors/gradient"
-	"cogentcore.org/core/enums"
-	"cogentcore.org/core/styles/styleprops"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/base/reflectx"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/colors/gradient"
+	"github.com/MobinYengejehi/core/enums"
+	"github.com/MobinYengejehi/core/styles/styleprops"
 )
 
 // FromProperties sets style field values based on the given property list.

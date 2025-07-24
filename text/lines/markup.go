@@ -8,12 +8,12 @@ import (
 	"slices"
 	"time"
 
-	"cogentcore.org/core/base/fileinfo"
-	"cogentcore.org/core/text/highlighting"
-	"cogentcore.org/core/text/parse/lexer"
-	"cogentcore.org/core/text/rich"
-	"cogentcore.org/core/text/textpos"
-	"cogentcore.org/core/text/token"
+	"github.com/MobinYengejehi/core/base/fileinfo"
+	"github.com/MobinYengejehi/core/text/highlighting"
+	"github.com/MobinYengejehi/core/text/parse/lexer"
+	"github.com/MobinYengejehi/core/text/rich"
+	"github.com/MobinYengejehi/core/text/textpos"
+	"github.com/MobinYengejehi/core/text/token"
 	"golang.org/x/exp/maps"
 )
 

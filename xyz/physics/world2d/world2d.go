@@ -10,12 +10,12 @@ import (
 	"errors"
 	"image"
 
-	"cogentcore.org/core/base/iox/imagex"
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/svg"
-	"cogentcore.org/core/tree"
-	"cogentcore.org/core/types"
-	"cogentcore.org/core/xyz/physics"
+	"github.com/MobinYengejehi/core/base/iox/imagex"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/svg"
+	"github.com/MobinYengejehi/core/tree"
+	"github.com/MobinYengejehi/core/types"
+	"github.com/MobinYengejehi/core/xyz/physics"
 )
 
 // View connects a Virtual World with a 2D SVG Scene to visualize the world

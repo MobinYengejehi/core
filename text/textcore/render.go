@@ -10,16 +10,16 @@ import (
 	"image/color"
 	"slices"
 
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/colors/gradient"
-	"cogentcore.org/core/colors/matcolor"
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/paint/render"
-	"cogentcore.org/core/styles/sides"
-	"cogentcore.org/core/styles/states"
-	"cogentcore.org/core/text/rich"
-	"cogentcore.org/core/text/shaped"
-	"cogentcore.org/core/text/textpos"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/colors/gradient"
+	"github.com/MobinYengejehi/core/colors/matcolor"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/paint/render"
+	"github.com/MobinYengejehi/core/styles/sides"
+	"github.com/MobinYengejehi/core/styles/states"
+	"github.com/MobinYengejehi/core/text/rich"
+	"github.com/MobinYengejehi/core/text/shaped"
+	"github.com/MobinYengejehi/core/text/textpos"
 )
 
 func (ed *Base) reLayout() {

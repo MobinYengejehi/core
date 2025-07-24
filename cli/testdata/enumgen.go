@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"cogentcore.org/core/enums"
+	"github.com/MobinYengejehi/core/enums"
 )
 
 var _TestEnumValues = []TestEnum{0, 1}

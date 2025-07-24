@@ -7,9 +7,9 @@ package core
 import (
 	"image"
 
-	"cogentcore.org/core/base/iox/imagex"
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/system/composer"
+	"github.com/MobinYengejehi/core/base/iox/imagex"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/system/composer"
 )
 
 // getImager is implemented by offscreen.Drawer for [Body.AssertRender].

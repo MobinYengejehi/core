@@ -5,7 +5,7 @@
 package core
 
 import (
-	"cogentcore.org/core/system"
+	"github.com/MobinYengejehi/core/system"
 )
 
 func init() {

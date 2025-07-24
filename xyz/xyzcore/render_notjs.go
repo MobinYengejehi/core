@@ -11,11 +11,11 @@ import (
 	"image"
 	"image/draw"
 
-	"cogentcore.org/core/core"
-	"cogentcore.org/core/gpu"
-	"cogentcore.org/core/gpu/gpudraw"
-	"cogentcore.org/core/system"
-	"cogentcore.org/core/system/composer"
+	"github.com/MobinYengejehi/core/core"
+	"github.com/MobinYengejehi/core/gpu"
+	"github.com/MobinYengejehi/core/gpu/gpudraw"
+	"github.com/MobinYengejehi/core/system"
+	"github.com/MobinYengejehi/core/system/composer"
 )
 
 // xyzSource implements [composer.Source] for core direct rendering.

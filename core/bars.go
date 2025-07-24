@@ -7,10 +7,10 @@ package core
 import (
 	"slices"
 
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/icons"
-	"cogentcore.org/core/keymap"
-	"cogentcore.org/core/styles"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/icons"
+	"github.com/MobinYengejehi/core/keymap"
+	"github.com/MobinYengejehi/core/styles"
 )
 
 // BarFuncs are functions for creating control bars,

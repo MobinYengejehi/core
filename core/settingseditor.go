@@ -5,9 +5,9 @@
 package core
 
 import (
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/icons"
-	"cogentcore.org/core/tree"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/icons"
+	"github.com/MobinYengejehi/core/tree"
 )
 
 // settingsEditorToolbarBase is the base toolbar configuration

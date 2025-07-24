@@ -7,7 +7,7 @@ package physics
 import (
 	"math"
 
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/math32"
 )
 
 // State contains the basic physical state including position, orientation, velocity.

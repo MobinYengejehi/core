@@ -10,10 +10,10 @@ import (
 	"slices"
 	"time"
 
-	"cogentcore.org/core/base/reflectx"
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/system"
+	"github.com/MobinYengejehi/core/base/reflectx"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/system"
 	"github.com/go-gl/glfw/v3.3/glfw"
 )
 

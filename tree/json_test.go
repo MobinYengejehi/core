@@ -10,9 +10,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"cogentcore.org/core/base/iox/jsonx"
-	. "cogentcore.org/core/tree"
-	"cogentcore.org/core/tree/testdata"
+	"github.com/MobinYengejehi/core/base/iox/jsonx"
+	. "github.com/MobinYengejehi/core/tree"
+	"github.com/MobinYengejehi/core/tree/testdata"
 )
 
 func testNodeTree() *testdata.NodeEmbed {

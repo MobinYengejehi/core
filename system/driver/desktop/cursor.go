@@ -7,11 +7,11 @@ package desktop
 import (
 	"sync"
 
-	"cogentcore.org/core/cursors/cursorimg"
-	"cogentcore.org/core/enums"
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/styles/units"
-	"cogentcore.org/core/system"
+	"github.com/MobinYengejehi/core/cursors/cursorimg"
+	"github.com/MobinYengejehi/core/enums"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/styles/units"
+	"github.com/MobinYengejehi/core/system"
 	"github.com/go-gl/glfw/v3.3/glfw"
 )
 

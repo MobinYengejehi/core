@@ -7,16 +7,16 @@ package core
 import (
 	"image"
 
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/icons"
-	"cogentcore.org/core/keymap"
-	"cogentcore.org/core/styles"
-	"cogentcore.org/core/styles/states"
-	"cogentcore.org/core/styles/units"
-	"cogentcore.org/core/system"
-	"cogentcore.org/core/tree"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/icons"
+	"github.com/MobinYengejehi/core/keymap"
+	"github.com/MobinYengejehi/core/styles"
+	"github.com/MobinYengejehi/core/styles/states"
+	"github.com/MobinYengejehi/core/styles/units"
+	"github.com/MobinYengejehi/core/system"
+	"github.com/MobinYengejehi/core/tree"
 )
 
 // StyleMenuScene configures the default styles

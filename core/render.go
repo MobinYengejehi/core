@@ -13,17 +13,17 @@ import (
 	"runtime/pprof"
 	"time"
 
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/base/profile"
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/colors/cam/hct"
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/paint/render"
-	_ "cogentcore.org/core/paint/renderers" // installs default renderer
-	"cogentcore.org/core/styles"
-	"cogentcore.org/core/system"
-	"cogentcore.org/core/tree"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/base/profile"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/colors/cam/hct"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/paint/render"
+	_ "github.com/MobinYengejehi/core/paint/renderers" // installs default renderer
+	"github.com/MobinYengejehi/core/styles"
+	"github.com/MobinYengejehi/core/system"
+	"github.com/MobinYengejehi/core/tree"
 )
 
 // AsyncLock must be called before making any updates in a separate goroutine

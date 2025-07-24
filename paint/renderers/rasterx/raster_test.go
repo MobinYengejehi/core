@@ -14,11 +14,11 @@ import (
 
 	"testing"
 
-	"cogentcore.org/core/base/iox/imagex"
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/colors/gradient"
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/paint/renderers/rasterx/scan"
+	"github.com/MobinYengejehi/core/base/iox/imagex"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/colors/gradient"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/paint/renderers/rasterx/scan"
 	"golang.org/x/image/math/fixed"
 )
 

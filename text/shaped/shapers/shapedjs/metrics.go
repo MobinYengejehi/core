@@ -7,10 +7,10 @@
 package shapedjs
 
 import (
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/text/rich"
-	"cogentcore.org/core/text/shaped"
-	"cogentcore.org/core/text/text"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/text/rich"
+	"github.com/MobinYengejehi/core/text/shaped"
+	"github.com/MobinYengejehi/core/text/text"
 )
 
 // FontSize returns the font shape sizing information for given font and text style,

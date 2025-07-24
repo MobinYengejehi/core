@@ -9,16 +9,16 @@ package htmlcanvas
 import (
 	"image"
 
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/paint/render"
-	"cogentcore.org/core/styles"
-	"cogentcore.org/core/text/rich"
-	"cogentcore.org/core/text/shaped"
-	"cogentcore.org/core/text/shaped/shapers/shapedgt"
-	"cogentcore.org/core/text/shaped/shapers/shapedjs"
-	"cogentcore.org/core/text/text"
-	"cogentcore.org/core/text/textpos"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/paint/render"
+	"github.com/MobinYengejehi/core/styles"
+	"github.com/MobinYengejehi/core/text/rich"
+	"github.com/MobinYengejehi/core/text/shaped"
+	"github.com/MobinYengejehi/core/text/shaped/shapers/shapedgt"
+	"github.com/MobinYengejehi/core/text/shaped/shapers/shapedjs"
+	"github.com/MobinYengejehi/core/text/text"
+	"github.com/MobinYengejehi/core/text/textpos"
 )
 
 // RenderText rasterizes the given Text

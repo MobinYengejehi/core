@@ -9,8 +9,8 @@ import (
 	"runtime"
 	"strings"
 
-	"cogentcore.org/core/base/exec"
-	"cogentcore.org/core/cmd/config"
+	"github.com/MobinYengejehi/core/base/exec"
+	"github.com/MobinYengejehi/core/cmd/config"
 	"golang.org/x/tools/go/packages"
 )
 

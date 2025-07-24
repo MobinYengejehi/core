@@ -9,9 +9,9 @@ package web
 import (
 	"syscall/js"
 
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/base/fileinfo/mimedata"
-	"cogentcore.org/core/system"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/base/fileinfo/mimedata"
+	"github.com/MobinYengejehi/core/system"
 )
 
 // TODO(kai/web): support copying images and other mime formats, etc

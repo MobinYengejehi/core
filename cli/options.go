@@ -4,7 +4,7 @@
 
 package cli
 
-import "cogentcore.org/core/base/strcase"
+import "github.com/MobinYengejehi/core/base/strcase"
 
 // Options contains the options passed to cli
 // that control its behavior.

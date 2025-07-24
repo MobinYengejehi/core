@@ -12,8 +12,8 @@ import (
 	"strings"
 	"testing"
 
-	"cogentcore.org/core/base/tolassert"
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/base/tolassert"
+	"github.com/MobinYengejehi/core/math32"
 	"github.com/stretchr/testify/assert"
 )
 

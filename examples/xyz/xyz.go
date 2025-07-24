@@ -10,17 +10,17 @@ import (
 	"math"
 	"time"
 
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/core"
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/styles"
-	"cogentcore.org/core/text/text"
-	"cogentcore.org/core/xyz"
-	"cogentcore.org/core/xyz/examples/assets"
-	_ "cogentcore.org/core/xyz/io/obj"
-	"cogentcore.org/core/xyz/xyzcore"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/core"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/styles"
+	"github.com/MobinYengejehi/core/text/text"
+	"github.com/MobinYengejehi/core/xyz"
+	"github.com/MobinYengejehi/core/xyz/examples/assets"
+	_ "github.com/MobinYengejehi/core/xyz/io/obj"
+	"github.com/MobinYengejehi/core/xyz/xyzcore"
 
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/math32"
 )
 
 // Anim has control for animating
@@ -135,7 +135,7 @@ func main() {
 	anim := &Anim{}
 	b := core.NewBody("XYZ Demo")
 
-	core.NewText(b).SetText(`This is a demonstration of <b>XYZ</b>, the <a href="https://cogentcore.org/core">Cogent Core</a> <i>3D</i> framework`).
+	core.NewText(b).SetText(`This is a demonstration of <b>XYZ</b>, the <a href="https://github.com/MobinYengejehi/core">Cogent Core</a> <i>3D</i> framework`).
 		SetType(core.TextHeadlineSmall).
 		Styler(func(s *styles.Style) {
 			s.Text.Align = text.Center

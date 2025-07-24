@@ -5,7 +5,7 @@
 package physics
 
 import (
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/math32"
 )
 
 // Capsule is a generalized cylinder body shape, with hemispheres at each end,

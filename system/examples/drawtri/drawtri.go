@@ -10,13 +10,13 @@ import (
 	"image"
 	"time"
 
-	"cogentcore.org/core/cursors"
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/gpu"
-	"cogentcore.org/core/styles/units"
-	"cogentcore.org/core/system"
-	"cogentcore.org/core/system/composer"
-	_ "cogentcore.org/core/system/driver"
+	"github.com/MobinYengejehi/core/cursors"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/gpu"
+	"github.com/MobinYengejehi/core/styles/units"
+	"github.com/MobinYengejehi/core/system"
+	"github.com/MobinYengejehi/core/system/composer"
+	_ "github.com/MobinYengejehi/core/system/driver"
 	"github.com/cogentcore/webgpu/wgpu"
 )
 

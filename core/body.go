@@ -5,9 +5,9 @@
 package core
 
 import (
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/styles"
-	"cogentcore.org/core/tree"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/styles"
+	"github.com/MobinYengejehi/core/tree"
 )
 
 // Body holds the primary content of a [Scene].

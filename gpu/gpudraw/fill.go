@@ -9,8 +9,8 @@ import (
 	"image/color"
 	"image/draw"
 
-	"cogentcore.org/core/gpu/drawmatrix"
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/gpu/drawmatrix"
+	"github.com/MobinYengejehi/core/math32"
 )
 
 // Fill fills given color to render target, to given destination region dr.

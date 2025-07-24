@@ -7,8 +7,8 @@ package xyz
 import (
 	"sort"
 
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/tree"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/tree"
 )
 
 // Group collects individual elements in a scene but does not have a Mesh or Material of

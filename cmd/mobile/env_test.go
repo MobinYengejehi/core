@@ -10,8 +10,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"cogentcore.org/core/cli"
-	"cogentcore.org/core/cmd/config"
+	"github.com/MobinYengejehi/core/cli"
+	"github.com/MobinYengejehi/core/cmd/config"
 )
 
 func TestNdkRoot(t *testing.T) {

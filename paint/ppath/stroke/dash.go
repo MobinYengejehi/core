@@ -8,8 +8,8 @@
 package stroke
 
 import (
-	"cogentcore.org/core/paint/ppath"
-	"cogentcore.org/core/paint/ppath/intersect"
+	"github.com/MobinYengejehi/core/paint/ppath"
+	"github.com/MobinYengejehi/core/paint/ppath/intersect"
 )
 
 // Dash returns a new path that consists of dashes.

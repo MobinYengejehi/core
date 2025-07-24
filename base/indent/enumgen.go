@@ -3,7 +3,7 @@
 package indent
 
 import (
-	"cogentcore.org/core/enums"
+	"github.com/MobinYengejehi/core/enums"
 )
 
 var _CharacterValues = []Character{0, 1}

@@ -9,10 +9,10 @@ import (
 	"sync"
 	"time"
 
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/icons"
-	"cogentcore.org/core/keymap"
-	"cogentcore.org/core/text/parse/complete"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/icons"
+	"github.com/MobinYengejehi/core/keymap"
+	"github.com/MobinYengejehi/core/text/parse/complete"
 )
 
 // Complete holds the current completion data and functions to call for building

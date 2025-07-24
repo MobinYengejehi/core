@@ -9,17 +9,17 @@ import (
 	"strconv"
 	"strings"
 
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/base/reflectx"
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/colors/gradient"
-	"cogentcore.org/core/enums"
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/paint/ppath"
-	"cogentcore.org/core/styles/styleprops"
-	"cogentcore.org/core/styles/units"
-	"cogentcore.org/core/text/rich"
-	"cogentcore.org/core/text/text"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/base/reflectx"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/colors/gradient"
+	"github.com/MobinYengejehi/core/enums"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/paint/ppath"
+	"github.com/MobinYengejehi/core/styles/styleprops"
+	"github.com/MobinYengejehi/core/styles/units"
+	"github.com/MobinYengejehi/core/text/rich"
+	"github.com/MobinYengejehi/core/text/text"
 )
 
 /////// see style_props.go for master version

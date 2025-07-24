@@ -7,7 +7,7 @@ package core
 import (
 	"time"
 
-	"cogentcore.org/core/events"
+	"github.com/MobinYengejehi/core/events"
 )
 
 // NewPopupStage returns a new PopupStage with given type and scene contents.

@@ -7,7 +7,7 @@ package lines
 import (
 	"slices"
 
-	"cogentcore.org/core/text/difflib"
+	"github.com/MobinYengejehi/core/text/difflib"
 )
 
 // DiffSelectData contains data for one set of text

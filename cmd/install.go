@@ -10,9 +10,9 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"cogentcore.org/core/base/exec"
-	"cogentcore.org/core/cmd/config"
-	"cogentcore.org/core/cmd/mobile"
+	"github.com/MobinYengejehi/core/base/exec"
+	"github.com/MobinYengejehi/core/cmd/config"
+	"github.com/MobinYengejehi/core/cmd/mobile"
 )
 
 // Install installs the package on the local system.

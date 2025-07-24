@@ -9,9 +9,9 @@ import (
 	"image/color"
 	"math"
 
-	"cogentcore.org/core/gpu/shape"
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/tree"
+	"github.com/MobinYengejehi/core/gpu/shape"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/tree"
 )
 
 // Note: Raw line rendering via OpenGL is not very effective

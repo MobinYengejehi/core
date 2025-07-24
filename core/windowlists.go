@@ -9,8 +9,8 @@ import (
 	"reflect"
 	"slices"
 
-	"cogentcore.org/core/base/reflectx"
-	"cogentcore.org/core/system"
+	"github.com/MobinYengejehi/core/base/reflectx"
+	"github.com/MobinYengejehi/core/system"
 )
 
 // renderWindowList is a list of [renderWindow]s.

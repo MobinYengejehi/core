@@ -7,7 +7,7 @@ package highlighting
 import (
 	"html"
 
-	"cogentcore.org/core/text/parse/lexer"
+	"github.com/MobinYengejehi/core/text/parse/lexer"
 )
 
 // maxLineLen prevents overflow in allocating line length

@@ -10,13 +10,13 @@ import (
 	"runtime/debug"
 	"strings"
 
-	"cogentcore.org/core/base/fileinfo/mimedata"
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/icons"
-	"cogentcore.org/core/styles"
-	"cogentcore.org/core/system"
-	"cogentcore.org/core/text/rich"
-	"cogentcore.org/core/text/text"
+	"github.com/MobinYengejehi/core/base/fileinfo/mimedata"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/icons"
+	"github.com/MobinYengejehi/core/styles"
+	"github.com/MobinYengejehi/core/system"
+	"github.com/MobinYengejehi/core/text/rich"
+	"github.com/MobinYengejehi/core/text/text"
 )
 
 // timesCrashed is the number of times that the program has

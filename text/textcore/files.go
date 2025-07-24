@@ -9,11 +9,11 @@ import (
 	"os"
 	"time"
 
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/base/fsx"
-	"cogentcore.org/core/core"
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/text/lines"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/base/fsx"
+	"github.com/MobinYengejehi/core/core"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/text/lines"
 )
 
 // SaveAs saves the given Lines text into the given file.

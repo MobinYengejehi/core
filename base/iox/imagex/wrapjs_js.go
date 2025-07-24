@@ -10,8 +10,8 @@ import (
 	"image"
 	"syscall/js"
 
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/colors/gradient"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/colors/gradient"
 	"github.com/cogentcore/webgpu/jsx"
 )
 

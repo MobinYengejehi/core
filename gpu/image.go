@@ -7,7 +7,7 @@ package gpu
 import (
 	"image"
 
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/math32"
 )
 
 // SRGBToLinearComp converts an sRGB rgb component to linear space (removes gamma).

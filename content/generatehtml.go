@@ -11,11 +11,11 @@ import (
 	"os"
 	"strings"
 
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/base/iox/jsonx"
-	"cogentcore.org/core/content/bcontent"
-	"cogentcore.org/core/core"
-	"cogentcore.org/core/tree"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/base/iox/jsonx"
+	"github.com/MobinYengejehi/core/content/bcontent"
+	"github.com/MobinYengejehi/core/core"
+	"github.com/MobinYengejehi/core/tree"
 )
 
 // This file is activated by the core tool to pre-render Cogent Core apps

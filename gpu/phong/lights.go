@@ -5,9 +5,9 @@
 package phong
 
 import (
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/gpu"
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/gpu"
+	"github.com/MobinYengejehi/core/math32"
 )
 
 // Number of different lights active.

@@ -5,7 +5,7 @@ package cicons
 import (
 	_ "embed"
 
-	"cogentcore.org/core/icons"
+	"github.com/MobinYengejehi/core/icons"
 )
 
 var (

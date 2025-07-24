@@ -5,9 +5,9 @@
 package svg
 
 import (
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/paint/ppath"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/paint/ppath"
 )
 
 // Path renders SVG data sequences that can render just about anything

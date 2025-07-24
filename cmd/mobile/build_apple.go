@@ -14,10 +14,10 @@ import (
 	"path/filepath"
 	"text/template"
 
-	"cogentcore.org/core/base/elide"
-	"cogentcore.org/core/base/exec"
-	"cogentcore.org/core/cmd/config"
-	"cogentcore.org/core/cmd/rendericon"
+	"github.com/MobinYengejehi/core/base/elide"
+	"github.com/MobinYengejehi/core/base/exec"
+	"github.com/MobinYengejehi/core/cmd/config"
+	"github.com/MobinYengejehi/core/cmd/rendericon"
 	"github.com/jackmordaunt/icns/v2"
 	"golang.org/x/tools/go/packages"
 )

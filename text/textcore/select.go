@@ -5,12 +5,12 @@
 package textcore
 
 import (
-	"cogentcore.org/core/base/fileinfo"
-	"cogentcore.org/core/base/fileinfo/mimedata"
-	"cogentcore.org/core/base/strcase"
-	"cogentcore.org/core/core"
-	"cogentcore.org/core/text/lines"
-	"cogentcore.org/core/text/textpos"
+	"github.com/MobinYengejehi/core/base/fileinfo"
+	"github.com/MobinYengejehi/core/base/fileinfo/mimedata"
+	"github.com/MobinYengejehi/core/base/strcase"
+	"github.com/MobinYengejehi/core/core"
+	"github.com/MobinYengejehi/core/text/lines"
+	"github.com/MobinYengejehi/core/text/textpos"
 )
 
 //////// Regions

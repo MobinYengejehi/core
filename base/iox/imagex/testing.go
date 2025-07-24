@@ -13,7 +13,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"cogentcore.org/core/base/num"
+	"github.com/MobinYengejehi/core/base/num"
 )
 
 // TestingT is an interface wrapper around *testing.T

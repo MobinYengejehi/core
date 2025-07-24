@@ -10,12 +10,12 @@ import (
 	"image"
 	"image/draw"
 
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/paint/render"
-	"cogentcore.org/core/svg"
-	"cogentcore.org/core/text/rich"
-	"cogentcore.org/core/text/shaped/shapers/shapedgt"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/paint/render"
+	"github.com/MobinYengejehi/core/svg"
+	"github.com/MobinYengejehi/core/text/rich"
+	"github.com/MobinYengejehi/core/text/shaped/shapers/shapedgt"
 	"github.com/go-text/typesetting/shaping"
 )
 

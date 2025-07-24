@@ -13,10 +13,10 @@ import (
 	"path/filepath"
 	"slices"
 
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/base/fsx"
-	"cogentcore.org/core/system"
-	"cogentcore.org/core/text/parse"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/base/fsx"
+	"github.com/MobinYengejehi/core/system"
+	"github.com/MobinYengejehi/core/text/parse"
 )
 
 // DefaultStyle is the initial default style.

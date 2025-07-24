@@ -19,8 +19,8 @@ import (
 	"strconv"
 	"strings"
 
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/math32"
 	"golang.org/x/net/html/charset"
 )
 
@@ -309,7 +309,7 @@ func parseColorStop(stop *Stop, prev color.Color, par string) error {
 	return nil
 }
 
-// NOTE: XML marshalling functionality is at [cogentcore.org/core/svg.MarshalXMLGradient] instead of here
+// NOTE: XML marshalling functionality is at [github.com/MobinYengejehi/core/svg.MarshalXMLGradient] instead of here
 // because it uses a lot of SVG and XML infrastructure defined there.
 
 // ReadXML reads an XML-formatted gradient color from the given io.Reader and

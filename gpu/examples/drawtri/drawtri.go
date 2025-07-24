@@ -11,7 +11,7 @@ import (
 	"runtime"
 	"time"
 
-	"cogentcore.org/core/gpu"
+	"github.com/MobinYengejehi/core/gpu"
 )
 
 //go:embed trianglelit.wgsl

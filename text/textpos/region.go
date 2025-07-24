@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"cogentcore.org/core/base/nptime"
+	"github.com/MobinYengejehi/core/base/nptime"
 )
 
 var RegionZero = Region{}

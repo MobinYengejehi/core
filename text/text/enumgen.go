@@ -3,7 +3,7 @@
 package text
 
 import (
-	"cogentcore.org/core/enums"
+	"github.com/MobinYengejehi/core/enums"
 )
 
 var _AlignsValues = []Aligns{0, 1, 2, 3}

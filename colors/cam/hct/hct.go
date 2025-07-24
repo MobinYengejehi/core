@@ -23,8 +23,8 @@ import (
 	"fmt"
 	"image/color"
 
-	"cogentcore.org/core/colors/cam/cam16"
-	"cogentcore.org/core/colors/cam/cie"
+	"github.com/MobinYengejehi/core/colors/cam/cam16"
+	"github.com/MobinYengejehi/core/colors/cam/cie"
 )
 
 // HCT represents a color as hue, chroma, and tone. HCT is a color system

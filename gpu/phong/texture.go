@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"image"
 
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/base/iox/imagex"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/base/iox/imagex"
 )
 
 // Texture has texture image and other params.

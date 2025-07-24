@@ -12,10 +12,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"cogentcore.org/core/base/slicesx"
-	. "cogentcore.org/core/tree"
-	"cogentcore.org/core/tree/testdata"
-	"cogentcore.org/core/types"
+	"github.com/MobinYengejehi/core/base/slicesx"
+	. "github.com/MobinYengejehi/core/tree"
+	"github.com/MobinYengejehi/core/tree/testdata"
+	"github.com/MobinYengejehi/core/types"
 )
 
 func TestNodeAddChild(t *testing.T) {
@@ -508,7 +508,7 @@ func TestLiveType(t *testing.T) {
 		MyField string
 	}
 	n := New[myNode]()
-	assert.Equal(t, "cogentcore.org/core/tree_test.myNode", n.NodeType().Name)
+	assert.Equal(t, "github.com/MobinYengejehi/core/tree_test.myNode", n.NodeType().Name)
 	assert.Equal(t, "my-node", n.NodeType().IDName)
 	assert.IsType(t, &myNode{}, n.NodeType().Instance)
 	assert.IsType(t, &myNode{}, n.NewInstance())

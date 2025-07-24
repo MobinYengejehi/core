@@ -12,11 +12,11 @@ import (
 	"strings"
 	"syscall/js"
 
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/events/key"
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/system"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/events/key"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/system"
 )
 
 func (a *App) AddEventListeners() {

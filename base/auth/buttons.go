@@ -7,13 +7,13 @@ package auth
 import (
 	"context"
 
-	"cogentcore.org/core/base/auth/cicons"
-	"cogentcore.org/core/base/fsx"
-	"cogentcore.org/core/base/strcase"
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/core"
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/styles"
+	"github.com/MobinYengejehi/core/base/auth/cicons"
+	"github.com/MobinYengejehi/core/base/fsx"
+	"github.com/MobinYengejehi/core/base/strcase"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/core"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/styles"
 	"github.com/coreos/go-oidc/v3/oidc"
 
 	"golang.org/x/oauth2"

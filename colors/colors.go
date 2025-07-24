@@ -16,9 +16,9 @@ import (
 	"strconv"
 	"strings"
 
-	"cogentcore.org/core/colors/cam/hct"
-	"cogentcore.org/core/colors/cam/hsl"
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/colors/cam/hct"
+	"github.com/MobinYengejehi/core/colors/cam/hsl"
+	"github.com/MobinYengejehi/core/math32"
 )
 
 // IsNil returns whether the color is the nil initial default color

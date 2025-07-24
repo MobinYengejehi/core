@@ -17,12 +17,12 @@ import (
 	"os"
 	"strings"
 
-	"cogentcore.org/core/base/fsx"
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/colors/cam/hct"
-	"cogentcore.org/core/colors/matcolor"
-	"cogentcore.org/core/text/rich"
-	"cogentcore.org/core/text/token"
+	"github.com/MobinYengejehi/core/base/fsx"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/colors/cam/hct"
+	"github.com/MobinYengejehi/core/colors/matcolor"
+	"github.com/MobinYengejehi/core/text/rich"
+	"github.com/MobinYengejehi/core/text/token"
 )
 
 type HighlightingName string

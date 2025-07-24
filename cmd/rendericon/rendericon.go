@@ -12,11 +12,11 @@ import (
 	"os"
 	"strings"
 
-	"cogentcore.org/core/base/iox/imagex"
-	"cogentcore.org/core/icons"
-	"cogentcore.org/core/math32"
-	_ "cogentcore.org/core/paint/renderers"
-	"cogentcore.org/core/svg"
+	"github.com/MobinYengejehi/core/base/iox/imagex"
+	"github.com/MobinYengejehi/core/icons"
+	"github.com/MobinYengejehi/core/math32"
+	_ "github.com/MobinYengejehi/core/paint/renderers"
+	"github.com/MobinYengejehi/core/svg"
 )
 
 // Render renders the icon located at icon.svg at the given size.

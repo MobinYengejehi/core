@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"strings"
 
-	"cogentcore.org/core/base/reflectx"
+	"github.com/MobinYengejehi/core/base/reflectx"
 )
 
 // FromXMLString sets style properties from XML style string, which contains ';'

@@ -9,9 +9,9 @@ import (
 	"log"
 	"strings"
 
-	"cogentcore.org/core/colors/gradient"
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/tree"
+	"github.com/MobinYengejehi/core/colors/gradient"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/tree"
 )
 
 // note: this code provides convenience methods for updating gradient data

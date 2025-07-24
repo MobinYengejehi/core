@@ -3,7 +3,7 @@
 package main
 
 import (
-	"cogentcore.org/core/types"
+	"github.com/MobinYengejehi/core/types"
 )
 
 var _ = types.AddType(&types.Type{Name: "main.Config", IDName: "config", Fields: []types.Field{{Name: "Input", Doc: "Input is the filename of the input file"}, {Name: "Output", Doc: "Output is the filename of the output file.\nDefaults to input with the extension changed to the output format."}, {Name: "Fill", Doc: "Fill, if specified, indicates to fill the background of\nthe svg with the specified color in CSS format."}, {Name: "Render"}}})

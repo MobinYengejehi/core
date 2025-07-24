@@ -7,7 +7,7 @@ package gpu
 import (
 	"fmt"
 
-	"cogentcore.org/core/base/errors"
+	"github.com/MobinYengejehi/core/base/errors"
 	"github.com/cogentcore/webgpu/wgpu"
 )
 

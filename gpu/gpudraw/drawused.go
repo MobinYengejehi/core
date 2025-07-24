@@ -8,10 +8,10 @@ import (
 	"image"
 	"image/draw"
 
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/gpu"
-	"cogentcore.org/core/gpu/drawmatrix"
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/gpu"
+	"github.com/MobinYengejehi/core/gpu/drawmatrix"
+	"github.com/MobinYengejehi/core/math32"
 )
 
 // UseGoImage uses the given Go image.Image as the source image

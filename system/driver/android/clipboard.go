@@ -23,7 +23,7 @@ import "C"
 import (
 	"unsafe"
 
-	"cogentcore.org/core/base/fileinfo/mimedata"
+	"github.com/MobinYengejehi/core/base/fileinfo/mimedata"
 )
 
 // TheClipboard is the single [system.Clipboard] for the Android platform

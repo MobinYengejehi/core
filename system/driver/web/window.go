@@ -10,8 +10,8 @@ import (
 	"image"
 	"syscall/js"
 
-	"cogentcore.org/core/system"
-	"cogentcore.org/core/system/driver/base"
+	"github.com/MobinYengejehi/core/system"
+	"github.com/MobinYengejehi/core/system/driver/base"
 )
 
 // Window is the implementation of [system.Window] for the web platform.

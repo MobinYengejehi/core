@@ -4,7 +4,7 @@
 
 package csl
 
-import "cogentcore.org/core/text/rich"
+import "github.com/MobinYengejehi/core/text/rich"
 
 // DefaultStyle is the default citation and reference formatting style.
 var DefaultStyle = APA

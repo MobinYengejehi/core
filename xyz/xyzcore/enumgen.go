@@ -3,7 +3,7 @@
 package xyzcore
 
 import (
-	"cogentcore.org/core/enums"
+	"github.com/MobinYengejehi/core/enums"
 )
 
 var _SelectionModesValues = []SelectionModes{0, 1, 2, 3}

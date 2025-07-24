@@ -1,11 +1,11 @@
 package main
 
 import (
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/core"
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/styles"
-	"cogentcore.org/core/video"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/core"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/styles"
+	"github.com/MobinYengejehi/core/video"
 )
 
 func main() {

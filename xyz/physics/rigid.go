@@ -5,7 +5,7 @@
 package physics
 
 import (
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/math32"
 )
 
 // Rigid contains the full specification of a given object's basic physics

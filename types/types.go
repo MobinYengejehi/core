@@ -13,13 +13,13 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"cogentcore.org/core/base/reflectx"
+	"github.com/MobinYengejehi/core/base/reflectx"
 )
 
 var (
 	// Types is a type registry, initialized to contain all builtin types. New types
 	// can be added with [AddType]. The key is the long type name: package/path.Type,
-	// e.g., cogentcore.org/core/core.Button.
+	// e.g., github.com/MobinYengejehi/core/core.Button.
 	Types = map[string]*Type{}
 
 	// typeIDCounter is an atomically incremented uint64 used
@@ -53,7 +53,7 @@ func addBuiltin[T any](name string) {
 	AddType(&Type{Name: name, IDName: name, Instance: v})
 }
 
-// TypeByName returns a Type by name (package/path.Type, e.g., cogentcore.org/core/core.Button),
+// TypeByName returns a Type by name (package/path.Type, e.g., github.com/MobinYengejehi/core/core.Button),
 func TypeByName(name string) *Type {
 	return Types[name]
 }

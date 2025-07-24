@@ -8,8 +8,8 @@
 package intersect
 
 import (
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/paint/ppath"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/paint/ppath"
 )
 
 func cubicBezierDeriv2(p0, p1, p2, p3 math32.Vector2, t float32) math32.Vector2 {

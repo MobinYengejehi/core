@@ -20,8 +20,8 @@
 package cam16
 
 import (
-	"cogentcore.org/core/colors/cam/cie"
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/colors/cam/cie"
+	"github.com/MobinYengejehi/core/math32"
 )
 
 // View represents viewing conditions under which a color is being perceived,

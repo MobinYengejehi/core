@@ -7,7 +7,7 @@ package filetree
 import (
 	"testing"
 
-	"cogentcore.org/core/core"
+	"github.com/MobinYengejehi/core/core"
 )
 
 func TestTree(t *testing.T) {

@@ -8,14 +8,14 @@ import (
 	"image"
 	"image/color"
 
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/colors/gradient"
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/paint/pimage"
-	"cogentcore.org/core/paint/render"
-	"cogentcore.org/core/styles"
-	"cogentcore.org/core/styles/sides"
-	"cogentcore.org/core/text/shaped"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/colors/gradient"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/paint/pimage"
+	"github.com/MobinYengejehi/core/paint/render"
+	"github.com/MobinYengejehi/core/styles"
+	"github.com/MobinYengejehi/core/styles/sides"
+	"github.com/MobinYengejehi/core/text/shaped"
 	"golang.org/x/image/draw"
 )
 
@@ -41,7 +41,7 @@ Copyright (c) 2015 Taco de Wolff, under an MIT License.
 // and the [render.Render] state is entirely self-contained, so rendering
 // can be done in a separate goroutine etc.
 //
-// You must import _ "cogentcore.org/core/paint/renderers" to get the default
+// You must import _ "github.com/MobinYengejehi/core/paint/renderers" to get the default
 // renderers if using this outside of core which already does this for you.
 // This sets the New*Renderer functions to point to default implementations.
 type Painter struct {

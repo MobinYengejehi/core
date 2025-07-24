@@ -10,11 +10,11 @@ import (
 	"image"
 	"os"
 
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/system"
-	"cogentcore.org/core/system/composer"
-	"cogentcore.org/core/system/driver/base"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/system"
+	"github.com/MobinYengejehi/core/system/composer"
+	"github.com/MobinYengejehi/core/system/driver/base"
 )
 
 func Init() {

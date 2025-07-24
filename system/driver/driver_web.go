@@ -7,7 +7,7 @@
 package driver
 
 import (
-	"cogentcore.org/core/system/driver/web"
+	"github.com/MobinYengejehi/core/system/driver/web"
 )
 
 func init() {

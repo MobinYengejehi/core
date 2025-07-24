@@ -10,10 +10,10 @@ import (
 	"image/draw"
 	"testing"
 
-	"cogentcore.org/core/base/iox/imagex"
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/cursors"
-	_ "cogentcore.org/core/paint/renderers" // installs default renderer
+	"github.com/MobinYengejehi/core/base/iox/imagex"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/cursors"
+	_ "github.com/MobinYengejehi/core/paint/renderers" // installs default renderer
 	"github.com/stretchr/testify/require"
 )
 

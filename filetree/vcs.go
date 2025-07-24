@@ -9,15 +9,15 @@ import (
 	"fmt"
 	"log/slog"
 
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/base/fsx"
-	"cogentcore.org/core/base/vcs"
-	"cogentcore.org/core/core"
-	"cogentcore.org/core/styles"
-	"cogentcore.org/core/text/lines"
-	"cogentcore.org/core/text/text"
-	"cogentcore.org/core/text/textcore"
-	"cogentcore.org/core/tree"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/base/fsx"
+	"github.com/MobinYengejehi/core/base/vcs"
+	"github.com/MobinYengejehi/core/core"
+	"github.com/MobinYengejehi/core/styles"
+	"github.com/MobinYengejehi/core/text/lines"
+	"github.com/MobinYengejehi/core/text/text"
+	"github.com/MobinYengejehi/core/text/textcore"
+	"github.com/MobinYengejehi/core/tree"
 )
 
 // FirstVCS returns the first VCS repository starting from this node and going down.

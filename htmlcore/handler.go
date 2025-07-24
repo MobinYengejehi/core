@@ -13,18 +13,18 @@ import (
 	"strconv"
 	"strings"
 
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/base/iox/imagex"
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/core"
-	"cogentcore.org/core/styles"
-	"cogentcore.org/core/styles/states"
-	"cogentcore.org/core/styles/units"
-	"cogentcore.org/core/text/lines"
-	"cogentcore.org/core/text/rich"
-	"cogentcore.org/core/text/text"
-	"cogentcore.org/core/text/textcore"
-	"cogentcore.org/core/tree"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/base/iox/imagex"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/core"
+	"github.com/MobinYengejehi/core/styles"
+	"github.com/MobinYengejehi/core/styles/states"
+	"github.com/MobinYengejehi/core/styles/units"
+	"github.com/MobinYengejehi/core/text/lines"
+	"github.com/MobinYengejehi/core/text/rich"
+	"github.com/MobinYengejehi/core/text/text"
+	"github.com/MobinYengejehi/core/text/textcore"
+	"github.com/MobinYengejehi/core/tree"
 	"golang.org/x/net/html"
 )
 
@@ -499,7 +499,7 @@ func Get(ctx *Context, url string) (*http.Response, error) {
 	return resp, nil
 }
 
-// BindTextEditor is a function set to [cogentcore.org/core/yaegicore.BindTextEditor]
+// BindTextEditor is a function set to [github.com/MobinYengejehi/core/yaegicore.BindTextEditor]
 // when importing yaegicore, which provides interactive editing functionality for Go
 // code blocks in text editors.
 var BindTextEditor func(ed *textcore.Editor, parent *core.Frame, language string)

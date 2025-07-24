@@ -7,7 +7,7 @@
 
 package ppath
 
-import "cogentcore.org/core/math32"
+import "github.com/MobinYengejehi/core/math32"
 
 //go:generate core generate
 

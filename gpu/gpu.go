@@ -14,8 +14,8 @@ import (
 	"strconv"
 	"strings"
 
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/base/reflectx"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/base/reflectx"
 	"github.com/cogentcore/webgpu/wgpu"
 )
 

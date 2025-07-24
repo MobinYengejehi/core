@@ -22,9 +22,9 @@ package cam16
 import (
 	"image/color"
 
-	"cogentcore.org/core/base/num"
-	"cogentcore.org/core/colors/cam/cie"
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/base/num"
+	"github.com/MobinYengejehi/core/colors/cam/cie"
+	"github.com/MobinYengejehi/core/math32"
 )
 
 // CAM represents a point in the cam16 color model along 6 dimensions

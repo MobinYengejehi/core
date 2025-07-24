@@ -13,8 +13,8 @@ import (
 	"context"
 	"syscall/js"
 
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/system/driver/web/jsfs"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/system/driver/web/jsfs"
 	"github.com/hack-pad/hackpadfs/indexeddb"
 )
 

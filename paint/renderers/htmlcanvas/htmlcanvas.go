@@ -13,14 +13,14 @@ import (
 	"image"
 	"syscall/js"
 
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/colors/gradient"
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/paint/pimage"
-	"cogentcore.org/core/paint/ppath"
-	"cogentcore.org/core/paint/render"
-	"cogentcore.org/core/styles"
-	"cogentcore.org/core/styles/units"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/colors/gradient"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/paint/pimage"
+	"github.com/MobinYengejehi/core/paint/ppath"
+	"github.com/MobinYengejehi/core/paint/render"
+	"github.com/MobinYengejehi/core/styles"
+	"github.com/MobinYengejehi/core/styles/units"
 )
 
 // Renderer is an HTML canvas renderer.

@@ -10,13 +10,13 @@ import (
 	"log"
 	"strings"
 
-	"cogentcore.org/core/base/fileinfo"
-	"cogentcore.org/core/base/fileinfo/mimedata"
-	"cogentcore.org/core/base/iox/jsonx"
-	"cogentcore.org/core/base/labels"
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/tree"
-	"cogentcore.org/core/types"
+	"github.com/MobinYengejehi/core/base/fileinfo"
+	"github.com/MobinYengejehi/core/base/fileinfo/mimedata"
+	"github.com/MobinYengejehi/core/base/iox/jsonx"
+	"github.com/MobinYengejehi/core/base/labels"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/tree"
+	"github.com/MobinYengejehi/core/types"
 )
 
 // note: see this file has all the SyncNode specific

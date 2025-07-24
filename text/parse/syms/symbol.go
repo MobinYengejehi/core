@@ -35,10 +35,10 @@ import (
 	"os"
 	"strings"
 
-	"cogentcore.org/core/base/indent"
-	"cogentcore.org/core/text/textpos"
-	"cogentcore.org/core/text/token"
-	"cogentcore.org/core/tree"
+	"github.com/MobinYengejehi/core/base/indent"
+	"github.com/MobinYengejehi/core/text/textpos"
+	"github.com/MobinYengejehi/core/text/token"
+	"github.com/MobinYengejehi/core/tree"
 )
 
 // Symbol contains the information for everything about a given

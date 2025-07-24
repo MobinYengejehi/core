@@ -15,11 +15,11 @@ import (
 	"path/filepath"
 	"strings"
 
-	"cogentcore.org/core/base/logx"
+	"github.com/MobinYengejehi/core/base/logx"
 )
 
 // Run runs an app with the given options, configuration struct,
-// and commands. It does not run the GUI; see [cogentcore.org/core/cli/clicore.Run]
+// and commands. It does not run the GUI; see [github.com/MobinYengejehi/core/cli/clicore.Run]
 // for that. The configuration struct should be passed as a pointer, and
 // configuration options should be defined as fields on the configuration
 // struct. The commands can be specified as either functions or struct

@@ -3,14 +3,14 @@
 package xyzcore
 
 import (
-	"cogentcore.org/core/tree"
-	"cogentcore.org/core/types"
-	"cogentcore.org/core/xyz"
+	"github.com/MobinYengejehi/core/tree"
+	"github.com/MobinYengejehi/core/types"
+	"github.com/MobinYengejehi/core/xyz"
 )
 
-var _ = types.AddType(&types.Type{Name: "cogentcore.org/core/xyz/xyzcore.ManipPoint", IDName: "manip-point", Doc: "ManipPoint is a manipulation control point.", Directives: []types.Directive{{Tool: "core", Directive: "no-new"}}, Embeds: []types.Field{{Name: "Solid"}}})
+var _ = types.AddType(&types.Type{Name: "github.com/MobinYengejehi/core/xyz/xyzcore.ManipPoint", IDName: "manip-point", Doc: "ManipPoint is a manipulation control point.", Directives: []types.Directive{{Tool: "core", Directive: "no-new"}}, Embeds: []types.Field{{Name: "Solid"}}})
 
-var _ = types.AddType(&types.Type{Name: "cogentcore.org/core/xyz/xyzcore.Scene", IDName: "scene", Doc: "Scene is a core.Widget that manages a xyz.Scene,\nproviding the basic rendering logic for the 3D scene\nin the 2D core GUI context.", Embeds: []types.Field{{Name: "WidgetBase"}}, Fields: []types.Field{{Name: "XYZ", Doc: "XYZ is the 3D xyz.Scene"}, {Name: "SelectionMode", Doc: "how to deal with selection / manipulation events"}, {Name: "CurrentSelected", Doc: "currently selected node"}, {Name: "CurrentManipPoint", Doc: "currently selected manipulation control point"}, {Name: "SelectionParams", Doc: "parameters for selection / manipulation box"}}})
+var _ = types.AddType(&types.Type{Name: "github.com/MobinYengejehi/core/xyz/xyzcore.Scene", IDName: "scene", Doc: "Scene is a core.Widget that manages a xyz.Scene,\nproviding the basic rendering logic for the 3D scene\nin the 2D core GUI context.", Embeds: []types.Field{{Name: "WidgetBase"}}, Fields: []types.Field{{Name: "XYZ", Doc: "XYZ is the 3D xyz.Scene"}, {Name: "SelectionMode", Doc: "how to deal with selection / manipulation events"}, {Name: "CurrentSelected", Doc: "currently selected node"}, {Name: "CurrentManipPoint", Doc: "currently selected manipulation control point"}, {Name: "SelectionParams", Doc: "parameters for selection / manipulation box"}}})
 
 // NewScene returns a new [Scene] with the given optional parent:
 // Scene is a core.Widget that manages a xyz.Scene,
@@ -34,14 +34,14 @@ func (t *Scene) SetCurrentManipPoint(v *ManipPoint) *Scene { t.CurrentManipPoint
 // parameters for selection / manipulation box
 func (t *Scene) SetSelectionParams(v SelectionParams) *Scene { t.SelectionParams = v; return t }
 
-var _ = types.AddType(&types.Type{Name: "cogentcore.org/core/xyz/xyzcore.SceneEditor", IDName: "scene-editor", Doc: "SceneEditor provides a toolbar controller and manipulation abilities\nfor a [Scene].", Embeds: []types.Field{{Name: "Frame"}}})
+var _ = types.AddType(&types.Type{Name: "github.com/MobinYengejehi/core/xyz/xyzcore.SceneEditor", IDName: "scene-editor", Doc: "SceneEditor provides a toolbar controller and manipulation abilities\nfor a [Scene].", Embeds: []types.Field{{Name: "Frame"}}})
 
 // NewSceneEditor returns a new [SceneEditor] with the given optional parent:
 // SceneEditor provides a toolbar controller and manipulation abilities
 // for a [Scene].
 func NewSceneEditor(parent ...tree.Node) *SceneEditor { return tree.New[SceneEditor](parent...) }
 
-var _ = types.AddType(&types.Type{Name: "cogentcore.org/core/xyz/xyzcore.MeshButton", IDName: "mesh-button", Doc: "MeshButton represents an [xyz.MeshName] value with a button.", Embeds: []types.Field{{Name: "Button"}}, Fields: []types.Field{{Name: "MeshName"}}})
+var _ = types.AddType(&types.Type{Name: "github.com/MobinYengejehi/core/xyz/xyzcore.MeshButton", IDName: "mesh-button", Doc: "MeshButton represents an [xyz.MeshName] value with a button.", Embeds: []types.Field{{Name: "Button"}}, Fields: []types.Field{{Name: "MeshName"}}})
 
 // NewMeshButton returns a new [MeshButton] with the given optional parent:
 // MeshButton represents an [xyz.MeshName] value with a button.

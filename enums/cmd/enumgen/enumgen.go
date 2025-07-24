@@ -7,8 +7,8 @@
 package main
 
 import (
-	"cogentcore.org/core/cli"
-	"cogentcore.org/core/enums/enumgen"
+	"github.com/MobinYengejehi/core/cli"
+	"github.com/MobinYengejehi/core/enums/enumgen"
 )
 
 func main() {

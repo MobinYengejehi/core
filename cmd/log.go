@@ -8,8 +8,8 @@ import (
 	"errors"
 	"fmt"
 
-	"cogentcore.org/core/base/exec"
-	"cogentcore.org/core/cmd/config"
+	"github.com/MobinYengejehi/core/base/exec"
+	"github.com/MobinYengejehi/core/cmd/config"
 )
 
 // Log prints the logs from your app running on Android to the terminal.

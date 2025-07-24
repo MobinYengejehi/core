@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/events/key"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/events/key"
 	"github.com/stretchr/testify/assert"
 )
 

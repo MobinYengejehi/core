@@ -13,7 +13,7 @@ import (
 	"fmt"
 	"maps"
 
-	"cogentcore.org/core/base/errors"
+	"github.com/MobinYengejehi/core/base/errors"
 )
 
 // Data is metadata as a map of named any elements

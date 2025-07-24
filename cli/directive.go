@@ -9,7 +9,7 @@ import (
 	"strings"
 	"unicode"
 
-	"cogentcore.org/core/types"
+	"github.com/MobinYengejehi/core/types"
 	"github.com/mattn/go-shellwords"
 )
 

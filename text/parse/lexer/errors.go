@@ -17,9 +17,9 @@ import (
 	"reflect"
 	"sort"
 
-	"cogentcore.org/core/base/reflectx"
-	"cogentcore.org/core/text/textpos"
-	"cogentcore.org/core/tree"
+	"github.com/MobinYengejehi/core/base/reflectx"
+	"github.com/MobinYengejehi/core/text/textpos"
+	"github.com/MobinYengejehi/core/tree"
 )
 
 // In an ErrorList, an error is represented by an *Error.

@@ -8,10 +8,10 @@ import (
 	"image"
 	"sync"
 
-	"cogentcore.org/core/base/keylist"
-	"cogentcore.org/core/base/tiered"
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/paint"
+	"github.com/MobinYengejehi/core/base/keylist"
+	"github.com/MobinYengejehi/core/base/tiered"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/paint"
 	"golang.org/x/image/draw"
 )
 

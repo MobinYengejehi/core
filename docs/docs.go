@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // Command docs provides documentation of Cogent Core,
-// hosted at https://cogentcore.org/core.
+// hosted at https://github.com/MobinYengejehi/core.
 package main
 
 import (
@@ -13,23 +13,23 @@ import (
 	"path/filepath"
 	"reflect"
 
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/base/fileinfo"
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/content"
-	"cogentcore.org/core/core"
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/htmlcore"
-	"cogentcore.org/core/icons"
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/styles"
-	"cogentcore.org/core/styles/units"
-	"cogentcore.org/core/text/rich"
-	"cogentcore.org/core/text/text"
-	"cogentcore.org/core/text/textcore"
-	"cogentcore.org/core/tree"
-	"cogentcore.org/core/yaegicore"
-	"cogentcore.org/core/yaegicore/coresymbols"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/base/fileinfo"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/content"
+	"github.com/MobinYengejehi/core/core"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/htmlcore"
+	"github.com/MobinYengejehi/core/icons"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/styles"
+	"github.com/MobinYengejehi/core/styles/units"
+	"github.com/MobinYengejehi/core/text/rich"
+	"github.com/MobinYengejehi/core/text/text"
+	"github.com/MobinYengejehi/core/text/textcore"
+	"github.com/MobinYengejehi/core/tree"
+	"github.com/MobinYengejehi/core/yaegicore"
+	"github.com/MobinYengejehi/core/yaegicore/coresymbols"
 )
 
 //go:embed content
@@ -59,7 +59,7 @@ func main() {
 	b := core.NewBody("Cogent Core Docs")
 	ct := content.NewContent(b).SetContent(econtent)
 	ctx := ct.Context
-	ctx.AddWikilinkHandler(htmlcore.GoDocWikilink("doc", "cogentcore.org/core"))
+	ctx.AddWikilinkHandler(htmlcore.GoDocWikilink("doc", "github.com/MobinYengejehi/core"))
 	b.AddTopBar(func(bar *core.Frame) {
 		tb := core.NewToolbar(bar)
 		tb.Maker(ct.MakeToolbar)

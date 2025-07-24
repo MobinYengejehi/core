@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"cogentcore.org/core/base/fsx"
-	"cogentcore.org/core/core"
+	"github.com/MobinYengejehi/core/base/fsx"
+	"github.com/MobinYengejehi/core/core"
 )
 
 //go:embed examples/basic/content

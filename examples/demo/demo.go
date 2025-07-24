@@ -14,19 +14,19 @@ import (
 	"strings"
 	"time"
 
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/base/fileinfo"
-	"cogentcore.org/core/base/strcase"
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/core"
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/icons"
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/styles"
-	"cogentcore.org/core/styles/states"
-	"cogentcore.org/core/styles/units"
-	"cogentcore.org/core/text/textcore"
-	"cogentcore.org/core/tree"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/base/fileinfo"
+	"github.com/MobinYengejehi/core/base/strcase"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/core"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/icons"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/styles"
+	"github.com/MobinYengejehi/core/styles/states"
+	"github.com/MobinYengejehi/core/styles/units"
+	"github.com/MobinYengejehi/core/text/textcore"
+	"github.com/MobinYengejehi/core/tree"
 )
 
 //go:embed demo.go
@@ -54,7 +54,7 @@ func home(ts *core.Tabs) {
 	errors.Log(core.NewSVG(tab).ReadString(core.AppIcon))
 
 	core.NewText(tab).SetType(core.TextDisplayLarge).SetText("The Cogent Core Demo")
-	core.NewText(tab).SetType(core.TextTitleLarge).SetText(`A <b>demonstration</b> of the <i>various</i> features of the <a href="https://cogentcore.org/core">Cogent Core</a> 2D and 3D Go GUI <u>framework</u>`)
+	core.NewText(tab).SetType(core.TextTitleLarge).SetText(`A <b>demonstration</b> of the <i>various</i> features of the <a href="https://github.com/MobinYengejehi/core">Cogent Core</a> 2D and 3D Go GUI <u>framework</u>`)
 }
 
 func widgets(ts *core.Tabs) {

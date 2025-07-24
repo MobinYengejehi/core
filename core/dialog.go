@@ -8,13 +8,13 @@ import (
 	"log/slog"
 	"reflect"
 
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/base/reflectx"
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/keymap"
-	"cogentcore.org/core/styles"
-	"cogentcore.org/core/styles/units"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/base/reflectx"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/keymap"
+	"github.com/MobinYengejehi/core/styles"
+	"github.com/MobinYengejehi/core/styles/units"
 )
 
 // RunDialog returns and runs a new [DialogStage] that does not take up

@@ -9,9 +9,9 @@ import (
 	"strings"
 	"testing"
 
-	"cogentcore.org/core/cli"
-	"cogentcore.org/core/enums"
-	"cogentcore.org/core/enums/enumgen/testdata"
+	"github.com/MobinYengejehi/core/cli"
+	"github.com/MobinYengejehi/core/enums"
+	"github.com/MobinYengejehi/core/enums/enumgen/testdata"
 	"github.com/stretchr/testify/assert"
 )
 

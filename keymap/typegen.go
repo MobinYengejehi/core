@@ -3,10 +3,10 @@
 package keymap
 
 import (
-	"cogentcore.org/core/types"
+	"github.com/MobinYengejehi/core/types"
 )
 
-var _ = types.AddType(&types.Type{Name: "cogentcore.org/core/keymap.MapsItem", IDName: "maps-item", Doc: "MapsItem is an entry in a Maps list", Directives: []types.Directive{{Tool: "types", Directive: "add", Args: []string{"-setters"}}}, Fields: []types.Field{{Name: "Name", Doc: "name of keymap"}, {Name: "Desc", Doc: "description of keymap; good idea to include source it was derived from"}, {Name: "Map", Doc: "to edit key sequence click button and type new key combination; to edit function mapped to key sequence choose from menu"}}})
+var _ = types.AddType(&types.Type{Name: "github.com/MobinYengejehi/core/keymap.MapsItem", IDName: "maps-item", Doc: "MapsItem is an entry in a Maps list", Directives: []types.Directive{{Tool: "types", Directive: "add", Args: []string{"-setters"}}}, Fields: []types.Field{{Name: "Name", Doc: "name of keymap"}, {Name: "Desc", Doc: "description of keymap; good idea to include source it was derived from"}, {Name: "Map", Doc: "to edit key sequence click button and type new key combination; to edit function mapped to key sequence choose from menu"}}})
 
 // SetName sets the [MapsItem.Name]:
 // name of keymap

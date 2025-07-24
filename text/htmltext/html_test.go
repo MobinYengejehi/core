@@ -7,7 +7,7 @@ package htmltext
 import (
 	"testing"
 
-	"cogentcore.org/core/text/rich"
+	"github.com/MobinYengejehi/core/text/rich"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -68,7 +68,7 @@ func TestLinkFmt(t *testing.T) {
 }
 
 func TestDemo(t *testing.T) {
-	src := `A <b>demonstration</b> of the <i>various</i> features of the <a href="https://cogentcore.org/core">Cogent Core</a> 2D and 3D Go GUI <u>framework</u>`
+	src := `A <b>demonstration</b> of the <i>various</i> features of the <a href="https://github.com/MobinYengejehi/core">Cogent Core</a> 2D and 3D Go GUI <u>framework</u>`
 	tx, err := HTMLToRich([]byte(src), rich.NewStyle(), nil)
 	assert.NoError(t, err)
 
@@ -77,7 +77,7 @@ func TestDemo(t *testing.T) {
 []: " of the "
 [italic]: "various"
 []: " features of the "
-[link [https://cogentcore.org/core] underline fill-color]: "Cogent Core"
+[link [https://github.com/MobinYengejehi/core] underline fill-color]: "Cogent Core"
 [{End Special}]: ""
 []: " 2D and 3D Go GUI "
 [underline]: "framework"

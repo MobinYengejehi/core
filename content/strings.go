@@ -5,7 +5,7 @@
 package content
 
 import (
-	"cogentcore.org/core/content/bcontent"
+	"github.com/MobinYengejehi/core/content/bcontent"
 	"github.com/adrg/strutil/metrics"
 )
 

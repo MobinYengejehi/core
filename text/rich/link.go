@@ -5,7 +5,7 @@
 package rich
 
 import (
-	"cogentcore.org/core/text/textpos"
+	"github.com/MobinYengejehi/core/text/textpos"
 )
 
 // Hyperlink represents a hyperlink within shaped text.

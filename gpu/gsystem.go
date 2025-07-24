@@ -9,8 +9,8 @@ import (
 	"image"
 	"image/color"
 
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/colors"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/colors"
 	"github.com/cogentcore/webgpu/wgpu"
 )
 

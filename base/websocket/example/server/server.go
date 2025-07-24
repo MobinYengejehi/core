@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"cogentcore.org/core/base/errors"
+	"github.com/MobinYengejehi/core/base/errors"
 	"github.com/gorilla/websocket"
 )
 

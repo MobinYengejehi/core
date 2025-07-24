@@ -12,14 +12,14 @@ import (
 	"sync/atomic"
 	"time"
 
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/colors/matcolor"
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/icons"
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/system"
-	"cogentcore.org/core/system/composer"
-	"cogentcore.org/core/text/shaped"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/colors/matcolor"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/icons"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/system"
+	"github.com/MobinYengejehi/core/system/composer"
+	"github.com/MobinYengejehi/core/text/shaped"
 	"golang.org/x/image/draw"
 )
 

@@ -9,7 +9,7 @@ package key
 import (
 	"strings"
 
-	"cogentcore.org/core/enums"
+	"github.com/MobinYengejehi/core/enums"
 )
 
 // Modifiers are used as bitflags representing a set of modifier keys.

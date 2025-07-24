@@ -4,7 +4,7 @@
 
 package cie
 
-import "cogentcore.org/core/math32"
+import "github.com/MobinYengejehi/core/math32"
 
 // LABCompress does cube-root compression of the X, Y, Z components
 // prior to performing the LAB conversion

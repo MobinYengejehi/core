@@ -10,9 +10,9 @@ import (
 	"testing"
 	"text/template"
 
-	"cogentcore.org/core/base/exec"
-	"cogentcore.org/core/cli"
-	"cogentcore.org/core/cmd/config"
+	"github.com/MobinYengejehi/core/base/exec"
+	"github.com/MobinYengejehi/core/cli"
+	"github.com/MobinYengejehi/core/cmd/config"
 )
 
 func TestAppleBuild(t *testing.T) {
@@ -32,7 +32,7 @@ func TestAppleBuild(t *testing.T) {
 		pkg  string
 		main bool
 	}{
-		{"cogentcore.org/core/system/examples/drawtri", true},
+		{"github.com/MobinYengejehi/core/system/examples/drawtri", true},
 	}
 	for _, test := range tests {
 		buf := new(bytes.Buffer)

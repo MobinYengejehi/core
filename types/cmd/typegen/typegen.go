@@ -7,8 +7,8 @@
 package main
 
 import (
-	"cogentcore.org/core/cli"
-	"cogentcore.org/core/types/typegen"
+	"github.com/MobinYengejehi/core/cli"
+	"github.com/MobinYengejehi/core/types/typegen"
 )
 
 func main() {

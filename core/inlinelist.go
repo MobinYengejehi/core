@@ -8,10 +8,10 @@ import (
 	"reflect"
 	"strconv"
 
-	"cogentcore.org/core/base/reflectx"
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/icons"
-	"cogentcore.org/core/tree"
+	"github.com/MobinYengejehi/core/base/reflectx"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/icons"
+	"github.com/MobinYengejehi/core/tree"
 )
 
 // InlineList represents a slice within a single line of value widgets.

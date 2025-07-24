@@ -11,7 +11,7 @@ import (
 	"log/slog"
 	"os"
 
-	"cogentcore.org/core/base/stack"
+	"github.com/MobinYengejehi/core/base/stack"
 )
 
 // StdIO contains one set of standard input / output Reader / Writers.

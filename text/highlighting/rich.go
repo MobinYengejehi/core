@@ -7,11 +7,11 @@ package highlighting
 import (
 	"fmt"
 
-	"cogentcore.org/core/text/parse/lexer"
-	"cogentcore.org/core/text/rich"
-	"cogentcore.org/core/text/runes"
-	"cogentcore.org/core/text/textpos"
-	"cogentcore.org/core/text/token"
+	"github.com/MobinYengejehi/core/text/parse/lexer"
+	"github.com/MobinYengejehi/core/text/rich"
+	"github.com/MobinYengejehi/core/text/runes"
+	"github.com/MobinYengejehi/core/text/textpos"
+	"github.com/MobinYengejehi/core/text/token"
 )
 
 // MarkupLineRich returns the [rich.Text] styled line for each tag.

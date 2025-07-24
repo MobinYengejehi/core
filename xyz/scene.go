@@ -11,13 +11,13 @@ import (
 	"fmt"
 	"image"
 
-	"cogentcore.org/core/base/ordmap"
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/gpu"
-	"cogentcore.org/core/gpu/phong"
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/text/shaped"
-	"cogentcore.org/core/tree"
+	"github.com/MobinYengejehi/core/base/ordmap"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/gpu"
+	"github.com/MobinYengejehi/core/gpu/phong"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/text/shaped"
+	"github.com/MobinYengejehi/core/tree"
 )
 
 // Set Update3DTrace to true to get a trace of 3D updating

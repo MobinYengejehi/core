@@ -9,8 +9,8 @@ import (
 	"image"
 	"time"
 
-	"cogentcore.org/core/enums"
-	"cogentcore.org/core/events/key"
+	"github.com/MobinYengejehi/core/enums"
+	"github.com/MobinYengejehi/core/events/key"
 )
 
 // Cogent Core event structure was originally derived from go.wde and golang/x/mobile/event

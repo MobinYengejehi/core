@@ -7,13 +7,13 @@ package filetree
 import (
 	"strings"
 
-	"cogentcore.org/core/base/vcs"
-	"cogentcore.org/core/core"
-	"cogentcore.org/core/icons"
-	"cogentcore.org/core/keymap"
-	"cogentcore.org/core/styles"
-	"cogentcore.org/core/styles/states"
-	"cogentcore.org/core/system"
+	"github.com/MobinYengejehi/core/base/vcs"
+	"github.com/MobinYengejehi/core/core"
+	"github.com/MobinYengejehi/core/icons"
+	"github.com/MobinYengejehi/core/keymap"
+	"github.com/MobinYengejehi/core/styles"
+	"github.com/MobinYengejehi/core/styles/states"
+	"github.com/MobinYengejehi/core/system"
 )
 
 // vcsLabelFunc gets the appropriate label for removing from version control

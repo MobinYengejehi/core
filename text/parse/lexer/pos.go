@@ -5,7 +5,7 @@
 package lexer
 
 import (
-	"cogentcore.org/core/text/token"
+	"github.com/MobinYengejehi/core/text/token"
 )
 
 // EosPos is a line of EOS token positions, always sorted low-to-high

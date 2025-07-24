@@ -3,7 +3,7 @@
 package websocket
 
 import (
-	"cogentcore.org/core/enums"
+	"github.com/MobinYengejehi/core/enums"
 )
 
 var _MessageTypesValues = []MessageTypes{1, 2}

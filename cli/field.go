@@ -12,9 +12,9 @@ import (
 
 	"slices"
 
-	"cogentcore.org/core/base/ordmap"
-	"cogentcore.org/core/base/reflectx"
-	"cogentcore.org/core/base/strcase"
+	"github.com/MobinYengejehi/core/base/ordmap"
+	"github.com/MobinYengejehi/core/base/reflectx"
+	"github.com/MobinYengejehi/core/base/strcase"
 )
 
 // field represents a struct field in a configuration struct.

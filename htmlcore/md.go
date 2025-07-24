@@ -9,7 +9,7 @@ import (
 	"io"
 	"regexp"
 
-	"cogentcore.org/core/core"
+	"github.com/MobinYengejehi/core/core"
 	"github.com/gomarkdown/markdown"
 	"github.com/gomarkdown/markdown/ast"
 	"github.com/gomarkdown/markdown/html"

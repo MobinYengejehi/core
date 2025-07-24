@@ -8,7 +8,7 @@
 package ppath
 
 import (
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/math32"
 )
 
 func EllipseDeriv(rx, ry, phi float32, sweep bool, theta float32) math32.Vector2 {

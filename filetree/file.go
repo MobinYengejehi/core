@@ -11,10 +11,10 @@ import (
 	"path/filepath"
 	"syscall"
 
-	"cogentcore.org/core/base/fsx"
-	"cogentcore.org/core/base/vcs"
-	"cogentcore.org/core/core"
-	"cogentcore.org/core/events"
+	"github.com/MobinYengejehi/core/base/fsx"
+	"github.com/MobinYengejehi/core/base/vcs"
+	"github.com/MobinYengejehi/core/core"
+	"github.com/MobinYengejehi/core/events"
 )
 
 // Filer is an interface for file tree file actions that all [Node]s satisfy.

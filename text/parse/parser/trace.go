@@ -9,7 +9,7 @@ import (
 	"os"
 	"strings"
 
-	"cogentcore.org/core/text/textpos"
+	"github.com/MobinYengejehi/core/text/textpos"
 )
 
 // TraceOptions provides options for debugging / monitoring the rule matching and execution process

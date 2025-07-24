@@ -7,12 +7,12 @@ package core
 import (
 	"log/slog"
 
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/colors/colormap"
-	"cogentcore.org/core/colors/gradient"
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/styles"
-	"cogentcore.org/core/styles/units"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/colors/colormap"
+	"github.com/MobinYengejehi/core/colors/gradient"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/styles"
+	"github.com/MobinYengejehi/core/styles/units"
 )
 
 // ColorMapName represents the name of a [colormap.Map],

@@ -11,7 +11,7 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"cogentcore.org/core/paint/ppath"
+	"github.com/MobinYengejehi/core/paint/ppath"
 )
 
 var debug = false

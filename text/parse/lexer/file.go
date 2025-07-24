@@ -12,9 +12,9 @@ import (
 	"slices"
 	"strings"
 
-	"cogentcore.org/core/base/fileinfo"
-	"cogentcore.org/core/text/textpos"
-	"cogentcore.org/core/text/token"
+	"github.com/MobinYengejehi/core/base/fileinfo"
+	"github.com/MobinYengejehi/core/text/textpos"
+	"github.com/MobinYengejehi/core/text/token"
 )
 
 // File contains the contents of the file being parsed -- all kept in

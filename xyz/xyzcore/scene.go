@@ -8,12 +8,12 @@ package xyzcore
 //go:generate core generate
 
 import (
-	"cogentcore.org/core/core"
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/styles"
-	"cogentcore.org/core/styles/abilities"
-	"cogentcore.org/core/styles/units"
-	"cogentcore.org/core/xyz"
+	"github.com/MobinYengejehi/core/core"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/styles"
+	"github.com/MobinYengejehi/core/styles/abilities"
+	"github.com/MobinYengejehi/core/styles/units"
+	"github.com/MobinYengejehi/core/xyz"
 )
 
 // Scene is a core.Widget that manages a xyz.Scene,

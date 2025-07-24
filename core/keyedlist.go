@@ -8,12 +8,12 @@ import (
 	"fmt"
 	"reflect"
 
-	"cogentcore.org/core/base/reflectx"
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/icons"
-	"cogentcore.org/core/styles"
-	"cogentcore.org/core/tree"
-	"cogentcore.org/core/types"
+	"github.com/MobinYengejehi/core/base/reflectx"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/icons"
+	"github.com/MobinYengejehi/core/styles"
+	"github.com/MobinYengejehi/core/tree"
+	"github.com/MobinYengejehi/core/types"
 )
 
 // KeyedList represents a map value using two columns of editable key and value widgets.

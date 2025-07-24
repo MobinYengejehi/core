@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"testing"
 
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/styles"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/styles"
 )
 
 func makeSplits(n, w, h int) (*Body, *Splits) {

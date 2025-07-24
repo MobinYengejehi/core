@@ -7,8 +7,8 @@ package styles
 import (
 	"image"
 
-	"cogentcore.org/core/base/iox/imagex"
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/base/iox/imagex"
+	"github.com/MobinYengejehi/core/math32"
 )
 
 // ObjectFits are the different ways in which a replaced element

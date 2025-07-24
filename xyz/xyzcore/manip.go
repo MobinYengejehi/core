@@ -7,12 +7,12 @@ package xyzcore
 import (
 	"image/color"
 
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/events/key"
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/tree"
-	"cogentcore.org/core/xyz"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/events/key"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/tree"
+	"github.com/MobinYengejehi/core/xyz"
 )
 
 // SelectionModes are selection modes for Scene

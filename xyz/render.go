@@ -9,11 +9,11 @@ import (
 	"image"
 	"sort"
 
-	"cogentcore.org/core/base/iox/imagex"
-	"cogentcore.org/core/gpu"
-	"cogentcore.org/core/gpu/phong"
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/tree"
+	"github.com/MobinYengejehi/core/base/iox/imagex"
+	"github.com/MobinYengejehi/core/gpu"
+	"github.com/MobinYengejehi/core/gpu/phong"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/tree"
 )
 
 // DoUpdate handles needed updates based on Scene Flags.

@@ -15,8 +15,8 @@ import (
 	"image"
 	"image/color"
 
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/math32"
 )
 
 // Gradient is the interface that all gradient types satisfy.

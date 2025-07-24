@@ -7,8 +7,8 @@ package search
 import (
 	"testing"
 
-	"cogentcore.org/core/base/fileinfo"
-	"cogentcore.org/core/core"
+	"github.com/MobinYengejehi/core/base/fileinfo"
+	"github.com/MobinYengejehi/core/core"
 	"github.com/stretchr/testify/assert"
 )
 

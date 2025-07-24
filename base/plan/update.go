@@ -14,7 +14,7 @@ package plan
 import (
 	"slices"
 
-	"cogentcore.org/core/base/slicesx"
+	"github.com/MobinYengejehi/core/base/slicesx"
 )
 
 // Namer is an interface that types can implement to specify their name in a plan context.

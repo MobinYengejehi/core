@@ -8,13 +8,13 @@ import (
 	"fmt"
 	"strings"
 
-	"cogentcore.org/core/core"
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/text/lines"
-	"cogentcore.org/core/text/parse"
-	"cogentcore.org/core/text/parse/complete"
-	"cogentcore.org/core/text/parse/parser"
-	"cogentcore.org/core/text/textpos"
+	"github.com/MobinYengejehi/core/core"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/text/lines"
+	"github.com/MobinYengejehi/core/text/parse"
+	"github.com/MobinYengejehi/core/text/parse/complete"
+	"github.com/MobinYengejehi/core/text/parse/parser"
+	"github.com/MobinYengejehi/core/text/textpos"
 )
 
 // setCompleter sets completion functions so that completions will

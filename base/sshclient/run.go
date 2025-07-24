@@ -5,7 +5,7 @@
 package sshclient
 
 import (
-	"cogentcore.org/core/base/exec"
+	"github.com/MobinYengejehi/core/base/exec"
 )
 
 // Run runs given command, using config input / outputs.

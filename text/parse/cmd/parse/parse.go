@@ -11,11 +11,11 @@ import (
 	"path/filepath"
 	"strings"
 
-	"cogentcore.org/core/base/fileinfo"
-	"cogentcore.org/core/base/fsx"
-	"cogentcore.org/core/text/parse"
-	_ "cogentcore.org/core/text/parse/languages"
-	"cogentcore.org/core/text/parse/syms"
+	"github.com/MobinYengejehi/core/base/fileinfo"
+	"github.com/MobinYengejehi/core/base/fsx"
+	"github.com/MobinYengejehi/core/text/parse"
+	_ "github.com/MobinYengejehi/core/text/parse/languages"
+	"github.com/MobinYengejehi/core/text/parse/syms"
 )
 
 var Excludes []string

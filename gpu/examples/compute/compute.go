@@ -11,9 +11,9 @@ import (
 	"runtime"
 	"unsafe"
 
-	"cogentcore.org/core/base/timer"
-	"cogentcore.org/core/gpu"
-	// "cogentcore.org/core/system/driver/web/jsfs"
+	"github.com/MobinYengejehi/core/base/timer"
+	"github.com/MobinYengejehi/core/gpu"
+	// "github.com/MobinYengejehi/core/system/driver/web/jsfs"
 )
 
 //go:embed squares.wgsl

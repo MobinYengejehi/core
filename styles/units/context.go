@@ -5,8 +5,8 @@
 package units
 
 import (
-	"cogentcore.org/core/base/reflectx"
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/base/reflectx"
+	"github.com/MobinYengejehi/core/math32"
 )
 
 // Context specifies everything about the current context necessary for converting the number

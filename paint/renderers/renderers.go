@@ -5,9 +5,9 @@
 package renderers
 
 import (
-	"cogentcore.org/core/paint"
-	"cogentcore.org/core/paint/renderers/svgrender"
-	_ "cogentcore.org/core/text/shaped/shapers"
+	"github.com/MobinYengejehi/core/paint"
+	"github.com/MobinYengejehi/core/paint/renderers/svgrender"
+	_ "github.com/MobinYengejehi/core/text/shaped/shapers"
 )
 
 func init() {

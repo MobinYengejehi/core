@@ -13,10 +13,10 @@ import (
 
 	"slices"
 
-	"cogentcore.org/core/base/exec"
-	"cogentcore.org/core/base/logx"
-	"cogentcore.org/core/cmd/config"
-	"cogentcore.org/core/cmd/mobile/sdkpath"
+	"github.com/MobinYengejehi/core/base/exec"
+	"github.com/MobinYengejehi/core/base/logx"
+	"github.com/MobinYengejehi/core/cmd/config"
+	"github.com/MobinYengejehi/core/cmd/mobile/sdkpath"
 )
 
 // General mobile build environment. Initialized by envInit.

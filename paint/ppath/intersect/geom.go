@@ -10,8 +10,8 @@ package intersect
 import (
 	"slices"
 
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/paint/ppath"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/paint/ppath"
 )
 
 // curvature returns the curvature of the path at the given index

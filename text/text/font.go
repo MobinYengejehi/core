@@ -5,7 +5,7 @@
 package text
 
 import (
-	"cogentcore.org/core/text/rich"
+	"github.com/MobinYengejehi/core/text/rich"
 )
 
 // Font is a compact encoding of font properties, which can be used

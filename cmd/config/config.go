@@ -17,12 +17,12 @@ import (
 	"strings"
 	"unicode"
 
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/base/exec"
-	"cogentcore.org/core/base/iox/tomlx"
-	"cogentcore.org/core/base/strcase"
-	"cogentcore.org/core/enums/enumgen"
-	"cogentcore.org/core/types/typegen"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/base/exec"
+	"github.com/MobinYengejehi/core/base/iox/tomlx"
+	"github.com/MobinYengejehi/core/base/strcase"
+	"github.com/MobinYengejehi/core/enums/enumgen"
+	"github.com/MobinYengejehi/core/types/typegen"
 )
 
 // Config is the main config struct that contains all of the configuration
@@ -232,7 +232,7 @@ func LinkerFlags(c *Config) string {
 	}
 
 	if c.About != "" {
-		res += "-X 'cogentcore.org/core/core.AppAbout=" + strings.ReplaceAll(c.About, "'", `\'`) + "' "
+		res += "-X 'github.com/MobinYengejehi/core/core.AppAbout=" + strings.ReplaceAll(c.About, "'", `\'`) + "' "
 	}
 
 	b, err := os.ReadFile("icon.svg")
@@ -241,7 +241,7 @@ func LinkerFlags(c *Config) string {
 			errors.Log(err)
 		}
 	} else {
-		res += "-X 'cogentcore.org/core/core.AppIcon=" + strings.ReplaceAll(string(b), "'", `\'`) + "' "
+		res += "-X 'github.com/MobinYengejehi/core/core.AppIcon=" + strings.ReplaceAll(string(b), "'", `\'`) + "' "
 	}
 
 	// TODO: maybe replace this linker flag version injection logic with
@@ -252,17 +252,17 @@ func LinkerFlags(c *Config) string {
 
 	av, err := exec.Silent().Output("git", "describe", "--tags")
 	if err == nil {
-		res += "-X cogentcore.org/core/system.AppVersion=" + av + " "
+		res += "-X github.com/MobinYengejehi/core/system.AppVersion=" + av + " "
 	}
 
 	// workspaces can interfere with getting the right version
-	cv, err := exec.Silent().SetEnv("GOWORK", "off").Output("go", "list", "-m", "-f", "{{.Version}}", "cogentcore.org/core")
+	cv, err := exec.Silent().SetEnv("GOWORK", "off").Output("go", "list", "-m", "-f", "{{.Version}}", "github.com/MobinYengejehi/core")
 	if err == nil {
 		// we must be in core itself if it is blank
 		if cv == "" {
 			cv = av
 		}
-		res += "-X cogentcore.org/core/system.CoreVersion=" + cv
+		res += "-X github.com/MobinYengejehi/core/system.CoreVersion=" + cv
 	}
 	return res
 }

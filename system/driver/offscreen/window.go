@@ -5,9 +5,9 @@
 package offscreen
 
 import (
-	"cogentcore.org/core/system"
-	"cogentcore.org/core/system/composer"
-	"cogentcore.org/core/system/driver/base"
+	"github.com/MobinYengejehi/core/system"
+	"github.com/MobinYengejehi/core/system/composer"
+	"github.com/MobinYengejehi/core/system/driver/base"
 )
 
 // Window is the implementation of [system.Window] for the offscreen platform.

@@ -7,7 +7,7 @@ package world
 import (
 	"image"
 
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/math32"
 )
 
 // Camera defines the properties of a camera needed for offscreen rendering

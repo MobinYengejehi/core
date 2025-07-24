@@ -5,8 +5,8 @@
 package main
 
 import (
-	"cogentcore.org/core/cli"
-	"cogentcore.org/core/text/csl"
+	"github.com/MobinYengejehi/core/cli"
+	"github.com/MobinYengejehi/core/text/csl"
 )
 
 //go:generate core generate -add-types -add-funcs

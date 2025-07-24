@@ -12,7 +12,7 @@ package token
 import (
 	"fmt"
 
-	"cogentcore.org/core/icons"
+	"github.com/MobinYengejehi/core/icons"
 )
 
 // Tokens is a complete set of lexical tokens that encompasses all programming and text

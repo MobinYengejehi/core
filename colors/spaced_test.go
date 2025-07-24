@@ -9,8 +9,8 @@ import (
 	"image/draw"
 	"testing"
 
-	"cogentcore.org/core/base/iox/imagex"
-	"cogentcore.org/core/colors/cam/hct"
+	"github.com/MobinYengejehi/core/base/iox/imagex"
+	"github.com/MobinYengejehi/core/colors/cam/hct"
 )
 
 func TestSpacedLight(t *testing.T) {

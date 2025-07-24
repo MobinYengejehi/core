@@ -13,7 +13,7 @@ package math32
 import (
 	"unsafe"
 
-	"cogentcore.org/core/base/slicesx"
+	"github.com/MobinYengejehi/core/base/slicesx"
 )
 
 // ArrayF32 is a slice of float32 with additional convenience methods

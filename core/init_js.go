@@ -10,7 +10,7 @@ import (
 	"os"
 	"syscall/js"
 
-	"cogentcore.org/core/events"
+	"github.com/MobinYengejehi/core/events"
 )
 
 func init() {

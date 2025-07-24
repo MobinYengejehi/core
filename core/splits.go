@@ -9,13 +9,13 @@ import (
 	"strconv"
 	"strings"
 
-	"cogentcore.org/core/base/slicesx"
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/styles"
-	"cogentcore.org/core/styles/states"
-	"cogentcore.org/core/system"
-	"cogentcore.org/core/tree"
+	"github.com/MobinYengejehi/core/base/slicesx"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/styles"
+	"github.com/MobinYengejehi/core/styles/states"
+	"github.com/MobinYengejehi/core/system"
+	"github.com/MobinYengejehi/core/tree"
 )
 
 // SplitsTiles specifies 2D tiles for organizing elements within the [Splits] Widget.

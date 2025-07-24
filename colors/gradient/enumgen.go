@@ -3,7 +3,7 @@
 package gradient
 
 import (
-	"cogentcore.org/core/enums"
+	"github.com/MobinYengejehi/core/enums"
 )
 
 var _SpreadsValues = []Spreads{0, 1, 2}

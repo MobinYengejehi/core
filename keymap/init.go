@@ -5,11 +5,11 @@
 package keymap
 
 import (
-	"cogentcore.org/core/system"
+	"github.com/MobinYengejehi/core/system"
 
 	// we have to import system/driver here so that it is initialized
 	// in time for us to the get the system platform
-	_ "cogentcore.org/core/system/driver"
+	_ "github.com/MobinYengejehi/core/system/driver"
 )
 
 func init() {

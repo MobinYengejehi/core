@@ -3,7 +3,7 @@
 package events
 
 import (
-	"cogentcore.org/core/enums"
+	"github.com/MobinYengejehi/core/enums"
 )
 
 var _DropModsValues = []DropMods{0, 1, 2, 3, 4}

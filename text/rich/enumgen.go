@@ -3,7 +3,7 @@
 package rich
 
 import (
-	"cogentcore.org/core/enums"
+	"github.com/MobinYengejehi/core/enums"
 )
 
 var _FamilyValues = []Family{0, 1, 2, 3, 4, 5, 6, 7, 8}

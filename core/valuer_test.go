@@ -8,13 +8,13 @@ import (
 	"reflect"
 	"testing"
 
-	"cogentcore.org/core/base/option"
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/events/key"
-	"cogentcore.org/core/icons"
-	"cogentcore.org/core/keymap"
-	"cogentcore.org/core/styles/states"
-	"cogentcore.org/core/types"
+	"github.com/MobinYengejehi/core/base/option"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/events/key"
+	"github.com/MobinYengejehi/core/icons"
+	"github.com/MobinYengejehi/core/keymap"
+	"github.com/MobinYengejehi/core/styles/states"
+	"github.com/MobinYengejehi/core/types"
 	"github.com/stretchr/testify/assert"
 )
 

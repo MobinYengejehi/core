@@ -11,7 +11,7 @@ import (
 	"io"
 	"strings"
 
-	"cogentcore.org/core/core"
+	"github.com/MobinYengejehi/core/core"
 	"golang.org/x/net/html"
 )
 

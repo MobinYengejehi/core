@@ -13,9 +13,9 @@ import (
 	"strconv"
 	"strings"
 
-	"cogentcore.org/core/base/logx"
-	"cogentcore.org/core/base/strcase"
-	"cogentcore.org/core/types"
+	"github.com/MobinYengejehi/core/base/logx"
+	"github.com/MobinYengejehi/core/base/strcase"
+	"github.com/MobinYengejehi/core/types"
 )
 
 // indent is the value used for indentation in [usage].

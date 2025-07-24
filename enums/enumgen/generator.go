@@ -25,8 +25,8 @@ import (
 	"strings"
 	"text/template"
 
-	"cogentcore.org/core/base/generate"
-	"cogentcore.org/core/cli"
+	"github.com/MobinYengejehi/core/base/generate"
+	"github.com/MobinYengejehi/core/cli"
 	"golang.org/x/tools/go/packages"
 )
 
@@ -62,7 +62,7 @@ func (g *Generator) Printf(format string, args ...any) {
 func (g *Generator) PrintHeader() {
 	// we need a manual import of enums because it is
 	// external, but goimports will handle everything else
-	generate.PrintHeader(&g.Buf, g.Pkg.Name, "cogentcore.org/core/enums")
+	generate.PrintHeader(&g.Buf, g.Pkg.Name, "github.com/MobinYengejehi/core/enums")
 }
 
 // FindEnumTypes goes through all of the types in the package

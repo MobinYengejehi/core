@@ -8,14 +8,14 @@ import (
 	"strings"
 	"unicode"
 
-	"cogentcore.org/core/base/fileinfo"
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/keymap"
-	"cogentcore.org/core/text/lines"
-	"cogentcore.org/core/text/parse/lexer"
-	"cogentcore.org/core/text/spell"
-	"cogentcore.org/core/text/textpos"
-	"cogentcore.org/core/text/token"
+	"github.com/MobinYengejehi/core/base/fileinfo"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/keymap"
+	"github.com/MobinYengejehi/core/text/lines"
+	"github.com/MobinYengejehi/core/text/parse/lexer"
+	"github.com/MobinYengejehi/core/text/spell"
+	"github.com/MobinYengejehi/core/text/textpos"
+	"github.com/MobinYengejehi/core/text/token"
 )
 
 // iSpellKeyInput locates the word to spell check based on cursor position and

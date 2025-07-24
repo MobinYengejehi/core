@@ -5,11 +5,11 @@
 package core
 
 import (
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/paint"
-	"cogentcore.org/core/paint/ppath"
-	"cogentcore.org/core/styles"
-	"cogentcore.org/core/styles/units"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/paint"
+	"github.com/MobinYengejehi/core/paint/ppath"
+	"github.com/MobinYengejehi/core/styles"
+	"github.com/MobinYengejehi/core/styles/units"
 )
 
 // Canvas is a widget that can be arbitrarily drawn to by setting

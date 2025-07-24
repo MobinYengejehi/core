@@ -8,11 +8,11 @@ import (
 	"log"
 	"strings"
 
-	"cogentcore.org/core/icons"
-	"cogentcore.org/core/text/parse"
-	"cogentcore.org/core/text/parse/complete"
-	"cogentcore.org/core/text/parse/languages/bibtex"
-	"cogentcore.org/core/text/textpos"
+	"github.com/MobinYengejehi/core/icons"
+	"github.com/MobinYengejehi/core/text/parse"
+	"github.com/MobinYengejehi/core/text/parse/complete"
+	"github.com/MobinYengejehi/core/text/parse/languages/bibtex"
+	"github.com/MobinYengejehi/core/text/textpos"
 )
 
 // CompleteCite does completion on citation

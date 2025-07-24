@@ -7,8 +7,8 @@ package tree_test
 import (
 	"testing"
 
-	. "cogentcore.org/core/tree"
-	"cogentcore.org/core/tree/testdata"
+	. "github.com/MobinYengejehi/core/tree"
+	"github.com/MobinYengejehi/core/tree/testdata"
 	"github.com/stretchr/testify/assert"
 )
 

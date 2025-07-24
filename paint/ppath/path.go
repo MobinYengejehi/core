@@ -12,7 +12,7 @@ import (
 	"encoding/gob"
 	"slices"
 
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/math32"
 )
 
 // ArcToCubeImmediate causes ArcTo commands to be immediately converted into

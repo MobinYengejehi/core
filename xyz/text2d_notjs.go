@@ -6,7 +6,7 @@
 
 package xyz
 
-import "cogentcore.org/core/text/shaped/shapers/shapedgt"
+import "github.com/MobinYengejehi/core/text/shaped/shapers/shapedgt"
 
 func initTextShaper(sc *Scene) {
 	sc.TextShaper = shapedgt.NewShaper()

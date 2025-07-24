@@ -3,7 +3,7 @@
 package sides
 
 import (
-	"cogentcore.org/core/enums"
+	"github.com/MobinYengejehi/core/enums"
 )
 
 var _IndexesValues = []Indexes{0, 1, 2, 3}

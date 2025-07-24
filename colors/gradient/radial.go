@@ -11,7 +11,7 @@ package gradient
 import (
 	"image/color"
 
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/math32"
 )
 
 // Radial represents a radial gradient. It implements the [image.Image] interface.

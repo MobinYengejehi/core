@@ -8,12 +8,12 @@ import (
 	"path/filepath"
 	"testing"
 
-	"cogentcore.org/core/base/strcase"
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/math32"
-	. "cogentcore.org/core/paint"
-	"cogentcore.org/core/styles"
-	"cogentcore.org/core/styles/units"
+	"github.com/MobinYengejehi/core/base/strcase"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/math32"
+	. "github.com/MobinYengejehi/core/paint"
+	"github.com/MobinYengejehi/core/styles"
+	"github.com/MobinYengejehi/core/styles/units"
 )
 
 func TestBoxModel(t *testing.T) {

@@ -7,7 +7,7 @@
 package supportedlanguages
 
 import (
-	_ "cogentcore.org/core/text/parse/languages/golang"
-	_ "cogentcore.org/core/text/parse/languages/markdown"
-	_ "cogentcore.org/core/text/parse/languages/tex"
+	_ "github.com/MobinYengejehi/core/text/parse/languages/golang"
+	_ "github.com/MobinYengejehi/core/text/parse/languages/markdown"
+	_ "github.com/MobinYengejehi/core/text/parse/languages/tex"
 )

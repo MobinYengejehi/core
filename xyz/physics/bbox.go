@@ -4,7 +4,7 @@
 
 package physics
 
-import "cogentcore.org/core/math32"
+import "github.com/MobinYengejehi/core/math32"
 
 // BBox contains bounding box and other gross object properties
 type BBox struct {

@@ -8,7 +8,7 @@ import (
 	"image"
 	"image/color"
 
-	"cogentcore.org/core/colors/cam/hct"
+	"github.com/MobinYengejehi/core/colors/cam/hct"
 )
 
 // Tones contains cached color values for each tone

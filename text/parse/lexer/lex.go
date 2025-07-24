@@ -13,9 +13,9 @@ package lexer
 import (
 	"fmt"
 
-	"cogentcore.org/core/base/nptime"
-	"cogentcore.org/core/text/textpos"
-	"cogentcore.org/core/text/token"
+	"github.com/MobinYengejehi/core/base/nptime"
+	"github.com/MobinYengejehi/core/text/textpos"
+	"github.com/MobinYengejehi/core/text/token"
 )
 
 // Lex represents a single lexical element, with a token, and start and end rune positions

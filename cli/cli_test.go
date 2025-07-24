@@ -13,9 +13,9 @@ import (
 
 	"log/slog"
 
-	"cogentcore.org/core/base/iox/tomlx"
-	"cogentcore.org/core/base/logx"
-	"cogentcore.org/core/cli/testdata"
+	"github.com/MobinYengejehi/core/base/iox/tomlx"
+	"github.com/MobinYengejehi/core/base/logx"
+	"github.com/MobinYengejehi/core/cli/testdata"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

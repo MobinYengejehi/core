@@ -7,8 +7,8 @@ package colors
 import (
 	"image/color"
 
-	"cogentcore.org/core/colors/cam/hct"
-	"cogentcore.org/core/colors/matcolor"
+	"github.com/MobinYengejehi/core/colors/cam/hct"
+	"github.com/MobinYengejehi/core/colors/matcolor"
 )
 
 // Spaced returns a maximally widely spaced sequence of colors

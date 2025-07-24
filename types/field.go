@@ -7,7 +7,7 @@ package types
 import (
 	"reflect"
 
-	"cogentcore.org/core/base/reflectx"
+	"github.com/MobinYengejehi/core/base/reflectx"
 )
 
 // Field represents a field or embed in a struct.

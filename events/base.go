@@ -9,9 +9,9 @@ import (
 	"image"
 	"time"
 
-	"cogentcore.org/core/base/nptime"
-	"cogentcore.org/core/enums"
-	"cogentcore.org/core/events/key"
+	"github.com/MobinYengejehi/core/base/nptime"
+	"github.com/MobinYengejehi/core/enums"
+	"github.com/MobinYengejehi/core/events/key"
 )
 
 // Base is the base type for events.

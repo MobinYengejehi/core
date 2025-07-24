@@ -16,8 +16,8 @@ import (
 
 	"maps"
 
-	"cogentcore.org/core/base/reflectx"
-	"cogentcore.org/core/base/strcase"
+	"github.com/MobinYengejehi/core/base/reflectx"
+	"github.com/MobinYengejehi/core/base/strcase"
 )
 
 const (

@@ -13,9 +13,9 @@ import (
 	"strings"
 	"text/template"
 
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/base/strcase"
-	"cogentcore.org/core/styles/units"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/base/strcase"
+	"github.com/MobinYengejehi/core/styles/units"
 )
 
 func main() {

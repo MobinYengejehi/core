@@ -15,15 +15,15 @@ import (
 	"sync"
 	"time"
 
-	"cogentcore.org/core/base/fileinfo"
-	"cogentcore.org/core/base/metadata"
-	"cogentcore.org/core/base/slicesx"
-	"cogentcore.org/core/text/highlighting"
-	"cogentcore.org/core/text/parse"
-	"cogentcore.org/core/text/parse/lexer"
-	"cogentcore.org/core/text/rich"
-	"cogentcore.org/core/text/runes"
-	"cogentcore.org/core/text/textpos"
+	"github.com/MobinYengejehi/core/base/fileinfo"
+	"github.com/MobinYengejehi/core/base/metadata"
+	"github.com/MobinYengejehi/core/base/slicesx"
+	"github.com/MobinYengejehi/core/text/highlighting"
+	"github.com/MobinYengejehi/core/text/parse"
+	"github.com/MobinYengejehi/core/text/parse/lexer"
+	"github.com/MobinYengejehi/core/text/rich"
+	"github.com/MobinYengejehi/core/text/runes"
+	"github.com/MobinYengejehi/core/text/textpos"
 )
 
 const (

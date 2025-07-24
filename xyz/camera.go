@@ -7,7 +7,7 @@ package xyz
 import (
 	"image"
 
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/math32"
 )
 
 // Camera defines the properties of the camera

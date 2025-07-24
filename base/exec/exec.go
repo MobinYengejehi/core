@@ -15,7 +15,7 @@ import (
 	"os/exec"
 	"strings"
 
-	"cogentcore.org/core/base/logx"
+	"github.com/MobinYengejehi/core/base/logx"
 )
 
 // exec executes the command, piping its stdout and stderr to the config

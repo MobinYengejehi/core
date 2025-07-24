@@ -13,7 +13,7 @@ import (
 	"image"
 	"time"
 
-	"cogentcore.org/core/core"
+	"github.com/MobinYengejehi/core/core"
 	"github.com/cogentcore/reisen"
 	"github.com/faiface/beep"
 	"github.com/faiface/beep/speaker"

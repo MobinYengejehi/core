@@ -7,10 +7,10 @@ package xyz
 import (
 	"image/color"
 
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/base/reflectx"
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/gpu/phong"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/base/reflectx"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/gpu/phong"
 )
 
 // Material describes the material properties of a surface (colors, shininess, texture)

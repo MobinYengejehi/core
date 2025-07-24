@@ -8,10 +8,10 @@ import (
 	"reflect"
 	"strings"
 
-	"cogentcore.org/core/base/labels"
-	"cogentcore.org/core/base/reflectx"
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/events/key"
+	"github.com/MobinYengejehi/core/base/labels"
+	"github.com/MobinYengejehi/core/base/reflectx"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/events/key"
 )
 
 // Value is a widget that has an associated value representation.

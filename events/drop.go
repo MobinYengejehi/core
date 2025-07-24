@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"image"
 
-	"cogentcore.org/core/events/key"
+	"github.com/MobinYengejehi/core/events/key"
 )
 
 // DragDrop represents the drag-and-drop Drop event

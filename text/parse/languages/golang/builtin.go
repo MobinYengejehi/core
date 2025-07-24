@@ -8,10 +8,10 @@ import (
 	"strings"
 	"unsafe"
 
-	"cogentcore.org/core/icons"
-	"cogentcore.org/core/text/parse"
-	"cogentcore.org/core/text/parse/complete"
-	"cogentcore.org/core/text/parse/syms"
+	"github.com/MobinYengejehi/core/icons"
+	"github.com/MobinYengejehi/core/text/parse"
+	"github.com/MobinYengejehi/core/text/parse/complete"
+	"github.com/MobinYengejehi/core/text/parse/syms"
 )
 
 var BuiltinTypes syms.TypeMap

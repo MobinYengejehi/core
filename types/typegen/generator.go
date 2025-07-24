@@ -17,11 +17,11 @@ import (
 
 	"log/slog"
 
-	"cogentcore.org/core/base/generate"
-	"cogentcore.org/core/base/ordmap"
-	"cogentcore.org/core/base/strcase"
-	"cogentcore.org/core/cli"
-	ctypes "cogentcore.org/core/types"
+	"github.com/MobinYengejehi/core/base/generate"
+	"github.com/MobinYengejehi/core/base/ordmap"
+	"github.com/MobinYengejehi/core/base/strcase"
+	"github.com/MobinYengejehi/core/cli"
+	ctypes "github.com/MobinYengejehi/core/types"
 	"golang.org/x/tools/go/packages"
 )
 
@@ -68,7 +68,7 @@ func (g *Generator) Printf(format string, args ...any) {
 func (g *Generator) PrintHeader() {
 	// we need a manual import of types and ordmap because they are
 	// external, but goimports will handle everything else
-	generate.PrintHeader(&g.Buf, g.Pkg.Name, "cogentcore.org/core/types", "cogentcore.org/core/base/ordmap")
+	generate.PrintHeader(&g.Buf, g.Pkg.Name, "github.com/MobinYengejehi/core/types", "github.com/MobinYengejehi/core/base/ordmap")
 }
 
 // Find goes through all of the types, functions, variables,

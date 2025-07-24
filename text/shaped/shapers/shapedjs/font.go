@@ -11,7 +11,7 @@ import (
 	"strings"
 	"syscall/js"
 
-	"cogentcore.org/core/text/text"
+	"github.com/MobinYengejehi/core/text/text"
 )
 
 // SetFontStyle sets the html canvas font style from [text.Font] and

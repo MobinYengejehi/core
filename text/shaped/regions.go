@@ -5,8 +5,8 @@
 package shaped
 
 import (
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/text/textpos"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/text/textpos"
 )
 
 // SelectRegion adds the selection to given region of runes from

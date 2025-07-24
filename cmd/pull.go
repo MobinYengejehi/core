@@ -12,8 +12,8 @@ import (
 	"path/filepath"
 	"sync"
 
-	"cogentcore.org/core/base/exec"
-	"cogentcore.org/core/cmd/config"
+	"github.com/MobinYengejehi/core/base/exec"
+	"github.com/MobinYengejehi/core/cmd/config"
 )
 
 // Pull concurrently pulls all of the Git repositories within the current directory.

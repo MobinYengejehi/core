@@ -12,12 +12,12 @@ import (
 	"os"
 	"time"
 
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/base/fileinfo"
-	"cogentcore.org/core/base/iox/jsonx"
-	"cogentcore.org/core/text/parse/lexer"
-	"cogentcore.org/core/text/parse/parser"
-	"cogentcore.org/core/text/textpos"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/base/fileinfo"
+	"github.com/MobinYengejehi/core/base/iox/jsonx"
+	"github.com/MobinYengejehi/core/text/parse/lexer"
+	"github.com/MobinYengejehi/core/text/parse/parser"
+	"github.com/MobinYengejehi/core/text/textpos"
 )
 
 // Parser is the overall parser for managing the parsing

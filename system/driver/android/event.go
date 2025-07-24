@@ -27,8 +27,8 @@ import (
 	"image"
 	"log"
 
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/events/key"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/events/key"
 )
 
 //export keyboardTyped

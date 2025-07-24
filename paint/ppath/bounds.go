@@ -7,7 +7,7 @@
 
 package ppath
 
-import "cogentcore.org/core/math32"
+import "github.com/MobinYengejehi/core/math32"
 
 // FastBounds returns the maximum bounding box rectangle of the path.
 // It is quicker than Bounds but less accurate.

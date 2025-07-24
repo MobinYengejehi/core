@@ -7,10 +7,10 @@
 package main
 
 import (
-	"cogentcore.org/core/cli"
-	"cogentcore.org/core/cmd"
-	"cogentcore.org/core/cmd/config"
-	"cogentcore.org/core/cmd/generate"
+	"github.com/MobinYengejehi/core/cli"
+	"github.com/MobinYengejehi/core/cmd"
+	"github.com/MobinYengejehi/core/cmd/config"
+	"github.com/MobinYengejehi/core/cmd/generate"
 )
 
 func main() {

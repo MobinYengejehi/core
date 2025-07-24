@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"image/color"
 
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/gpu/phong"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/gpu/phong"
 	"github.com/cogentcore/webgpu/wgpu"
 )
 

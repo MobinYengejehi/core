@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"testing"
 
-	"cogentcore.org/core/colors"
+	"github.com/MobinYengejehi/core/colors"
 	"github.com/stretchr/testify/assert"
 )
 

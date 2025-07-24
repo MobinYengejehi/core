@@ -7,7 +7,7 @@ package colors
 import (
 	"image/color"
 
-	"cogentcore.org/core/colors/matcolor"
+	"github.com/MobinYengejehi/core/colors/matcolor"
 )
 
 // Palette contains the main, global [MatPalette]. It can

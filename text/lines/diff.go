@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"strings"
 
-	"cogentcore.org/core/text/difflib"
-	"cogentcore.org/core/text/textpos"
+	"github.com/MobinYengejehi/core/text/difflib"
+	"github.com/MobinYengejehi/core/text/textpos"
 )
 
 // note: original difflib is: "github.com/pmezard/go-difflib/difflib"

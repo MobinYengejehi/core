@@ -3,7 +3,7 @@
 package vcs
 
 import (
-	"cogentcore.org/core/enums"
+	"github.com/MobinYengejehi/core/enums"
 )
 
 var _FileStatusValues = []FileStatus{0, 1, 2, 3, 4, 5, 6}

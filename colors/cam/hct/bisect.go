@@ -20,9 +20,9 @@
 package hct
 
 import (
-	"cogentcore.org/core/base/num"
-	"cogentcore.org/core/colors/cam/cam16"
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/base/num"
+	"github.com/MobinYengejehi/core/colors/cam/cam16"
+	"github.com/MobinYengejehi/core/math32"
 )
 
 // double ChromaticAdaptation(double component) {

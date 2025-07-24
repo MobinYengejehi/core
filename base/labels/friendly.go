@@ -9,8 +9,8 @@ import (
 	"reflect"
 	"strings"
 
-	"cogentcore.org/core/base/reflectx"
-	"cogentcore.org/core/base/strcase"
+	"github.com/MobinYengejehi/core/base/reflectx"
+	"github.com/MobinYengejehi/core/base/strcase"
 )
 
 // FriendlyTypeName returns a user-friendly version of the name of the given type.

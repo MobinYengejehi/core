@@ -5,9 +5,9 @@
 package main
 
 import (
-	"cogentcore.org/core/core"
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/text/tex"
+	"github.com/MobinYengejehi/core/core"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/text/tex"
 )
 
 func init() {

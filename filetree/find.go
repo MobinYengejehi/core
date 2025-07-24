@@ -11,9 +11,9 @@ import (
 	"strings"
 	"time"
 
-	"cogentcore.org/core/base/fileinfo"
-	"cogentcore.org/core/core"
-	"cogentcore.org/core/tree"
+	"github.com/MobinYengejehi/core/base/fileinfo"
+	"github.com/MobinYengejehi/core/core"
+	"github.com/MobinYengejehi/core/tree"
 )
 
 // findDirNode finds directory node by given path.

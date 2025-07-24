@@ -10,7 +10,7 @@ import (
 	"sync"
 	"time"
 
-	"cogentcore.org/core/text/textpos"
+	"github.com/MobinYengejehi/core/text/textpos"
 )
 
 // UndoTrace; set to true to get a report of undo actions

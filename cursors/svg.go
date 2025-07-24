@@ -10,13 +10,13 @@ import (
 	"image"
 	"io/fs"
 
-	"cogentcore.org/core/colors"
+	"github.com/MobinYengejehi/core/colors"
 )
 
 // SVG reads the cursor with the given name and returns a byte slice of SVG data.
-// This is mainly used by [cogentcore.org/core/cursors/cursorimg], but is also used
+// This is mainly used by [github.com/MobinYengejehi/core/cursors/cursorimg], but is also used
 // by the docs in an example. This function performs color replacement as described
-// in [cogentcore.org/core/cursors/cursorimg.Get].
+// in [github.com/MobinYengejehi/core/cursors/cursorimg.Get].
 func SVG(name string) ([]byte, error) {
 	b, err := fs.ReadFile(Cursors, "svg/"+name+".svg")
 	if err != nil {

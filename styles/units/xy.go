@@ -5,7 +5,7 @@
 package units
 
 import (
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/math32"
 )
 
 // XY represents unit Value for X and Y dimensions

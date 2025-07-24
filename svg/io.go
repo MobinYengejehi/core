@@ -20,20 +20,20 @@ import (
 	"os"
 	"strings"
 
-	"cogentcore.org/core/base/iox/imagex"
-	"cogentcore.org/core/base/reflectx"
-	"cogentcore.org/core/base/stack"
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/colors/gradient"
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/styles/styleprops"
-	"cogentcore.org/core/tree"
+	"github.com/MobinYengejehi/core/base/iox/imagex"
+	"github.com/MobinYengejehi/core/base/reflectx"
+	"github.com/MobinYengejehi/core/base/stack"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/colors/gradient"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/styles/styleprops"
+	"github.com/MobinYengejehi/core/tree"
 	"golang.org/x/net/html/charset"
 )
 
 // this file contains all the IO-related parsing etc routines
 
-// see https://cogentcore.org/core/ki/wiki/Naming for IO naming conventions
+// see https://github.com/MobinYengejehi/core/ki/wiki/Naming for IO naming conventions
 // using standard XML marshal / unmarshal
 
 var (
@@ -1080,7 +1080,7 @@ func MarshalXML(n tree.Node, enc *XMLEncoder, setName string) string {
 }
 
 // MarshalXMLGradient adds the XML for the given gradient to the given encoder.
-// This is not in [cogentcore.org/core/colors/gradient] because it uses a lot of SVG
+// This is not in [github.com/MobinYengejehi/core/colors/gradient] because it uses a lot of SVG
 // and XML infrastructure defined here.
 func MarshalXMLGradient(n *Gradient, name string, enc *XMLEncoder) {
 	gr := n.Grad

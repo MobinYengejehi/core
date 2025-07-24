@@ -12,12 +12,12 @@ import (
 	"os"
 	"strings"
 
-	"cogentcore.org/core/base/indent"
-	"cogentcore.org/core/text/parse"
-	"cogentcore.org/core/text/parse/lexer"
-	"cogentcore.org/core/text/runes"
-	"cogentcore.org/core/text/textpos"
-	"cogentcore.org/core/text/token"
+	"github.com/MobinYengejehi/core/base/indent"
+	"github.com/MobinYengejehi/core/text/parse"
+	"github.com/MobinYengejehi/core/text/parse/lexer"
+	"github.com/MobinYengejehi/core/text/runes"
+	"github.com/MobinYengejehi/core/text/textpos"
+	"github.com/MobinYengejehi/core/text/token"
 )
 
 // BytesToLineStrings returns []string lines from []byte input.

@@ -8,7 +8,7 @@ import (
 	"image"
 	"image/draw"
 
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/math32"
 )
 
 const (
@@ -23,7 +23,7 @@ const (
 
 // Drawer is an interface for image/draw style image compositing
 // functionality, which is implemented for the GPU in
-// [*cogentcore.org/core/gpu/gpudraw.Drawer] and in offscreen drivers.
+// [*github.com/MobinYengejehi/core/gpu/gpudraw.Drawer] and in offscreen drivers.
 // This is used for compositing the stack of images that together comprise
 // the content of a window. It is used in [ComposerDrawer].
 type Drawer interface {

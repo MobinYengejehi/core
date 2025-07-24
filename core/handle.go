@@ -5,13 +5,13 @@
 package core
 
 import (
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/cursors"
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/styles"
-	"cogentcore.org/core/styles/abilities"
-	"cogentcore.org/core/styles/units"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/cursors"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/styles"
+	"github.com/MobinYengejehi/core/styles/abilities"
+	"github.com/MobinYengejehi/core/styles/units"
 )
 
 // Handle represents a draggable handle that can be used to

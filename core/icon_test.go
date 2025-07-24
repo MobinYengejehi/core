@@ -7,7 +7,7 @@ package core
 import (
 	"testing"
 
-	"cogentcore.org/core/icons"
+	"github.com/MobinYengejehi/core/icons"
 )
 
 func TestIcon(t *testing.T) {

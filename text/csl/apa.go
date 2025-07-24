@@ -7,7 +7,7 @@ package csl
 import (
 	"unicode"
 
-	"cogentcore.org/core/text/rich"
+	"github.com/MobinYengejehi/core/text/rich"
 )
 
 // definitive reference:

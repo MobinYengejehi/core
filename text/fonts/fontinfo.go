@@ -9,7 +9,7 @@ import (
 	"cmp"
 	"slices"
 
-	"cogentcore.org/core/text/rich"
+	"github.com/MobinYengejehi/core/text/rich"
 	"github.com/go-text/typesetting/font"
 	"github.com/go-text/typesetting/fontscan"
 )

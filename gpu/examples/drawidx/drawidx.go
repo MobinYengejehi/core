@@ -13,8 +13,8 @@ import (
 	"time"
 	"unsafe"
 
-	"cogentcore.org/core/gpu"
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/gpu"
+	"github.com/MobinYengejehi/core/math32"
 	"github.com/cogentcore/webgpu/wgpu"
 )
 

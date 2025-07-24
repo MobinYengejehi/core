@@ -9,9 +9,9 @@ package phong
 import (
 	"sync"
 
-	"cogentcore.org/core/base/ordmap"
-	"cogentcore.org/core/gpu"
-	"cogentcore.org/core/gpu/shape"
+	"github.com/MobinYengejehi/core/base/ordmap"
+	"github.com/MobinYengejehi/core/gpu"
+	"github.com/MobinYengejehi/core/gpu/shape"
 	"github.com/cogentcore/webgpu/wgpu"
 )
 

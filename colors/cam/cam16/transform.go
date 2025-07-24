@@ -7,8 +7,8 @@ package cam16
 import (
 	"image/color"
 
-	"cogentcore.org/core/colors/cam/cie"
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/colors/cam/cie"
+	"github.com/MobinYengejehi/core/math32"
 )
 
 // Blend returns a color that is the given percent blend between the first

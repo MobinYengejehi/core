@@ -5,7 +5,7 @@
 package labels
 
 import (
-	"cogentcore.org/core/base/reflectx"
+	"github.com/MobinYengejehi/core/base/reflectx"
 )
 
 // Labeler interface provides a GUI-appropriate label for an item,

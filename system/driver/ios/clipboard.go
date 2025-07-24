@@ -24,8 +24,8 @@ import "C"
 import (
 	"unsafe"
 
-	"cogentcore.org/core/base/fileinfo/mimedata"
-	"cogentcore.org/core/system"
+	"github.com/MobinYengejehi/core/base/fileinfo/mimedata"
+	"github.com/MobinYengejehi/core/system"
 )
 
 // TheClipboard is the single [system.Clipboard] for the iOS platform

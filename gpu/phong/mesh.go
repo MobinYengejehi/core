@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"log"
 
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/gpu"
-	"cogentcore.org/core/gpu/shape"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/gpu"
+	"github.com/MobinYengejehi/core/gpu/shape"
 )
 
 // ResetMeshes resets the meshes for reconfiguring.

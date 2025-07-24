@@ -18,12 +18,12 @@ import (
 	"os"
 	"path/filepath"
 
-	"cogentcore.org/core/base/elide"
-	"cogentcore.org/core/base/exec"
-	"cogentcore.org/core/base/logx"
-	"cogentcore.org/core/cmd/config"
-	"cogentcore.org/core/cmd/mobile/binres"
-	"cogentcore.org/core/cmd/rendericon"
+	"github.com/MobinYengejehi/core/base/elide"
+	"github.com/MobinYengejehi/core/base/exec"
+	"github.com/MobinYengejehi/core/base/logx"
+	"github.com/MobinYengejehi/core/cmd/config"
+	"github.com/MobinYengejehi/core/cmd/mobile/binres"
+	"github.com/MobinYengejehi/core/cmd/rendericon"
 	"golang.org/x/tools/go/packages"
 )
 
@@ -172,7 +172,7 @@ func goAndroidBuild(c *config.Config, pkg *packages.Package, targets []config.Pl
 	// TODO: what should we do about OpenAL?
 	for _, t := range targets {
 		toolchain := ndk.toolchain(t.Arch)
-		if nmpkgs[t.Arch]["cogentcore.org/core/mobile/exp/audio/al"] {
+		if nmpkgs[t.Arch]["github.com/MobinYengejehi/core/mobile/exp/audio/al"] {
 			dst := "lib/" + toolchain.ABI + "/libopenal.so"
 			src := filepath.Join(goMobilePath, dst)
 			if _, err := os.Stat(src); err != nil {

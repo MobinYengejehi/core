@@ -9,8 +9,8 @@ import (
 	"os"
 	"time"
 
-	"cogentcore.org/core/base/iox/jsonx"
-	"cogentcore.org/core/text/parse/languages/bibtex"
+	"github.com/MobinYengejehi/core/base/iox/jsonx"
+	"github.com/MobinYengejehi/core/text/parse/languages/bibtex"
 )
 
 // Open opens CSL data items from a .json formatted CSL file.

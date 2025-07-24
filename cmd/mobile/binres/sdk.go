@@ -10,7 +10,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"cogentcore.org/core/cmd/mobile/sdkpath"
+	"github.com/MobinYengejehi/core/cmd/mobile/sdkpath"
 )
 
 // MinSDK is the targeted sdk version for support by package binres.

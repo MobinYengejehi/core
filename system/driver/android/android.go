@@ -52,12 +52,12 @@ import (
 	"time"
 	"unsafe"
 
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/styles"
-	"cogentcore.org/core/system"
-	"cogentcore.org/core/system/driver/base"
-	"cogentcore.org/core/system/driver/mobile/callfn"
-	"cogentcore.org/core/system/driver/mobile/mobileinit"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/styles"
+	"github.com/MobinYengejehi/core/system"
+	"github.com/MobinYengejehi/core/system/driver/base"
+	"github.com/MobinYengejehi/core/system/driver/mobile/callfn"
+	"github.com/MobinYengejehi/core/system/driver/mobile/mobileinit"
 )
 
 // mimeMap contains standard mime entries that are missing on Android

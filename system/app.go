@@ -16,7 +16,7 @@ import (
 	"fmt"
 	"runtime/debug"
 
-	"cogentcore.org/core/styles"
+	"github.com/MobinYengejehi/core/styles"
 )
 
 //go:generate core generate
@@ -268,11 +268,11 @@ func init() {
 	}
 	AppVersion = fmt.Sprintf("%s (%s)", revision, time)
 
-	if bi.Main.Path == "cogentcore.org/core" {
+	if bi.Main.Path == "github.com/MobinYengejehi/core" {
 		CoreVersion = AppVersion
 	} else {
 		for _, dep := range bi.Deps {
-			if dep.Path == "cogentcore.org/core" {
+			if dep.Path == "github.com/MobinYengejehi/core" {
 				CoreVersion = dep.Version
 				break
 			}

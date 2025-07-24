@@ -5,7 +5,7 @@
 package events
 
 import (
-	"cogentcore.org/core/events/key"
+	"github.com/MobinYengejehi/core/events/key"
 )
 
 // SelectModes interprets the modifier keys to determine what type of selection mode to use.

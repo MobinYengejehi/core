@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"strings"
 
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/base/reflectx"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/base/reflectx"
 	"golang.org/x/image/math/fixed"
 )
 

@@ -7,8 +7,8 @@ package gradient
 import (
 	"testing"
 
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/math32"
 )
 
 func BenchmarkLinear(b *testing.B) {

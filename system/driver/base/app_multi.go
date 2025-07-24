@@ -12,7 +12,7 @@ package base
 import (
 	"slices"
 
-	"cogentcore.org/core/system"
+	"github.com/MobinYengejehi/core/system"
 )
 
 // AppMulti contains the data and logic common to all implementations of [system.App]

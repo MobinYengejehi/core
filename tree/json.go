@@ -13,8 +13,8 @@ import (
 	"strconv"
 	"strings"
 
-	"cogentcore.org/core/base/reflectx"
-	"cogentcore.org/core/types"
+	"github.com/MobinYengejehi/core/base/reflectx"
+	"github.com/MobinYengejehi/core/types"
 )
 
 // MarshalJSON marshals the node by injecting the [Node.NodeType] as a nodeType

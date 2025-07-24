@@ -3,7 +3,7 @@
 package svg
 
 import (
-	"cogentcore.org/core/enums"
+	"github.com/MobinYengejehi/core/enums"
 )
 
 var _ViewBoxAlignsValues = []ViewBoxAligns{0, 1, 2, 3}

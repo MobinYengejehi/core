@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"unicode"
 
-	"cogentcore.org/core/base/slicesx"
-	"cogentcore.org/core/text/rich"
-	"cogentcore.org/core/text/textpos"
+	"github.com/MobinYengejehi/core/base/slicesx"
+	"github.com/MobinYengejehi/core/text/rich"
+	"github.com/MobinYengejehi/core/text/textpos"
 )
 
 // layoutViewLines performs view-specific layout of all lines of current lines markup.

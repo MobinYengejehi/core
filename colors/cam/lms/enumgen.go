@@ -3,7 +3,7 @@
 package lms
 
 import (
-	"cogentcore.org/core/enums"
+	"github.com/MobinYengejehi/core/enums"
 )
 
 var _OpponentsValues = []Opponents{0, 1, 2}

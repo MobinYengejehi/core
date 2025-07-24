@@ -10,10 +10,10 @@ import (
 	"strings"
 	"time"
 
-	"cogentcore.org/core/base/option"
-	"cogentcore.org/core/paint"
-	"cogentcore.org/core/paint/render"
-	"cogentcore.org/core/system"
+	"github.com/MobinYengejehi/core/base/option"
+	"github.com/MobinYengejehi/core/paint"
+	"github.com/MobinYengejehi/core/paint/render"
+	"github.com/MobinYengejehi/core/system"
 )
 
 // StageTypes are the types of [Stage] containers.

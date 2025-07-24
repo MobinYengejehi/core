@@ -7,8 +7,8 @@ package cli
 import (
 	"fmt"
 
-	"cogentcore.org/core/base/fsx"
-	"cogentcore.org/core/base/iox/tomlx"
+	"github.com/MobinYengejehi/core/base/fsx"
+	"github.com/MobinYengejehi/core/base/iox/tomlx"
 )
 
 // openWithIncludes reads the config struct from the given config file

@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"strings"
 
-	"cogentcore.org/core/base/exec"
-	"cogentcore.org/core/cmd/config"
 	"github.com/Masterminds/semver/v3"
+	"github.com/MobinYengejehi/core/base/exec"
+	"github.com/MobinYengejehi/core/cmd/config"
 )
 
 // Release releases the project with the specified git version tag.

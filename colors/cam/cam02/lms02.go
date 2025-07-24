@@ -5,8 +5,8 @@
 package cam02
 
 import (
-	"cogentcore.org/core/colors/cam/cie"
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/colors/cam/cie"
+	"github.com/MobinYengejehi/core/math32"
 )
 
 // XYZToLMS converts XYZ to Long, Medium, Short cone-based responses,

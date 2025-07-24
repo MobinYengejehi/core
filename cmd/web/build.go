@@ -14,12 +14,12 @@ import (
 	"strings"
 	"time"
 
-	"cogentcore.org/core/base/exec"
-	"cogentcore.org/core/base/iox/imagex"
-	"cogentcore.org/core/base/iox/jsonx"
-	"cogentcore.org/core/cmd/config"
-	"cogentcore.org/core/cmd/rendericon"
-	"cogentcore.org/core/content/bcontent"
+	"github.com/MobinYengejehi/core/base/exec"
+	"github.com/MobinYengejehi/core/base/iox/imagex"
+	"github.com/MobinYengejehi/core/base/iox/jsonx"
+	"github.com/MobinYengejehi/core/cmd/config"
+	"github.com/MobinYengejehi/core/cmd/rendericon"
+	"github.com/MobinYengejehi/core/content/bcontent"
 	strip "github.com/grokify/html-strip-tags-go"
 )
 
@@ -152,7 +152,7 @@ func makeFiles(c *config.Config) error {
 	// TODO: this is a temporary hack to fix the 404 page for multi-nested old URLs in the Cogent Core Docs.
 	if c.Name == "Cogent Core Docs" {
 		if c.Build.Trimpath {
-			bpath404 = "https://www.cogentcore.org/core/" // production
+			bpath404 = "https://www.github.com/MobinYengejehi/core/" // production
 		} else {
 			bpath404 = "http://localhost:8080/" // dev
 		}

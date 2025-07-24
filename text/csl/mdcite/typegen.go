@@ -3,7 +3,7 @@
 package main
 
 import (
-	"cogentcore.org/core/types"
+	"github.com/MobinYengejehi/core/types"
 )
 
 var _ = types.AddType(&types.Type{Name: "main.Config", IDName: "config", Directives: []types.Directive{{Tool: "go", Directive: "generate", Args: []string{"core", "generate", "-add-types", "-add-funcs"}}}, Fields: []types.Field{{Name: "Refs", Doc: "CSL JSON formatted file with the library of references to lookup citations in."}, {Name: "Dir", Doc: "Directory with markdown files to extract citations from.\nDefaults to current directory if empty."}, {Name: "Output", Doc: "File name to write the formatted references to.\nDefaults to references.md if empty."}, {Name: "CitedData", Doc: "File name to write the subset of cited reference data to.\nDefaults to citedrefs.json if empty."}, {Name: "Heading", Doc: "heading to add to the top of the references file.\nInclude markdown heading syntax, e.g., ##\nDefaults to ## References if empty."}, {Name: "Style", Doc: "style is the citation style to generate.\nDefaults to APA if empty."}}})

@@ -14,9 +14,9 @@ import (
 	"regexp"
 	"unicode/utf8"
 
-	"cogentcore.org/core/text/parse/lexer"
-	"cogentcore.org/core/text/runes"
-	"cogentcore.org/core/text/textpos"
+	"github.com/MobinYengejehi/core/text/parse/lexer"
+	"github.com/MobinYengejehi/core/text/runes"
+	"github.com/MobinYengejehi/core/text/textpos"
 )
 
 // Results is used to report search results.

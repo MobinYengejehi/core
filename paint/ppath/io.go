@@ -12,7 +12,7 @@ import (
 	"math"
 	"strings"
 
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/math32"
 	"github.com/tdewolff/parse/v2/strconv"
 )
 

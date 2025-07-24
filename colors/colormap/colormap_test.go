@@ -11,9 +11,9 @@ import (
 	"slices"
 	"testing"
 
-	"cogentcore.org/core/base/iox/imagex"
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/base/iox/imagex"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/math32"
 	"github.com/stretchr/testify/assert"
 )
 

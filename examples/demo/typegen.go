@@ -3,7 +3,7 @@
 package main
 
 import (
-	"cogentcore.org/core/types"
+	"github.com/MobinYengejehi/core/types"
 )
 
 var _ = types.AddType(&types.Type{Name: "main.tableStruct", IDName: "table-struct", Directives: []types.Directive{{Tool: "types", Directive: "add"}}, Fields: []types.Field{{Name: "Icon", Doc: "an icon"}, {Name: "Age", Doc: "an integer field"}, {Name: "Score", Doc: "a float field"}, {Name: "Name", Doc: "a string field"}, {Name: "File", Doc: "a file"}}})

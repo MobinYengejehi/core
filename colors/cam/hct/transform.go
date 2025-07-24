@@ -7,7 +7,7 @@ package hct
 import (
 	"image/color"
 
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/math32"
 )
 
 // Lighten returns a color that is lighter by the

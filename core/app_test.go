@@ -7,7 +7,7 @@ package core
 import (
 	"testing"
 
-	"cogentcore.org/core/styles"
+	"github.com/MobinYengejehi/core/styles"
 )
 
 func TestSceneInit(t *testing.T) {

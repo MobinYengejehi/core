@@ -12,11 +12,11 @@ import (
 )
 
 // Chord represents the key chord associated with a given key function; it
-// is linked to the [cogentcore.org/core/core.KeyChordValue] so you can just
+// is linked to the [github.com/MobinYengejehi/core/core.KeyChordValue] so you can just
 // type keys to set key chords.
 type Chord string
 
-// SystemPlatform is the string version of [cogentcore.org/core/system.App.SystemPlatform],
+// SystemPlatform is the string version of [github.com/MobinYengejehi/core/system.App.SystemPlatform],
 // which is set by system during initialization so that this package can conditionalize
 // shortcut formatting based on the underlying system platform without import cycles.
 var SystemPlatform string

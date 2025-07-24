@@ -11,7 +11,7 @@ package rasterx
 import (
 	"fmt"
 
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/math32"
 	"golang.org/x/image/math/fixed"
 )
 

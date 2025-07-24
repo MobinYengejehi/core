@@ -7,7 +7,7 @@ package drawmatrix
 import (
 	"image"
 
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/math32"
 )
 
 // Matrix holds the projection matricies.

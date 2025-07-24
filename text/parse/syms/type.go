@@ -10,9 +10,9 @@ import (
 	"maps"
 	"slices"
 
-	"cogentcore.org/core/base/indent"
-	"cogentcore.org/core/text/textpos"
-	"cogentcore.org/core/tree"
+	"github.com/MobinYengejehi/core/base/indent"
+	"github.com/MobinYengejehi/core/text/textpos"
+	"github.com/MobinYengejehi/core/tree"
 )
 
 // Type contains all the information about types.  Types can be builtin

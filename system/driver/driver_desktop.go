@@ -16,8 +16,8 @@ import (
 	"slices"
 	"testing"
 
-	"cogentcore.org/core/system/driver/desktop"
-	"cogentcore.org/core/system/driver/offscreen"
+	"github.com/MobinYengejehi/core/system/driver/desktop"
+	"github.com/MobinYengejehi/core/system/driver/offscreen"
 )
 
 func init() {

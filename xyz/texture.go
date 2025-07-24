@@ -11,9 +11,9 @@ import (
 	"log"
 	"log/slog"
 
-	"cogentcore.org/core/base/fsx"
-	"cogentcore.org/core/base/iox/imagex"
-	"cogentcore.org/core/gpu/phong"
+	"github.com/MobinYengejehi/core/base/fsx"
+	"github.com/MobinYengejehi/core/base/iox/imagex"
+	"github.com/MobinYengejehi/core/gpu/phong"
 )
 
 // TextureName provides a GUI interface for choosing textures.

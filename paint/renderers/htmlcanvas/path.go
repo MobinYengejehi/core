@@ -10,9 +10,9 @@
 package htmlcanvas
 
 import (
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/paint/ppath"
-	"cogentcore.org/core/paint/render"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/paint/ppath"
+	"github.com/MobinYengejehi/core/paint/render"
 )
 
 func (rs *Renderer) writePath(pt *ppath.Path) {

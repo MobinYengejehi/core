@@ -14,10 +14,10 @@ import (
 
 	"github.com/jinzhu/copier"
 
-	"cogentcore.org/core/base/elide"
-	"cogentcore.org/core/base/strcase"
-	"cogentcore.org/core/base/tiered"
-	"cogentcore.org/core/types"
+	"github.com/MobinYengejehi/core/base/elide"
+	"github.com/MobinYengejehi/core/base/strcase"
+	"github.com/MobinYengejehi/core/base/tiered"
+	"github.com/MobinYengejehi/core/types"
 )
 
 // NodeBase implements the [Node] interface and provides the core functionality
@@ -718,7 +718,7 @@ func (n *NodeBase) Clone() Node {
 // logic that can not be automatically handled. All custom CopyFieldsFrom
 // methods should call [NodeBase.CopyFieldsFrom] first and then only do manual
 // handling of specific fields that can not be automatically copied. See
-// [cogentcore.org/core/core.WidgetBase.CopyFieldsFrom] for an example of a
+// [github.com/MobinYengejehi/core/core.WidgetBase.CopyFieldsFrom] for an example of a
 // custom CopyFieldsFrom method.
 func (n *NodeBase) CopyFieldsFrom(from Node) {
 	err := copier.CopyWithOption(n.This, from.AsTree().This, copier.Option{CaseSensitive: true, DeepCopy: true})

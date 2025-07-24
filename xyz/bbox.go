@@ -5,7 +5,7 @@
 package xyz
 
 import (
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/math32"
 )
 
 // BBox contains bounding box and other gross solid properties

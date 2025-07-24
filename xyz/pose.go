@@ -5,7 +5,7 @@
 package xyz
 
 import (
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/math32"
 )
 
 // Pose contains the full specification of position and orientation,

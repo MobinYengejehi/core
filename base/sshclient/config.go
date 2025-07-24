@@ -8,7 +8,7 @@ import (
 	"os/user"
 	"path/filepath"
 
-	"cogentcore.org/core/base/exec"
+	"github.com/MobinYengejehi/core/base/exec"
 )
 
 // User holds user-specific ssh connection configuration settings,

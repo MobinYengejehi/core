@@ -12,9 +12,9 @@ import (
 	"strconv"
 	"strings"
 
-	"cogentcore.org/core/base/reflectx"
-	"cogentcore.org/core/styles"
-	"cogentcore.org/core/tree"
+	"github.com/MobinYengejehi/core/base/reflectx"
+	"github.com/MobinYengejehi/core/styles"
+	"github.com/MobinYengejehi/core/tree"
 )
 
 // ToHTML converts the given widget and all of its children to HTML.
@@ -83,7 +83,7 @@ func toHTML(w Widget, e *xml.Encoder, b *bytes.Buffer) error {
 	switch typ.Name {
 	case "cogentcore.org/cogent/canvas.Canvas", "cogentcore.org/cogent/code.Code":
 		se.Name.Local = "div"
-	case "cogentcore.org/core/textcore.Editor":
+	case "github.com/MobinYengejehi/core/textcore.Editor":
 		se.Name.Local = "textarea"
 	}
 	if se.Name.Local == "textarea" {

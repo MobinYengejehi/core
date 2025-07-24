@@ -12,11 +12,11 @@ import (
 	"runtime"
 	"time"
 
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/base/iox/imagex"
-	"cogentcore.org/core/gpu"
-	"cogentcore.org/core/gpu/examples/images"
-	"cogentcore.org/core/gpu/gpudraw"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/base/iox/imagex"
+	"github.com/MobinYengejehi/core/gpu"
+	"github.com/MobinYengejehi/core/gpu/examples/images"
+	"github.com/MobinYengejehi/core/gpu/gpudraw"
 	"golang.org/x/exp/rand"
 )
 

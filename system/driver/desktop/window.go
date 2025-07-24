@@ -13,13 +13,13 @@ import (
 	"image"
 	"log"
 
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/gpu"
-	"cogentcore.org/core/gpu/gpudraw"
-	"cogentcore.org/core/styles/sides"
-	"cogentcore.org/core/system"
-	"cogentcore.org/core/system/composer"
-	"cogentcore.org/core/system/driver/base"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/gpu"
+	"github.com/MobinYengejehi/core/gpu/gpudraw"
+	"github.com/MobinYengejehi/core/styles/sides"
+	"github.com/MobinYengejehi/core/system"
+	"github.com/MobinYengejehi/core/system/composer"
+	"github.com/MobinYengejehi/core/system/driver/base"
 	"github.com/go-gl/glfw/v3.3/glfw"
 )
 

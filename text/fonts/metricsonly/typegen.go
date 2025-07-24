@@ -3,7 +3,7 @@
 package main
 
 import (
-	"cogentcore.org/core/types"
+	"github.com/MobinYengejehi/core/types"
 )
 
 var _ = types.AddType(&types.Type{Name: "main.Config", IDName: "config", Fields: []types.Field{{Name: "Files", Doc: "Files to extract metrics from."}, {Name: "Output", Doc: "directory to output the metrics only files."}, {Name: "Debug", Doc: "emit debug info while processing. todo: use verbose for this!"}}})

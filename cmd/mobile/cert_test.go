@@ -12,7 +12,7 @@ import (
 	"os"
 	"testing"
 
-	"cogentcore.org/core/base/exec"
+	"github.com/MobinYengejehi/core/base/exec"
 )
 
 func TestSignPKCS7(t *testing.T) {

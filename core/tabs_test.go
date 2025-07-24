@@ -7,8 +7,8 @@ package core
 import (
 	"testing"
 
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/icons"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/icons"
 	"github.com/stretchr/testify/assert"
 )
 

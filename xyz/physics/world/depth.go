@@ -7,9 +7,9 @@ package world
 import (
 	"image"
 
-	"cogentcore.org/core/base/slicesx"
-	"cogentcore.org/core/colors/colormap"
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/base/slicesx"
+	"github.com/MobinYengejehi/core/colors/colormap"
+	"github.com/MobinYengejehi/core/math32"
 )
 
 // DepthNorm renders a normalized linear depth map from GPU (0-1 normalized floats) to

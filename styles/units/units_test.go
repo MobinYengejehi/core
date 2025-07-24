@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"testing"
 
-	"cogentcore.org/core/base/tolassert"
+	"github.com/MobinYengejehi/core/base/tolassert"
 )
 
 func TestToDots(t *testing.T) {

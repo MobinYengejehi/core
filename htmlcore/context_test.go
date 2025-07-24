@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"cogentcore.org/core/core"
+	"github.com/MobinYengejehi/core/core"
 	"github.com/stretchr/testify/assert"
 )
 

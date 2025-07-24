@@ -7,9 +7,9 @@ package syms
 import (
 	"strings"
 
-	"cogentcore.org/core/icons"
-	"cogentcore.org/core/text/parse/complete"
-	"cogentcore.org/core/text/token"
+	"github.com/MobinYengejehi/core/icons"
+	"github.com/MobinYengejehi/core/text/parse/complete"
+	"github.com/MobinYengejehi/core/text/token"
 )
 
 // AddCompleteSyms adds given symbols as matches in the given match data

@@ -5,8 +5,8 @@
 package physics
 
 import (
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/tree"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/tree"
 )
 
 // Contact is one pairwise point of contact between two bodies.

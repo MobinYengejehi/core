@@ -8,13 +8,13 @@ import (
 	"image"
 	"slices"
 
-	"cogentcore.org/core/colors/gradient"
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/paint/pimage"
-	"cogentcore.org/core/paint/ppath"
-	"cogentcore.org/core/paint/render"
-	"cogentcore.org/core/paint/renderers/rasterx/scan"
-	"cogentcore.org/core/styles/units"
+	"github.com/MobinYengejehi/core/colors/gradient"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/paint/pimage"
+	"github.com/MobinYengejehi/core/paint/ppath"
+	"github.com/MobinYengejehi/core/paint/render"
+	"github.com/MobinYengejehi/core/paint/renderers/rasterx/scan"
+	"github.com/MobinYengejehi/core/styles/units"
 )
 
 // Renderer is the rasterx renderer.

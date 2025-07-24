@@ -13,16 +13,16 @@ import (
 	"image/color"
 	"log/slog"
 
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/colors/gradient"
-	"cogentcore.org/core/cursors"
-	"cogentcore.org/core/enums"
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/styles/abilities"
-	"cogentcore.org/core/styles/sides"
-	"cogentcore.org/core/styles/states"
-	"cogentcore.org/core/styles/units"
-	"cogentcore.org/core/text/text"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/colors/gradient"
+	"github.com/MobinYengejehi/core/cursors"
+	"github.com/MobinYengejehi/core/enums"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/styles/abilities"
+	"github.com/MobinYengejehi/core/styles/sides"
+	"github.com/MobinYengejehi/core/styles/states"
+	"github.com/MobinYengejehi/core/styles/units"
+	"github.com/MobinYengejehi/core/text/text"
 )
 
 // IMPORTANT: any changes here must be updated in style_properties.go StyleStyleFuncs

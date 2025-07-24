@@ -10,8 +10,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"cogentcore.org/core/base/exec"
-	"cogentcore.org/core/base/logx"
+	"github.com/MobinYengejehi/core/base/exec"
+	"github.com/MobinYengejehi/core/base/logx"
 	"golang.org/x/crypto/ssh"
 )
 

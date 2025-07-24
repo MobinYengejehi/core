@@ -21,8 +21,8 @@ import "C"
 import (
 	"image"
 
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/events/key"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/events/key"
 )
 
 // TouchIDs are the current active touches. The position in the array

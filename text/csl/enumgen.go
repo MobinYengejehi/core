@@ -3,7 +3,7 @@
 package csl
 
 import (
-	"cogentcore.org/core/enums"
+	"github.com/MobinYengejehi/core/enums"
 )
 
 var _StylesValues = []Styles{0}

@@ -7,15 +7,15 @@ package core
 import (
 	"image/color"
 
-	"cogentcore.org/core/base/strcase"
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/colors/cam/hct"
-	"cogentcore.org/core/colors/gradient"
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/icons"
-	"cogentcore.org/core/styles"
-	"cogentcore.org/core/styles/units"
-	"cogentcore.org/core/tree"
+	"github.com/MobinYengejehi/core/base/strcase"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/colors/cam/hct"
+	"github.com/MobinYengejehi/core/colors/gradient"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/icons"
+	"github.com/MobinYengejehi/core/styles"
+	"github.com/MobinYengejehi/core/styles/units"
+	"github.com/MobinYengejehi/core/tree"
 )
 
 // ColorPicker represents a color value with an interactive color picker

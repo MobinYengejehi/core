@@ -10,10 +10,10 @@ import (
 	"strings"
 	"syscall/js"
 
-	"cogentcore.org/core/cursors"
-	"cogentcore.org/core/enums"
-	"cogentcore.org/core/styles/units"
-	"cogentcore.org/core/system"
+	"github.com/MobinYengejehi/core/cursors"
+	"github.com/MobinYengejehi/core/enums"
+	"github.com/MobinYengejehi/core/styles/units"
+	"github.com/MobinYengejehi/core/system"
 )
 
 // TheCursor is the single [system.Cursor] for the web platform

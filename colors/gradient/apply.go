@@ -8,7 +8,7 @@ import (
 	"image"
 	"image/color"
 
-	"cogentcore.org/core/colors"
+	"github.com/MobinYengejehi/core/colors"
 )
 
 // ApplyFunc is a function that transforms input color to an output color.

@@ -11,7 +11,7 @@ import (
 	"embed"
 	"image"
 
-	"cogentcore.org/core/enums"
+	"github.com/MobinYengejehi/core/enums"
 )
 
 // Cursors contains all of the default embedded svg cursors.

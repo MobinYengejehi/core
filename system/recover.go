@@ -13,7 +13,7 @@ import (
 	"strings"
 	"time"
 
-	"cogentcore.org/core/base/errors"
+	"github.com/MobinYengejehi/core/base/errors"
 )
 
 // HandleRecover takes the given value of recover, and, if it is not nil,

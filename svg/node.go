@@ -10,13 +10,13 @@ import (
 	"reflect"
 	"strings"
 
-	"cogentcore.org/core/base/reflectx"
-	"cogentcore.org/core/base/slicesx"
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/paint"
-	"cogentcore.org/core/styles"
-	"cogentcore.org/core/tree"
+	"github.com/MobinYengejehi/core/base/reflectx"
+	"github.com/MobinYengejehi/core/base/slicesx"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/paint"
+	"github.com/MobinYengejehi/core/styles"
+	"github.com/MobinYengejehi/core/tree"
 )
 
 // Node is the interface for all SVG nodes.

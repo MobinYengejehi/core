@@ -43,7 +43,7 @@ type Web struct { //types:add
 	Image string
 
 	// Styles is a list of URLs to CSS stylesheets that are loaded in the HTML page.
-	// This is often used for custom fonts; see https://cogentcore.org/core/font.
+	// This is often used for custom fonts; see https://github.com/MobinYengejehi/core/font.
 	Styles []string
 
 	// The interval between each app auto-update while running in a web browser.
@@ -55,7 +55,7 @@ type Web struct { //types:add
 
 	// If specified, make this page a Go import vanity URL with this
 	// module URL, pointing to the GitHub repository specified by GithubVanityURL
-	// (eg: cogentcore.org/core).
+	// (eg: github.com/MobinYengejehi/core).
 	VanityURL string
 
 	// If VanityURL is specified, the underlying GitHub repository for the vanity URL

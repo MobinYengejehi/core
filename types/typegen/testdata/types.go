@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"image/color"
 
-	"cogentcore.org/core/types"
+	"github.com/MobinYengejehi/core/types"
 )
 
 // Person represents a person and their attributes.

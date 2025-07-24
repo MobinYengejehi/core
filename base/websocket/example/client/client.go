@@ -5,9 +5,9 @@
 package main
 
 import (
-	"cogentcore.org/core/base/websocket"
-	"cogentcore.org/core/core"
-	"cogentcore.org/core/events"
+	"github.com/MobinYengejehi/core/base/websocket"
+	"github.com/MobinYengejehi/core/core"
+	"github.com/MobinYengejehi/core/events"
 )
 
 func main() {

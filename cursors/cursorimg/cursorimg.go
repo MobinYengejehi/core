@@ -12,13 +12,13 @@ import (
 	"image/draw"
 	_ "image/png"
 
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/colors/gradient"
-	"cogentcore.org/core/cursors"
-	"cogentcore.org/core/enums"
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/paint/pimage"
-	"cogentcore.org/core/svg"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/colors/gradient"
+	"github.com/MobinYengejehi/core/cursors"
+	"github.com/MobinYengejehi/core/enums"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/paint/pimage"
+	"github.com/MobinYengejehi/core/svg"
 )
 
 // Cursor represents a cached rendered cursor, with the [image.Image]

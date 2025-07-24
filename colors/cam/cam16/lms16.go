@@ -5,7 +5,7 @@
 package cam16
 
 import (
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/math32"
 )
 
 // XYZToLMS converts XYZ to Long, Medium, Short cone-based responses,

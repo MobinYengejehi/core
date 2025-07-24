@@ -12,7 +12,7 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"cogentcore.org/core/base/num"
+	"github.com/MobinYengejehi/core/base/num"
 )
 
 // This file contains implementations of enumgen methods.

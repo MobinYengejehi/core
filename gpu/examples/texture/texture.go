@@ -12,10 +12,10 @@ import (
 	"runtime"
 	"time"
 
-	"cogentcore.org/core/base/iox/imagex"
-	"cogentcore.org/core/gpu"
-	"cogentcore.org/core/gpu/examples/images"
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/base/iox/imagex"
+	"github.com/MobinYengejehi/core/gpu"
+	"github.com/MobinYengejehi/core/gpu/examples/images"
+	"github.com/MobinYengejehi/core/math32"
 )
 
 //go:embed texture.wgsl

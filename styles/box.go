@@ -7,11 +7,11 @@ package styles
 import (
 	"image"
 
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/colors/gradient"
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/styles/sides"
-	"cogentcore.org/core/styles/units"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/colors/gradient"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/styles/sides"
+	"github.com/MobinYengejehi/core/styles/units"
 )
 
 // note: background-color is in FontStyle as it is needed to make that the

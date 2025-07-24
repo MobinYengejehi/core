@@ -7,7 +7,7 @@
 package driver
 
 import (
-	"cogentcore.org/core/system/driver/offscreen"
+	"github.com/MobinYengejehi/core/system/driver/offscreen"
 )
 
 func init() {

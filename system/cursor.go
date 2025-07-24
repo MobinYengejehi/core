@@ -5,15 +5,15 @@
 package system
 
 import (
-	"cogentcore.org/core/enums"
-	"cogentcore.org/core/styles/units"
+	"github.com/MobinYengejehi/core/enums"
+	"github.com/MobinYengejehi/core/styles/units"
 )
 
 // Cursor manages the mouse cursor / pointer appearance.
 type Cursor interface {
 
 	// Current returns the current cursor as an enum, which is a
-	// [cogentcore.org/core/cursors.Cursor]
+	// [github.com/MobinYengejehi/core/cursors.Cursor]
 	// by default, but could be something else if you are extending
 	// the default cursor set.
 	Current() enums.Enum
@@ -22,7 +22,7 @@ type Cursor interface {
 	// a [cursors.Cursor], unless you are extending the default cursor set, in
 	// which case it should be a type you defined. The string version of the
 	// enum value must correspond to a filename of the form "name.svg" in
-	// [cogentcore.org/core/cursors.Cursors]; this will be satisfied automatically by all
+	// [github.com/MobinYengejehi/core/cursors.Cursors]; this will be satisfied automatically by all
 	// [cursor.Cursor] values.
 	Set(cursor enums.Enum) error
 

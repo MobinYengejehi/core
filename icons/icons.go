@@ -33,7 +33,7 @@ var (
 	Blank Icon
 
 	// used is a map containing all icons that have been used.
-	// It is added to by [cogentcore.org/core/core.Icon].
+	// It is added to by [github.com/MobinYengejehi/core/core.Icon].
 	used = map[Icon]struct{}{}
 
 	usedMu sync.Mutex

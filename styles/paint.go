@@ -7,11 +7,11 @@ package styles
 import (
 	"image"
 
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/paint/ppath"
-	"cogentcore.org/core/styles/units"
-	"cogentcore.org/core/text/rich"
-	"cogentcore.org/core/text/text"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/paint/ppath"
+	"github.com/MobinYengejehi/core/styles/units"
+	"github.com/MobinYengejehi/core/text/rich"
+	"github.com/MobinYengejehi/core/text/text"
 )
 
 // Paint provides the styling parameters for SVG-style rendering,

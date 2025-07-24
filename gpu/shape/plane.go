@@ -5,7 +5,7 @@
 package shape
 
 import (
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/math32"
 )
 
 // Plane is a flat 2D plane, which can be oriented along any

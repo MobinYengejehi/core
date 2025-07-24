@@ -3,11 +3,11 @@
 package testdata
 
 import (
-	"cogentcore.org/core/tree"
-	"cogentcore.org/core/types"
+	"github.com/MobinYengejehi/core/tree"
+	"github.com/MobinYengejehi/core/types"
 )
 
-var _ = types.AddType(&types.Type{Name: "cogentcore.org/core/tree/testdata.NodeEmbed", IDName: "node-embed", Doc: "NodeEmbed embeds tree.Node and adds a couple of fields.\nIt also has a directive processed by typegen.", Directives: []types.Directive{{Tool: "direct", Directive: "value"}}, Embeds: []types.Field{{Name: "NodeBase"}}, Fields: []types.Field{{Name: "Mbr1"}, {Name: "Mbr2"}}})
+var _ = types.AddType(&types.Type{Name: "github.com/MobinYengejehi/core/tree/testdata.NodeEmbed", IDName: "node-embed", Doc: "NodeEmbed embeds tree.Node and adds a couple of fields.\nIt also has a directive processed by typegen.", Directives: []types.Directive{{Tool: "direct", Directive: "value"}}, Embeds: []types.Field{{Name: "NodeBase"}}, Fields: []types.Field{{Name: "Mbr1"}, {Name: "Mbr2"}}})
 
 // NewNodeEmbed returns a new [NodeEmbed] with the given optional parent:
 // NodeEmbed embeds tree.Node and adds a couple of fields.

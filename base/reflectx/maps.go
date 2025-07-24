@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	"cogentcore.org/core/base/errors"
+	"github.com/MobinYengejehi/core/base/errors"
 )
 
 // This file contains helpful functions for dealing with maps

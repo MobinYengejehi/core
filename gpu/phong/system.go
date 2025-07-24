@@ -8,7 +8,7 @@ import (
 	"embed"
 	"unsafe"
 
-	"cogentcore.org/core/gpu"
+	"github.com/MobinYengejehi/core/gpu"
 	"github.com/cogentcore/webgpu/wgpu"
 )
 

@@ -10,8 +10,8 @@ import (
 	"slices"
 	"strings"
 
-	"cogentcore.org/core/base/fsx"
-	"cogentcore.org/core/base/stringsx"
+	"github.com/MobinYengejehi/core/base/fsx"
+	"github.com/MobinYengejehi/core/base/stringsx"
 	"golang.org/x/exp/maps"
 )
 

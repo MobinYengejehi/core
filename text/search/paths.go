@@ -12,9 +12,9 @@ import (
 	"slices"
 	"sort"
 
-	"cogentcore.org/core/base/fileinfo"
-	"cogentcore.org/core/core"
-	"cogentcore.org/core/text/textpos"
+	"github.com/MobinYengejehi/core/base/fileinfo"
+	"github.com/MobinYengejehi/core/core"
+	"github.com/MobinYengejehi/core/text/textpos"
 )
 
 // excludeFile does the exclude match against either file name or file path,

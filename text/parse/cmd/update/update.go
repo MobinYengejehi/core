@@ -10,8 +10,8 @@ import (
 	"io/fs"
 	"path/filepath"
 
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/text/parse"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/text/parse"
 )
 
 func main() {

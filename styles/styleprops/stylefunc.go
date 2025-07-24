@@ -12,11 +12,11 @@ import (
 	"reflect"
 	"strings"
 
-	"cogentcore.org/core/base/num"
-	"cogentcore.org/core/base/reflectx"
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/enums"
-	"cogentcore.org/core/styles/units"
+	"github.com/MobinYengejehi/core/base/num"
+	"github.com/MobinYengejehi/core/base/reflectx"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/enums"
+	"github.com/MobinYengejehi/core/styles/units"
 )
 
 // Func is the signature for styleprops functions

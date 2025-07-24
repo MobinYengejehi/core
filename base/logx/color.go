@@ -8,8 +8,8 @@ import (
 	"image/color"
 	"log/slog"
 
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/colors/matcolor"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/colors/matcolor"
 	"github.com/muesli/termenv"
 )
 

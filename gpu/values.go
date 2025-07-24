@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"log"
 
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/base/slicesx"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/base/slicesx"
 	"github.com/cogentcore/webgpu/wgpu"
 )
 

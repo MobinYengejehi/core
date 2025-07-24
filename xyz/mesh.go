@@ -7,8 +7,8 @@ package xyz
 import (
 	"fmt"
 
-	"cogentcore.org/core/gpu/shape"
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/gpu/shape"
+	"github.com/MobinYengejehi/core/math32"
 )
 
 // MeshName is a [Mesh] name. This type provides an automatic GUI chooser for meshes.

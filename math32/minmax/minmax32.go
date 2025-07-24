@@ -7,7 +7,7 @@ package minmax
 import (
 	"fmt"
 
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/math32"
 )
 
 //gosl:start

@@ -7,11 +7,11 @@ package textcore
 import (
 	"image"
 
-	"cogentcore.org/core/core"
-	"cogentcore.org/core/styles/abilities"
-	"cogentcore.org/core/styles/states"
-	"cogentcore.org/core/text/textpos"
-	"cogentcore.org/core/tree"
+	"github.com/MobinYengejehi/core/core"
+	"github.com/MobinYengejehi/core/styles/abilities"
+	"github.com/MobinYengejehi/core/styles/states"
+	"github.com/MobinYengejehi/core/text/textpos"
+	"github.com/MobinYengejehi/core/tree"
 )
 
 var (

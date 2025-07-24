@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"image"
 
-	"cogentcore.org/core/base/fileinfo/mimedata"
-	"cogentcore.org/core/base/nptime"
-	"cogentcore.org/core/events/key"
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/base/fileinfo/mimedata"
+	"github.com/MobinYengejehi/core/base/nptime"
+	"github.com/MobinYengejehi/core/events/key"
+	"github.com/MobinYengejehi/core/math32"
 )
 
 // TraceWindowPaint prints out a . for each WindowPaint event,

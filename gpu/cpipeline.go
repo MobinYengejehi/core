@@ -9,8 +9,8 @@ import (
 	"math"
 	"path"
 
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/base/fsx"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/base/fsx"
 	"github.com/cogentcore/webgpu/wgpu"
 )
 

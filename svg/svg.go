@@ -13,16 +13,16 @@ import (
 	"strings"
 	"sync"
 
-	"cogentcore.org/core/base/iox/imagex"
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/paint"
-	"cogentcore.org/core/paint/render"
-	"cogentcore.org/core/styles"
-	"cogentcore.org/core/styles/sides"
-	"cogentcore.org/core/styles/units"
-	"cogentcore.org/core/text/shaped"
-	"cogentcore.org/core/tree"
+	"github.com/MobinYengejehi/core/base/iox/imagex"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/paint"
+	"github.com/MobinYengejehi/core/paint/render"
+	"github.com/MobinYengejehi/core/styles"
+	"github.com/MobinYengejehi/core/styles/sides"
+	"github.com/MobinYengejehi/core/styles/units"
+	"github.com/MobinYengejehi/core/text/shaped"
+	"github.com/MobinYengejehi/core/tree"
 )
 
 var (

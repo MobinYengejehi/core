@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"cogentcore.org/core/base/errors"
+	"github.com/MobinYengejehi/core/base/errors"
 )
 
 // Sub returns [fs.Sub] with any error automatically logged

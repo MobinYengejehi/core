@@ -7,7 +7,7 @@ package core
 import (
 	"fmt"
 
-	"cogentcore.org/core/tree"
+	"github.com/MobinYengejehi/core/tree"
 )
 
 // UpdateWidget updates the widget by running [WidgetBase.Updaters] in

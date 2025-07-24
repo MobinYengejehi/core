@@ -7,8 +7,8 @@
 package shapers
 
 import (
-	"cogentcore.org/core/text/shaped"
-	"cogentcore.org/core/text/shaped/shapers/shapedgt"
+	"github.com/MobinYengejehi/core/text/shaped"
+	"github.com/MobinYengejehi/core/text/shaped/shapers/shapedgt"
 )
 
 func init() {

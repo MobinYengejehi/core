@@ -8,9 +8,9 @@ import (
 	"image/color"
 	"log/slog"
 
-	"cogentcore.org/core/colors/cam/cam16"
-	"cogentcore.org/core/colors/cam/hct"
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/colors/cam/cam16"
+	"github.com/MobinYengejehi/core/colors/cam/hct"
+	"github.com/MobinYengejehi/core/math32"
 )
 
 // BlendTypes are different algorithms (colorspaces) to use for blending

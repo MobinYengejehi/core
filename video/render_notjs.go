@@ -10,7 +10,7 @@ import (
 	"image"
 	"image/draw"
 
-	"cogentcore.org/core/system/composer"
+	"github.com/MobinYengejehi/core/system/composer"
 )
 
 // videoSource implements [composer.Source] for core direct rendering.

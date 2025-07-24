@@ -21,7 +21,7 @@ import (
 
 	"log/slog"
 
-	"cogentcore.org/core/base/logx"
+	"github.com/MobinYengejehi/core/base/logx"
 )
 
 // Config contains the configuration information that

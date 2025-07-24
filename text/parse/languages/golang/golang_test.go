@@ -12,10 +12,10 @@ import (
 	"testing"
 	"time"
 
-	"cogentcore.org/core/base/fileinfo"
-	"cogentcore.org/core/base/profile"
-	"cogentcore.org/core/text/parse"
-	"cogentcore.org/core/text/parse/lexer"
+	"github.com/MobinYengejehi/core/base/fileinfo"
+	"github.com/MobinYengejehi/core/base/profile"
+	"github.com/MobinYengejehi/core/text/parse"
+	"github.com/MobinYengejehi/core/text/parse/lexer"
 )
 
 func init() {

@@ -10,11 +10,11 @@ import (
 	"testing"
 	"text/template"
 
-	"cogentcore.org/core/base/ordmap"
-	"cogentcore.org/core/base/strcase"
-	"cogentcore.org/core/cli"
-	"cogentcore.org/core/types"
-	"cogentcore.org/core/types/typegen/testdata"
+	"github.com/MobinYengejehi/core/base/ordmap"
+	"github.com/MobinYengejehi/core/base/strcase"
+	"github.com/MobinYengejehi/core/cli"
+	"github.com/MobinYengejehi/core/types"
+	"github.com/MobinYengejehi/core/types/typegen/testdata"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -70,14 +70,14 @@ func TestGenerate(t *testing.T) {
 
 func TestPerson(t *testing.T) {
 	want := types.For[testdata.Person]()
-	have := types.TypeByName("cogentcore.org/core/types/typegen/testdata.Person")
+	have := types.TypeByName("github.com/MobinYengejehi/core/types/typegen/testdata.Person")
 	assert.Equal(t, want, have)
 	have = types.TypeByValue(testdata.Person{})
 	assert.Equal(t, want, have)
 	if _, ok := have.Instance.(*testdata.Person); !ok {
 		t.Errorf("expected instance to be a Person, but it is a %T (value %v)", have.Instance, have.Instance)
 	}
-	assert.Equal(t, "cogentcore.org/core/types/typegen/testdata.Person", have.Name)
+	assert.Equal(t, "github.com/MobinYengejehi/core/types/typegen/testdata.Person", have.Name)
 	assert.Equal(t, 2, len(have.Directives))
 	assert.Equal(t, 5, len(have.Fields))
 	assert.Equal(t, 1, len(have.Embeds))
@@ -85,7 +85,7 @@ func TestPerson(t *testing.T) {
 }
 
 func BenchmarkIDName(b *testing.B) {
-	const path = "cogentcore.org/core/core.Button"
+	const path = "github.com/MobinYengejehi/core/core.Button"
 	for i := 0; i < b.N; i++ {
 		li := strings.LastIndex(path, ".")
 		_ = strcase.ToKebab(path[li+1:])

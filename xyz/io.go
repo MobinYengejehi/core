@@ -11,8 +11,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"cogentcore.org/core/base/fsx"
-	"cogentcore.org/core/tree"
+	"github.com/MobinYengejehi/core/base/fsx"
+	"github.com/MobinYengejehi/core/tree"
 )
 
 // Decoder parses 3D object / scene file(s) and imports into a Group or Scene.

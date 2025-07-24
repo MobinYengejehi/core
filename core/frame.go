@@ -9,15 +9,15 @@ import (
 	"time"
 	"unicode"
 
-	"cogentcore.org/core/base/labels"
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/keymap"
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/styles"
-	"cogentcore.org/core/styles/abilities"
-	"cogentcore.org/core/styles/states"
-	"cogentcore.org/core/text/parse/complete"
-	"cogentcore.org/core/tree"
+	"github.com/MobinYengejehi/core/base/labels"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/keymap"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/styles"
+	"github.com/MobinYengejehi/core/styles/abilities"
+	"github.com/MobinYengejehi/core/styles/states"
+	"github.com/MobinYengejehi/core/text/parse/complete"
+	"github.com/MobinYengejehi/core/tree"
 )
 
 // Frame is the primary node type responsible for organizing the sizes

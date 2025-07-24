@@ -10,7 +10,7 @@ import (
 	"image"
 	"strings"
 
-	"cogentcore.org/core/base/errors"
+	"github.com/MobinYengejehi/core/base/errors"
 )
 
 // ToBase64 returns bytes of image encoded in given format,

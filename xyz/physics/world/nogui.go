@@ -7,8 +7,8 @@ package world
 import (
 	"image"
 
-	"cogentcore.org/core/gpu"
-	"cogentcore.org/core/xyz"
+	"github.com/MobinYengejehi/core/gpu"
+	"github.com/MobinYengejehi/core/xyz"
 )
 
 // NoDisplayScene returns a xyz Scene initialized and ready to use

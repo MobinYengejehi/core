@@ -7,7 +7,7 @@ package shape
 import (
 	"math"
 
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/math32"
 )
 
 // Sphere is a sphere shape (can be a partial sphere too)

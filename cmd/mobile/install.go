@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"cogentcore.org/core/base/exec"
-	"cogentcore.org/core/cmd/config"
+	"github.com/MobinYengejehi/core/base/exec"
+	"github.com/MobinYengejehi/core/cmd/config"
 )
 
 // Install installs the app named by the import path on the attached mobile device.

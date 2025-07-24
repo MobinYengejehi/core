@@ -5,10 +5,10 @@
 package lines
 
 import (
-	"cogentcore.org/core/base/fileinfo"
-	"cogentcore.org/core/base/indent"
-	"cogentcore.org/core/text/parse"
-	"cogentcore.org/core/text/text"
+	"github.com/MobinYengejehi/core/base/fileinfo"
+	"github.com/MobinYengejehi/core/base/indent"
+	"github.com/MobinYengejehi/core/text/parse"
+	"github.com/MobinYengejehi/core/text/text"
 )
 
 // Settings contains settings for editing text lines.

@@ -3,7 +3,7 @@
 package phong
 
 import (
-	"cogentcore.org/core/enums"
+	"github.com/MobinYengejehi/core/enums"
 )
 
 var _GroupsValues = []Groups{0, 1, 2, 3}

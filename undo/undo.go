@@ -33,7 +33,7 @@ import (
 	"strings"
 	"sync"
 
-	"cogentcore.org/core/text/lines"
+	"github.com/MobinYengejehi/core/text/lines"
 )
 
 // DefaultRawInterval is interval for saving raw state -- need to do this

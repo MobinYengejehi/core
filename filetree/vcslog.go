@@ -7,18 +7,18 @@ package filetree
 import (
 	"log/slog"
 
-	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/base/fileinfo/mimedata"
-	"cogentcore.org/core/base/fsx"
-	"cogentcore.org/core/base/vcs"
-	"cogentcore.org/core/core"
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/icons"
-	"cogentcore.org/core/styles"
-	"cogentcore.org/core/text/diffbrowser"
-	"cogentcore.org/core/text/lines"
-	"cogentcore.org/core/text/textcore"
-	"cogentcore.org/core/tree"
+	"github.com/MobinYengejehi/core/base/errors"
+	"github.com/MobinYengejehi/core/base/fileinfo/mimedata"
+	"github.com/MobinYengejehi/core/base/fsx"
+	"github.com/MobinYengejehi/core/base/vcs"
+	"github.com/MobinYengejehi/core/core"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/icons"
+	"github.com/MobinYengejehi/core/styles"
+	"github.com/MobinYengejehi/core/text/diffbrowser"
+	"github.com/MobinYengejehi/core/text/lines"
+	"github.com/MobinYengejehi/core/text/textcore"
+	"github.com/MobinYengejehi/core/tree"
 )
 
 // VCSLog is a widget that represents VCS log data.

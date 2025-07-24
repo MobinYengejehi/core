@@ -15,7 +15,7 @@ import (
 	"sort"
 	"strings"
 
-	"cogentcore.org/core/events/key"
+	"github.com/MobinYengejehi/core/events/key"
 )
 
 // https://en.wikipedia.org/wiki/Table_of_keyboard_shortcuts

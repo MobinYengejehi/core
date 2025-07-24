@@ -10,15 +10,15 @@ import (
 	"slices"
 	"strings"
 
-	"cogentcore.org/core/base/keylist"
-	"cogentcore.org/core/base/reflectx"
-	"cogentcore.org/core/base/strcase"
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/cursors"
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/styles"
-	"cogentcore.org/core/tree"
-	"cogentcore.org/core/types"
+	"github.com/MobinYengejehi/core/base/keylist"
+	"github.com/MobinYengejehi/core/base/reflectx"
+	"github.com/MobinYengejehi/core/base/strcase"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/cursors"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/styles"
+	"github.com/MobinYengejehi/core/tree"
+	"github.com/MobinYengejehi/core/types"
 )
 
 // Form represents a struct with rows of field names and editable values.

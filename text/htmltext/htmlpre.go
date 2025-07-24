@@ -11,9 +11,9 @@ import (
 	"html"
 	"strings"
 
-	"cogentcore.org/core/base/stack"
-	"cogentcore.org/core/styles/styleprops"
-	"cogentcore.org/core/text/rich"
+	"github.com/MobinYengejehi/core/base/stack"
+	"github.com/MobinYengejehi/core/styles/styleprops"
+	"github.com/MobinYengejehi/core/text/rich"
 )
 
 // HTMLPreToRich translates preformatted HTML-styled text into a [rich.Text]

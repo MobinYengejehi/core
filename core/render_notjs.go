@@ -9,10 +9,10 @@ package core
 import (
 	"image"
 
-	"cogentcore.org/core/colors"
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/paint/renderers/rasterx"
-	"cogentcore.org/core/system/composer"
+	"github.com/MobinYengejehi/core/colors"
+	"github.com/MobinYengejehi/core/math32"
+	"github.com/MobinYengejehi/core/paint/renderers/rasterx"
+	"github.com/MobinYengejehi/core/system/composer"
 	"golang.org/x/image/draw"
 )
 

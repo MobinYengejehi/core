@@ -7,7 +7,7 @@ package xyz
 import (
 	"image/color"
 
-	"cogentcore.org/core/math32"
+	"github.com/MobinYengejehi/core/math32"
 )
 
 // Light represents a light that illuminates a scene.

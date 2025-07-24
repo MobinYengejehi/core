@@ -16,13 +16,13 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"cogentcore.org/core/base/indent"
-	"cogentcore.org/core/base/slicesx"
-	"cogentcore.org/core/text/parse/lexer"
-	"cogentcore.org/core/text/parse/syms"
-	"cogentcore.org/core/text/textpos"
-	"cogentcore.org/core/text/token"
-	"cogentcore.org/core/tree"
+	"github.com/MobinYengejehi/core/base/indent"
+	"github.com/MobinYengejehi/core/base/slicesx"
+	"github.com/MobinYengejehi/core/text/parse/lexer"
+	"github.com/MobinYengejehi/core/text/parse/syms"
+	"github.com/MobinYengejehi/core/text/textpos"
+	"github.com/MobinYengejehi/core/text/token"
+	"github.com/MobinYengejehi/core/tree"
 )
 
 // Set GUIActive to true if the gui (parseview) is active -- ensures that the
@@ -1423,7 +1423,7 @@ func (pr *Rule) DoRulesRevBinExp(ps *State, parent *Rule, parentAST *AST, scope 
 		// have two children, named identically (e.g., Expr, Expr) and it will not update
 		// after our swap.  If we could use UniqNames then it would be ok, but that doesn't
 		// work for tree names.. really need an option that supports uniqname AND reg names
-		// https://cogentcore.org/core/ki/issues/2
+		// https://github.com/MobinYengejehi/core/ki/issues/2
 		// ourAST.NewChild(ASTType, "Dummy")
 		// ourAST.DeleteChildAt(2, true)
 		// }

@@ -3,7 +3,7 @@
 package textpos
 
 import (
-	"cogentcore.org/core/enums"
+	"github.com/MobinYengejehi/core/enums"
 )
 
 var _AdjustPosDelValues = []AdjustPosDel{0, 1, 2}
