@@ -2,7 +2,7 @@
 
 command extract {
     for _, pkg := range args {
-        yaegi extract {"cogentcore.org/core/"+pkg}
+        yaegi extract {"github.com/MobinYengejehi/core/"+pkg}
     }
 }
 

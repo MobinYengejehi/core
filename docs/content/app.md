@@ -13,7 +13,7 @@ Therefore, the standard structure of an app looks like this:
 ```Go
 package main
 
-import "cogentcore.org/core/core"
+import "github.com/MobinYengejehi/core/core"
 
 func main() {
 	b := core.NewBody("App Name")

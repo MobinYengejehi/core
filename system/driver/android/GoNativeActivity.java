@@ -44,6 +44,10 @@ import android.widget.TextView;
 import android.widget.TextView.OnEditorActionListener;
 
 public class GoNativeActivity extends NativeActivity {
+	public static int GetN() {
+		return 3994;
+	}
+
 	private static GoNativeActivity goNativeActivity;
 
 	private static final int DEFAULT_INPUT_TYPE = InputType.TYPE_TEXT_FLAG_NO_SUGGESTIONS;

@@ -10,12 +10,12 @@ import (
 	"image"
 	"unsafe"
 
-	"cogentcore.org/core/events"
-	"cogentcore.org/core/gpu"
-	"cogentcore.org/core/gpu/gpudraw"
-	"cogentcore.org/core/system"
-	"cogentcore.org/core/system/composer"
-	"cogentcore.org/core/system/driver/base"
+	"github.com/MobinYengejehi/core/events"
+	"github.com/MobinYengejehi/core/gpu"
+	"github.com/MobinYengejehi/core/gpu/gpudraw"
+	"github.com/MobinYengejehi/core/system"
+	"github.com/MobinYengejehi/core/system/composer"
+	"github.com/MobinYengejehi/core/system/driver/base"
 	"github.com/cogentcore/webgpu/wgpu"
 )
 

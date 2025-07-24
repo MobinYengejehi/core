@@ -2,7 +2,7 @@
 Categories = ["Concepts"]
 +++
 
-**Events** contains explanations of common [[event]] types. You can also see the API documentation for an [exhaustive list](https://pkg.go.dev/cogentcore.org/core/events#Types) of event types.
+**Events** contains explanations of common [[event]] types. You can also see the API documentation for an [exhaustive list](https://pkg.go.dev/github.com/MobinYengejehi/core/events#Types) of event types.
 
 ## Mouse
 

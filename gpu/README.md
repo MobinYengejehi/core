@@ -2,7 +2,7 @@
 
 The `gpu` package manages all the details of [WebGPU](https://www.w3.org/TR/webgpu/) to provide a higher-level interface where you can specify the data variables and values, shader pipelines, and other parameters that tell the GPU what to do, without having to worry about all the lower-level implementational details.  It maps directly onto the underlying WebGPU structure, and does not decrease performance in any way. It supports both graphics and compute functionality.
 
-See [Cogent docs gpu](https://cogentcore.org/core/gpu) for full documentation. This README just has some extra detailed bits and pointers to sub-packages:
+See [Cogent docs gpu](https://github.com/MobinYengejehi/core/gpu) for full documentation. This README just has some extra detailed bits and pointers to sub-packages:
 
 * [phong](phong) is a Blinn-Phong lighting model implementation on top of `gpu`, which then serves as the basis for the higherlevel [xyz](https://github.com/cogentcore/core/tree/main/xyz) 3D scenegraph system.
 

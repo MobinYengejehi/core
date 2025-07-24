@@ -5,7 +5,7 @@ You can complete the three steps below to **install** Cogent Core on your system
 2. Run the following command to install the Cogent Core command line tool. You should run this command again each time you update to a new version of Cogent Core.
 
 ```sh
-go install cogentcore.org/core@main
+go install github.com/MobinYengejehi/core@main
 ```
 
 3. **After** reading the info for your platform below, run the following command to install platform-specific dependencies. You **must** restart your shell/prompt/terminal after running the command.
@@ -28,7 +28,7 @@ This installs Go, gcc, and various graphics libraries. You may need to enter you
 
 If you want to install manually instead, the commands for each distro are listed below.
 
-<!-- To update this, copy the output of [cogentcore.org/core/cmd.TestLinuxDistroString]; DO NOT EDIT manually -->
+<!-- To update this, copy the output of [github.com/MobinYengejehi/core/cmd.TestLinuxDistroString]; DO NOT EDIT manually -->
 
 {collapsed="true" title="Linux install commands"}
 ```sh
@@ -47,10 +47,10 @@ NixOS:          nix-shell -p libGL pkg-config xorg.libX11.dev xorg.libXcursor xo
 You can run the Cogent Core Demo to verify Cogent Core is properly installed on your system:
 
 ```sh
-go run cogentcore.org/core/examples/demo@main
+go run github.com/MobinYengejehi/core/examples/demo@main
 ```
 
-You can also see the [web version of the demo](https://cogentcore.org/core/demo).
+You can also see the [web version of the demo](https://github.com/MobinYengejehi/core/demo).
 
 ## Troubleshooting
 

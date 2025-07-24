@@ -2,7 +2,7 @@
 
 The Composer manages the final rendering to the platform-specific window that you actually see as a user. It maintains a list of `Source` elements that provide platform-specific rendering logic, with one such source for each active Scene in a GUI (e.g., a dialog Scene could be on top of a main window Scene).
 
-See the [render docs](https://cogentcore.org/core/render) for more info.
+See the [render docs](https://github.com/MobinYengejehi/core/render) for more info.
 
 ## Sources:
 * `Painter`: Paths, Images, Text (`render.Item`s) rendered onto target "canvas" (web canvas or image.RGBA)

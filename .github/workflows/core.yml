@@ -43,7 +43,7 @@ jobs:
         run: go install
 
       - name: Build Docs
-        run: core build web -dir docs -o static -vanity-url cogentcore.org/core -github-vanity-repository cogentcore/core
+        run: core build web -dir docs -o static -vanity-url github.com/MobinYengejehi/core -github-vanity-repository cogentcore/core
 
       - name: Build Demo
         run: core build web -dir examples/demo -o static/demo

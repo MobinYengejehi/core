@@ -28,7 +28,7 @@ package main
 import (
     "embed"
 
-    "cogentcore.org/core/text/fonts"
+    "github.com/MobinYengejehi/core/text/fonts"
 )
 
 //go:embed myfontname/*.ttf
@@ -65,7 +65,7 @@ To get more accurate text layout on web for your custom font, you can embed the 
 1. Install the `metricsonly` tool:
 
 ```sh
-go install cogentcore.org/core/text/fonts/metricsonly@main
+go install github.com/MobinYengejehi/core/text/fonts/metricsonly@main
 ```
 
 2. Run `metricsonly` on your `myfontname` directory:
@@ -90,7 +90,7 @@ package main
 import (
     "embed"
 
-    "cogentcore.org/core/text/fonts"
+    "github.com/MobinYengejehi/core/text/fonts"
 )
 
 //go:embed myfontnamejs/*.ttf

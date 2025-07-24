@@ -4,7 +4,7 @@
 
 The `Mesh` interface defines the set of functions that render shapes to arrays of vertex, normal, and texture coordinate points, which each different specific shape type implements.  This interface is used in the [phong](../phong) system for setting meshes.
 
-It only has a dependency on the [math32](https://cogentcore.org/core/math32) package and could be used for anything.
+It only has a dependency on the [math32](https://github.com/MobinYengejehi/core/math32) package and could be used for anything.
 
 Basic building blocks (e.g., Plane, SphereSector) have standalone methods, in addition to Shape elements.
 

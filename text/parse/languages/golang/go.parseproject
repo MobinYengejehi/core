@@ -1,7 +1,7 @@
 {
-  "ProjectFile": "/Users/oreilly/go/src/cogentcore.org/core/text/parse/languages/golang/go.parseproject",
+  "ProjectFile": "/Users/oreilly/go/src/github.com/MobinYengejehi/core/text/parse/languages/golang/go.parseproject",
   "ParserFile": "/Users/oreilly/cogent/core/text/parse/languages/golang/go.parse",
-  "TestFile": "/Users/oreilly/go/src/cogentcore.org/core/text/parse/languages/golang/testdata/gotypes/tmptest.go",
+  "TestFile": "/Users/oreilly/go/src/github.com/MobinYengejehi/core/text/parse/languages/golang/testdata/gotypes/tmptest.go",
   "TraceOpts": {
     "On": false,
     "Rules": "",

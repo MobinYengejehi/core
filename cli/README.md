@@ -39,7 +39,7 @@ Package cli generates powerful CLIs from Go struct types and functions. See pack
 
 * Field tag `default:"value"`, used in the Cogent Core GUI, sets the initial default value and is shown for the `-h` or `--help` usage info.
 
-* [enums](https://pkg.go.dev/cogentcore.org/core/enums) registered "enum" `const` types, with names automatically parsed from string values (including bit flags).
+* [enums](https://pkg.go.dev/github.com/MobinYengejehi/core/enums) registered "enum" `const` types, with names automatically parsed from string values (including bit flags).
 
 # `default` Default Tags
 

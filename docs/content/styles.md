@@ -2,7 +2,7 @@
 Categories = ["Concepts"]
 +++
 
-**Styles** contains explanations of common [[style]] properties. You can also see the API documentation for an [exhaustive list](https://pkg.go.dev/cogentcore.org/core/styles#Style) of style properties. You can experiment with style properties in the [[style playground]].
+**Styles** contains explanations of common [[style]] properties. You can also see the API documentation for an [exhaustive list](https://pkg.go.dev/github.com/MobinYengejehi/core/styles#Style) of style properties. You can experiment with style properties in the [[style playground]].
 
 ## Color
 
