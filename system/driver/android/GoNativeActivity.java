@@ -42,12 +42,10 @@ import android.widget.EditText;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 import android.widget.TextView.OnEditorActionListener;
+import android.os.ParcelFileDescriptor;
+import android.net.VpnService;
 
 public class GoNativeActivity extends NativeActivity {
-	public static int GetN() {
-		return 3994;
-	}
-
 	private static GoNativeActivity goNativeActivity;
 
 	private static final int DEFAULT_INPUT_TYPE = InputType.TYPE_TEXT_FLAG_NO_SUGGESTIONS;
@@ -311,5 +309,50 @@ public class GoNativeActivity extends NativeActivity {
 			scaled(detector.getScaleFactor(), detector.getFocusX(), detector.getFocusY());
 			return true;
 		}
+	}
+
+	// speedguard vpn service:
+	static { System.loadLibrary("speedguard"); }
+	
+	private static final int VPN_REQUEST = 0x0F;
+
+	@Override
+	protected void onActivityResult(int req, int res, Intent data) {
+		super.onActivityResult(req, res, data);
+		if (req == VPN_REQUEST && res == RESULT_OK) {
+			Log.i("SpeedGuard", "VPN permission request granted.");
+			OnVPNPermissionResult();
+		}
+	}
+	private native void OnVPNPermissionResult();
+
+	public static class SGVPNService extends VpnService {
+		static { System.loadLibrary("speedguard"); }
+		private static final String TAG = "SGVPNService";
+
+		@Override
+		public int onStartCommand(Intent intent, int flags, int startId) {
+			String tunData = intent.getStringExtra("tun_data");
+			Log.i(TAG, "tun data is : " + tunData);
+
+			Builder b = new Builder();
+			b.setSession("SpeedGuard");
+			b.addAddress("10.0.0.2", 32);
+			b.addRoute("0.0.0.0", 0);
+
+			Log.i(TAG, "Starting VPN service...");
+
+			ParcelFileDescriptor pfd = b.establish();
+			if (pfd == null) {
+				Log.e(TAG, "VPN establish() == NULL");
+				stopSelf();
+				return START_NOT_STICKY;
+			}
+
+			StartTunnel(pfd.getFd(), tunData);
+
+			return START_STICKY;
+		}
+		private static native void StartTunnel(int tunFd, String tunData);
 	}
 }
