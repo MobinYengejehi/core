@@ -43,6 +43,14 @@ import android.widget.FrameLayout;
 import android.widget.TextView;
 import android.widget.TextView.OnEditorActionListener;
 import android.os.ParcelFileDescriptor;
+
+import org.json.JSONArray;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import android.system.OsConstants;
 import android.net.VpnService;
 
 public class GoNativeActivity extends NativeActivity {
@@ -330,26 +338,127 @@ public class GoNativeActivity extends NativeActivity {
 		static { System.loadLibrary("speedguard"); }
 		private static final String TAG = "SGVPNService";
 
+		private static class Endpoint {
+			String ip;
+			int    mask;
+
+			public Endpoint(String addr) {
+				String[] parts = addr.split("/");
+				this.ip = parts[0];
+				String[] sParts = parts[1].split("@");
+				this.mask = Integer.parseInt(sParts[0]);
+			}
+		}
+
 		@Override
 		public int onStartCommand(Intent intent, int flags, int startId) {
 			String tunData = intent.getStringExtra("tun_data");
 			Log.i(TAG, "tun data is : " + tunData);
+			
+			try {
+				JSONObject jobj = new JSONObject(tunData);
 
-			Builder b = new Builder();
-			b.setSession("SpeedGuard");
-			b.addAddress("10.0.0.2", 32);
-			b.addRoute("0.0.0.0", 0);
+				String tunnelName = jobj.getString("name");
 
-			Log.i(TAG, "Starting VPN service...");
+				JSONObject cfg = jobj.getJSONObject("config");
+				List<String> includeApps = new ArrayList<>();
+				if (cfg.has("include_apps")) {
+					JSONArray includeAppsArray = cfg.optJSONArray("include_apps");
+					if (includeAppsArray != null) {
+						for (int i = 0; i < includeAppsArray.length(); i++) {
+							includeApps.add(includeAppsArray.optString(i));
+						}
+					}
+				}
+				List<String> excludeApps = new ArrayList<>();
+				if (cfg.has("exclude_apps")) {
+					JSONArray excludeAppsArray = cfg.optJSONArray("exclude_apps");
+					if (excludeAppsArray != null) {
+						for (int i = 0; i < excludeAppsArray.length(); i++) {
+							excludeApps.add(excludeAppsArray.optString(i));
+						}
+					}
+				}
 
-			ParcelFileDescriptor pfd = b.establish();
-			if (pfd == null) {
-				Log.e(TAG, "VPN establish() == NULL");
+				JSONObject tun = cfg.getJSONObject("service").getJSONObject("tun");
+
+				Endpoint addr = new Endpoint(tun.getString("addr"));
+				
+				int mtu = 1250;
+				if (tun.has("mtu")) {
+					mtu = tun.getInt("mtu");
+				}
+
+				List<String> dnsList = new ArrayList<>();
+				if (tun.has("dns")) {
+					JSONArray dnsArray = tun.optJSONArray("dns");
+					if (dnsArray != null) {
+						for (int i = 0; i < dnsArray.length(); i++) {
+							dnsList.add(dnsArray.optString(i));
+						}
+					}
+				}
+
+				List<Endpoint> peerRoutes = new ArrayList<>();
+				JSONArray      peers = cfg.getJSONObject("service").getJSONObject("protocol").getJSONArray("peers");
+				for (int i = 0; i < peers.length(); i++) {
+					JSONObject peer = peers.getJSONObject(i);
+					JSONArray  routes = peer.getJSONArray("routes");
+					if (routes != null) {
+						for (int j = 0; j < routes.length(); j++) {
+							String r = routes.getJSONObject(j).getString("route");
+							peerRoutes.add(new Endpoint(r));
+						}
+					}
+				}
+
+				Builder b = new Builder();
+				b.setSession("SpeedGuard_" + tunnelName);
+
+				b.addDisallowedApplication(getPackageName());
+
+				for (final String excludeApp: excludeApps) {
+					b.addDisallowedApplication(excludeApp);
+				}
+
+				for (final String includeApp: includeApps) {
+					b.addAllowedApplication(includeApp);
+				}
+
+				b.addAddress(addr.ip, addr.mask);
+
+				for (final String dnsAddr: dnsList) {
+					b.addDnsServer(dnsAddr);
+				}
+
+				for (final Endpoint route: peerRoutes) {
+					b.addRoute(route.ip, route.mask);
+				}
+
+                b.allowFamily(OsConstants.AF_INET);
+                b.allowFamily(OsConstants.AF_INET6);
+
+				b.setMtu(mtu);
+
+				if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
+					b.setMetered(false);
+				}
+
+				b.setBlocking(true);
+
+				Log.i(TAG, "Starting VPN service...");
+
+				ParcelFileDescriptor pfd = b.establish();
+				if (pfd == null) {
+					throw new Exception("VPN establish == NULL: failed to get file descriptor");
+				}
+
+				StartTunnel(pfd.getFd(), tunData);
+			} catch(Exception e) {
+				Log.e(TAG, "Failed to establish VPN Service : " + e.getMessage());
 				stopSelf();
 				return START_NOT_STICKY;
 			}
-
-			StartTunnel(pfd.getFd(), tunData);
 
 			return START_STICKY;
 		}
